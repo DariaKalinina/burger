@@ -17,17 +17,17 @@
     }
 }
 
-.content-one{
+.content{
   @include clearfix();
 }
 
-.content-one__left,
-.content-one__right{
+.content__left,
+.content__right{
   float: left;
   width: 50%;
 }
 
-.content-one__left{
+.content__left{
   position: relative;
 }
 
@@ -57,7 +57,7 @@
 }
 
 .title--one{
-  color: #f9b43b;
+  color: $orange;
 }
 
 .content-one__desc{

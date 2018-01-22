@@ -1,0 +1,122 @@
+.page-four{
+  @include page();
+  background: url('../img/background/team.jpg') center center no-repeat;
+  background-size: cover;
+}
+
+.page-four__right{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 51%;
+  background-size: cover;
+  background-color: rgba(#2f3234, 0.93);
+}
+
+.page-four__content{
+  padding-top: 100px;
+  padding-left: 100px;
+}
+
+.title--four{
+  color: $orange;
+  margin-bottom: 36px;
+}
+
+.accordeon{
+  padding-left: 17px;
+}
+
+.team__link{
+  font-size: 14px;
+  color: #fff;
+  padding-bottom: 17px;
+  display: inline-block;
+  text-transform: uppercase;
+  text-decoration: none;
+  position: relative;
+  @include fonts(gagalin);
+    &:after{
+      content: "";
+      position: absolute;
+      top: 5px;
+      left: -20px;
+      display: inline-block;
+      width: 0;
+      height: 0;
+      border-top: 7px solid $orange;
+      border-left: 5px solid transparent;
+      border-right: 5px solid transparent;
+    }
+    &--active{
+
+      color: $orange;
+
+      &:after{
+        border-bottom: 7px solid $orange;
+        border-top: 0;
+        border-left: 5px solid transparent;
+        border-right: 5px solid transparent;
+      }
+
+      .team-desc{
+        height: 138px;
+        overflow: hidden;
+      }
+    }
+}
+
+.team-desc{
+  height: 0px;
+  width: 100%;
+  overflow: hidden;
+  padding-top: 17px;
+}
+
+.team-desc__left,
+.team-desc__right{
+  display: inline-block;
+  vertical-align: top;
+}
+
+.team-desc__left{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative;
+}
+
+.team-desc__img{
+  max-height: 100px;
+  position: absolute;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+.team-desc__right{
+  width: 235px;
+  padding-left: 15px;
+  text-transform: none;
+
+}
+
+.team-desc__prof{
+  display: block;
+  font-size: 14px;
+  color: #fff;
+  padding-bottom: 15px;
+  @include fonts(ubuntu, bold);
+}
+
+.team-desc__text{
+  display: block;
+  font-size: 14px;
+  color: #fff;
+  line-height: 1.7;
+  @include fonts(ubuntu, light);
+}
