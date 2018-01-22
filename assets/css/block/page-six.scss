@@ -1,0 +1,74 @@
+.page-six{
+  height: 100vh;
+}
+
+.review{
+  height: 100%;
+  width: 100%;
+  font-size: 0;
+}
+
+.review__item{
+  display: inline-block;
+  width: 25%;
+  height: 50%;
+  overflow: hidden;
+}
+
+.review__block{
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+@each $number in (1, 2, 3, 4, 5, 6, 7, 8){
+  .review__block--photo-#{$number}{
+    background: url('../img/content/photo-#{$number}.jpg') center center no-repeat;
+    background-size: cover;
+  }
+}
+
+.review__elem{
+  width: 100%;
+  height: 100%;
+  padding: 48px 20px;
+  font-size: 14px;
+  color: #fff;
+  background-color: rgba(#454545, 0.7);
+  text-align: left;
+  visibility: hidden;
+}
+
+.review__block:hover .review__elem{
+  visibility: visible;
+}
+
+
+.review__reviewer-name{
+  text-transform: uppercase;
+  margin-bottom: 21px;
+  @include fonts(gagalin);
+}
+
+.review__review-text{
+  height: 65%;
+  overflow: hidden;
+  @include fonts(ubuntu, light);
+  line-height: 1.75;
+}
+
+.review__review-btn{
+  display: inline-block;
+  padding: 10px 17px;
+  font-size: 13px;
+  margin-top: 6px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+  background-color: #2f3234;
+  border-radius: 5px;
+  @include fonts(ubuntu, light);
+    &:hover{
+      background-color: #1f2122;
+    }
+}

@@ -1,0 +1,31 @@
+.nav-point{
+  position: fixed;
+  right: 40px;
+  top: 90px;
+  z-index: 100;
+}
+
+.nav-point__item{
+  margin-bottom: 5px;
+}
+
+.nav-point__link{
+  display: block;
+  padding: 4px;
+  width: 16px;
+  height: 16px;
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-radius: 50%;
+    &:after{
+      content: "";
+      display: block;
+      width: 0px;
+      height: 0px;
+      border: 3px solid #fff;
+      border-radius: 50%;
+    }
+  &--active{
+    border: 1px solid #fff;
+  }
+}

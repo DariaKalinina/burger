@@ -1,0 +1,43 @@
+@mixin clearfix() {
+    &:before,
+    &:after {
+        content: "";
+        display: block;
+    }
+    &:after {
+        clear: both;
+    }
+}
+
+@mixin fonts($font-famyly: ubuntu, $weight: light) {
+  @if $font-famyly == ubuntu {
+    font-family: 'ubuntu';
+    @if $weight == light {
+        font-weight: 300;
+      }
+    @if $weight == regular {
+        font-weight: 400;
+      }
+    @if $weight == medium {
+        font-weight: 500;
+      }
+    @if $weight == bold {
+        font-weight: 600;
+      }
+    }
+
+  @if $font-famyly == lifehack {
+    font-family: 'lifehack';
+    font-weight: 500;
+    }
+
+  @if $font-famyly == gagalin {
+    font-family: 'gagalin';
+    font-weight: 400;
+    }
+}
+
+@mixin page() {
+  height: 100vh;
+  position: relative;
+}

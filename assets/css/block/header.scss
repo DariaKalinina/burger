@@ -1,0 +1,70 @@
+.header{
+  @include clearfix();
+}
+
+.header__left,
+.header__right{
+  float: left;
+}
+
+.header__left{
+  padding-top: 10px;
+  width: 12%;
+}
+
+.header__right{
+  display: inline-block;
+  width: 88%;
+  padding-top: 26px;
+  text-align: right;
+}
+
+.nav{
+  display: inline-block;
+}
+
+.nav__item{
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+    &:after{
+      content: "";
+      display: block;
+      width: 0;
+      height: 0;
+      border: 2px solid #fff;
+      border-radius: 50%;
+      position: absolute;
+      top: 50%;
+      transform: translate(-2px, -2px);
+    }
+    &:first-child{
+      &:after{
+        display: none;
+      }
+    }
+}
+
+.nav__link{
+  vertical-align: middle;
+  font-size: 13px;
+  color: #fff;
+  padding: 11px 15px;
+  display: inline-block;
+  text-transform: uppercase;
+  text-decoration: none;
+  @include fonts(ubuntu, medium);
+}
+
+.order-link{
+  vertical-align: middle;
+  font-size: 13px;
+  color: #fff;
+  padding: 11px 15px;
+  display: inline-block;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-radius: 5px;
+  background-color: rgb(228, 80, 40);
+  @include fonts(ubuntu, medium);
+}

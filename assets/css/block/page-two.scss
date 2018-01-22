@@ -1,0 +1,51 @@
+.page-two{
+  @include page();
+  background: url('../img/background/Background-we.jpg') center center no-repeat;
+  background-color: #fff;
+  background-size: cover;
+}
+
+.title--two,
+.content-two__desc{
+  width: 100%;
+}
+
+.title--two{
+  text-align: center;
+  padding-top: 120px;
+  color: #2f3234;
+}
+
+.content-two__desc{
+  padding-top: 40px;
+}
+
+.content-two__item{
+  display: inline-block;
+  width: 280px;
+  margin-right: 40px;
+  text-align: center;
+  vertical-align: top;
+    &:last-child{
+      margin-right: 0;
+    }
+}
+
+.content-two__logo{
+  height: 90px;
+  margin-bottom: 30px;
+}
+
+.content-two__declaration{
+  font-size: 24px;
+  color: #2f3234;
+  @include fonts(lifehack);
+  margin-bottom: 15px;
+}
+
+.content-two__text{
+  font-size: 14px;
+  color: #6d6e6e;
+  line-height: 1.5;
+    @include fonts(ubuntu,light);
+}

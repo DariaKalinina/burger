@@ -1,0 +1,15 @@
+//----------layout
+@import "layout/normalize.scss";
+@import "layout/fonts.scss";
+
+//----------mixin
+@import "mixin/mixin.scss";
+
+//----------стили
+@import "block/adjustment.scss";
+@import "block/page-one.scss";
+@import "block/header.scss";
+@import "block/nav-point.scss";
+@import "block/page-two.scss";
+@import "block/page-six.scss";
+@import "block/footer.scss";

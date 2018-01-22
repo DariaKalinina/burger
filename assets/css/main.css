@@ -1,0 +1,371 @@
+@charset "UTF-8";
+/*! normalize.css v6.0.0 | MIT License | github.com/necolas/normalize.css */
+/* Document ========================================================================== */
+/** 1. Correct the line height in all browsers. 2. Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS. */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/layout\/normalize\.scss}line{font-family:\0000312}}
+html { line-height: 1.15; /* 1 */ -ms-text-size-adjust: 100%; /* 2 */ -webkit-text-size-adjust: 100%; /* 2 */ }
+
+/* Sections ========================================================================== */
+/** Add the correct display in IE 9-. */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/layout\/normalize\.scss}line{font-family:\0000325}}
+article, aside, footer, header, nav, section { display: block; }
+
+/** Correct the font size and margin on `h1` elements within `section` and `article` contexts in Chrome, Firefox, and Safari. */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/layout\/normalize\.scss}line{font-family:\0000339}}
+h1 { font-size: 2em; margin: 0.67em 0; }
+
+/* Grouping content ========================================================================== */
+/** Add the correct display in IE 9-. 1. Add the correct display in IE. */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/layout\/normalize\.scss}line{font-family:\0000352}}
+figcaption, figure, main { /* 1 */ display: block; }
+
+/** Add the correct margin in IE 8. */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/layout\/normalize\.scss}line{font-family:\0000362}}
+figure { margin: 1em 40px; }
+
+/** 1. Add the correct box sizing in Firefox. 2. Show the overflow in Edge and IE. */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/layout\/normalize\.scss}line{font-family:\0000371}}
+hr { -webkit-box-sizing: content-box; box-sizing: content-box; /* 1 */ height: 0; /* 1 */ overflow: visible; /* 2 */ }
+
+/** 1. Correct the inheritance and scaling of font size in all browsers. 2. Correct the odd `em` font sizing in all browsers. */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/layout\/normalize\.scss}line{font-family:\0000382}}
+pre { font-family: monospace, monospace; /* 1 */ font-size: 1em; /* 2 */ }
+
+/* Text-level semantics ========================================================================== */
+/** 1. Remove the gray background on active links in IE 10. 2. Remove gaps in links underline in iOS 8+ and Safari 8+. */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/layout\/normalize\.scss}line{font-family:\0000395}}
+a { background-color: transparent; /* 1 */ -webkit-text-decoration-skip: objects; /* 2 */ }
+
+/** 1. Remove the bottom border in Chrome 57- and Firefox 39-. 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari. */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/layout\/normalize\.scss}line{font-family:\00003105}}
+abbr[title] { border-bottom: none; /* 1 */ text-decoration: underline; /* 2 */ -webkit-text-decoration: underline dotted; text-decoration: underline dotted; /* 2 */ }
+
+/** Prevent the duplicate application of `bolder` by the next rule in Safari 6. */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/layout\/normalize\.scss}line{font-family:\00003115}}
+b, strong { font-weight: inherit; }
+
+/** Add the correct font weight in Chrome, Edge, and Safari. */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/layout\/normalize\.scss}line{font-family:\00003124}}
+b, strong { font-weight: bolder; }
+
+/** 1. Correct the inheritance and scaling of font size in all browsers. 2. Correct the odd `em` font sizing in all browsers. */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/layout\/normalize\.scss}line{font-family:\00003134}}
+code, kbd, samp { font-family: monospace, monospace; /* 1 */ font-size: 1em; /* 2 */ }
+
+/** Add the correct font style in Android 4.3-. */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/layout\/normalize\.scss}line{font-family:\00003145}}
+dfn { font-style: italic; }
+
+/** Add the correct background and color in IE 9-. */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/layout\/normalize\.scss}line{font-family:\00003153}}
+mark { background-color: #ff0; color: #000; }
+
+/** Add the correct font size in all browsers. */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/layout\/normalize\.scss}line{font-family:\00003162}}
+small { font-size: 80%; }
+
+/** Prevent `sub` and `sup` elements from affecting the line height in all browsers. */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/layout\/normalize\.scss}line{font-family:\00003171}}
+sub, sup { font-size: 75%; line-height: 0; position: relative; vertical-align: baseline; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/layout\/normalize\.scss}line{font-family:\00003179}}
+sub { bottom: -0.25em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/layout\/normalize\.scss}line{font-family:\00003183}}
+sup { top: -0.5em; }
+
+/* Embedded content ========================================================================== */
+/** Add the correct display in IE 9-. */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/layout\/normalize\.scss}line{font-family:\00003194}}
+audio, video { display: inline-block; }
+
+/** Add the correct display in iOS 4-7. */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/layout\/normalize\.scss}line{font-family:\00003203}}
+audio:not([controls]) { display: none; height: 0; }
+
+/** Remove the border on images inside links in IE 10-. */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/layout\/normalize\.scss}line{font-family:\00003212}}
+img { border-style: none; }
+
+/** Hide the overflow in IE. */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/layout\/normalize\.scss}line{font-family:\00003220}}
+svg:not(:root) { overflow: hidden; }
+
+/* Forms ========================================================================== */
+/** Remove the margin in Firefox and Safari. */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/layout\/normalize\.scss}line{font-family:\00003231}}
+button, input, optgroup, select, textarea { margin: 0; }
+
+/** Show the overflow in IE. 1. Show the overflow in Edge. */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/layout\/normalize\.scss}line{font-family:\00003244}}
+button, input { /* 1 */ overflow: visible; }
+
+/** Remove the inheritance of text transform in Edge, Firefox, and IE. 1. Remove the inheritance of text transform in Firefox. */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/layout\/normalize\.scss}line{font-family:\00003254}}
+button, select { /* 1 */ text-transform: none; }
+
+/** 1. Prevent a WebKit bug where (2) destroys native `audio` and `video` controls in Android 4. 2. Correct the inability to style clickable types in iOS and Safari. */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/layout\/normalize\.scss}line{font-family:\00003265}}
+button, html [type="button"], [type="reset"], [type="submit"] { -webkit-appearance: button; /* 2 */ }
+
+/** Remove the inner border and padding in Firefox. */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/layout\/normalize\.scss}line{font-family:\00003276}}
+button::-moz-focus-inner, [type="button"]::-moz-focus-inner, [type="reset"]::-moz-focus-inner, [type="submit"]::-moz-focus-inner { border-style: none; padding: 0; }
+
+/** Restore the focus styles unset by the previous rule. */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/layout\/normalize\.scss}line{font-family:\00003288}}
+button:-moz-focusring, [type="button"]:-moz-focusring, [type="reset"]:-moz-focusring, [type="submit"]:-moz-focusring { outline: 1px dotted ButtonText; }
+
+/** 1. Correct the text wrapping in Edge and IE. 2. Correct the color inheritance from `fieldset` elements in IE. 3. Remove the padding so developers are not caught out when they zero out `fieldset` elements in all browsers. */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/layout\/normalize\.scss}line{font-family:\00003302}}
+legend { -webkit-box-sizing: border-box; box-sizing: border-box; /* 1 */ color: inherit; /* 2 */ display: table; /* 1 */ max-width: 100%; /* 1 */ padding: 0; /* 3 */ white-space: normal; /* 1 */ }
+
+/** 1. Add the correct display in IE 9-. 2. Add the correct vertical alignment in Chrome, Firefox, and Opera. */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/layout\/normalize\.scss}line{font-family:\00003316}}
+progress { display: inline-block; /* 1 */ vertical-align: baseline; /* 2 */ }
+
+/** Remove the default vertical scrollbar in IE. */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/layout\/normalize\.scss}line{font-family:\00003325}}
+textarea { overflow: auto; }
+
+/** 1. Add the correct box sizing in IE 10-. 2. Remove the padding in IE 10-. */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/layout\/normalize\.scss}line{font-family:\00003334}}
+[type="checkbox"], [type="radio"] { -webkit-box-sizing: border-box; box-sizing: border-box; /* 1 */ padding: 0; /* 2 */ }
+
+/** Correct the cursor style of increment and decrement buttons in Chrome. */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/layout\/normalize\.scss}line{font-family:\00003344}}
+[type="number"]::-webkit-inner-spin-button, [type="number"]::-webkit-outer-spin-button { height: auto; }
+
+/** 1. Correct the odd appearance in Chrome and Safari. 2. Correct the outline style in Safari. */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/layout\/normalize\.scss}line{font-family:\00003354}}
+[type="search"] { -webkit-appearance: textfield; /* 1 */ outline-offset: -2px; /* 2 */ }
+
+/** Remove the inner padding and cancel buttons in Chrome and Safari on macOS. */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/layout\/normalize\.scss}line{font-family:\00003363}}
+[type="search"]::-webkit-search-cancel-button, [type="search"]::-webkit-search-decoration { -webkit-appearance: none; }
+
+/** 1. Correct the inability to style clickable types in iOS and Safari. 2. Change font properties to `inherit` in Safari. */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/layout\/normalize\.scss}line{font-family:\00003373}}
+::-webkit-file-upload-button { -webkit-appearance: button; /* 1 */ font: inherit; /* 2 */ }
+
+/* Interactive ========================================================================== */
+/* Add the correct display in IE 9-. 1. Add the correct display in Edge, IE, and Firefox. */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/layout\/normalize\.scss}line{font-family:\00003386}}
+details, menu { display: block; }
+
+/* Add the correct display in all browsers. */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/layout\/normalize\.scss}line{font-family:\00003395}}
+summary { display: list-item; }
+
+/* Scripting ========================================================================== */
+/** Add the correct display in IE 9-. */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/layout\/normalize\.scss}line{font-family:\00003406}}
+canvas { display: inline-block; }
+
+/** Add the correct display in IE. */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/layout\/normalize\.scss}line{font-family:\00003414}}
+template { display: none; }
+
+/* Hidden ========================================================================== */
+/** Add the correct display in IE 10-. */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/layout\/normalize\.scss}line{font-family:\00003425}}
+[hidden] { display: none; }
+
+/*! Generated by Font Squirrel (https://www.fontsquirrel.com) on January 17, 2018 */
+@font-face { font-family: 'ubuntu'; src: url("../../fonts/ubuntu-light-webfont.woff") format("woff"), url("../../fonts/ubuntu-light-webfont.svg#ubuntulight") format("svg"); font-weight: 300; font-style: normal; }
+@font-face { font-family: 'ubuntu'; src: url("../../fonts/ubuntu-regular-webfont.woff") format("woff"), url("../../fonts/ubuntu-regular-webfont.svg#ubunturegular") format("svg"); font-weight: 400; font-style: normal; }
+@font-face { font-family: 'ubuntu'; src: url("../../fonts/ubuntu-medium-webfont.woff") format("woff"), url("../../fonts/ubuntu-medium-webfont.svg#ubuntumedium") format("svg"); font-weight: 500; font-style: normal; }
+@font-face { font-family: 'ubuntu'; src: url("../../fonts/ubuntu-b-webfont.woff") format("woff"), url("../../fonts/ubuntu-b-webfont.svg#ubuntubold") format("svg"); font-weight: 600; font-style: normal; }
+@font-face { font-family: 'lifehack'; src: url("../../fonts/lifehack_medium-webfont.woff") format("woff"), url("../../fonts/lifehack_medium-webfont.svg#lifehackmedium") format("svg"); font-weight: 500; font-style: normal; }
+@font-face { font-family: 'gagalin'; src: url("../../fonts/gagalin-regular-webfont.woff") format("woff"), url("../../fonts/gagalin-regular-webfont.svg#gagalinregular") format("svg"); font-weight: 400; font-style: normal; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/adjustment\.scss}line{font-family:\000031}}
+html, body { width: 100%; height: 100%; padding: 0px; margin: 0px; position: relative; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/adjustment\.scss}line{font-family:\000039}}
+.body { font-size: 14px; font-family: 'ubuntu', Arial, sans-serif; font-weight: 300; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/adjustment\.scss}line{font-family:\0000315}}
+.wrapper { min-height: 100%; height: auto !important; overflow: hidden; padding-bottom: 58px; position: relative; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/adjustment\.scss}line{font-family:\0000329}}
+.container { width: 940px; height: 100vh; margin: 0 auto; position: relative; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/adjustment\.scss}line{font-family:\0000336}}
+.title { font-size: 72px; text-transform: uppercase; font-family: 'gagalin'; font-weight: 400; }
+
+/*------------стили для тегов------------*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/adjustment\.scss}line{font-family:\0000343}}
+ul { margin: 0; padding: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/adjustment\.scss}line{font-family:\0000348}}
+ul li { list-style: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/adjustment\.scss}line{font-family:\0000352}}
+h1, h2, h3, h4, h5, h6 { margin: 0; font-weight: normal; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/adjustment\.scss}line{font-family:\0000362}}
+* { -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/page-one\.scss}line{font-family:\000031}}
+.page-one { height: 100vh; position: relative; background: url("../img/background/Background.jpg") center center no-repeat; background-color: #070707; background-size: cover; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/page-one\.scss}line{font-family:\000037}}
+.page-one:before { content: ""; position: absolute; top: 0; left: 0; bottom: 0; right: 0; background-size: cover; background: url("../img/background/texture.png"); background-color: rgba(20, 20, 20, 0.31); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/mixin\/mixin\.scss}line{font-family:\000032}}
+.content-one:before, .content-one:after { content: ""; display: block; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/mixin\/mixin\.scss}line{font-family:\000037}}
+.content-one:after { clear: both; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/page-one\.scss}line{font-family:\0000324}}
+.content-one__left, .content-one__right { float: left; width: 50%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/page-one\.scss}line{font-family:\0000330}}
+.content-one__left { position: relative; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/page-one\.scss}line{font-family:\0000334}}
+.content-one__drops { position: absolute; top: 55px; left: 15px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/page-one\.scss}line{font-family:\0000340}}
+.content-one__img { display: block; max-width: 100%; max-height: 100%; margin: 0; padding-left: 50px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/page-one\.scss}line{font-family:\0000348}}
+.content-one__text { padding-top: 127px; padding-left: 7px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/page-one\.scss}line{font-family:\0000353}}
+.title--one, .content-one__desc { display: inline-block; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/page-one\.scss}line{font-family:\0000359}}
+.title--one { color: #f9b43b; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/page-one\.scss}line{font-family:\0000363}}
+.content-one__desc { font-size: 65px; color: #fff; padding-top: 16px; line-height: 1; font-family: 'lifehack'; font-weight: 500; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/page-one\.scss}line{font-family:\0000371}}
+.arrow { display: block; width: 100%; text-align: center; height: 54px; position: absolute; bottom: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/mixin\/mixin\.scss}line{font-family:\000032}}
+.header:before, .header:after { content: ""; display: block; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/mixin\/mixin\.scss}line{font-family:\000037}}
+.header:after { clear: both; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/header\.scss}line{font-family:\000035}}
+.header__left, .header__right { float: left; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/header\.scss}line{font-family:\0000310}}
+.header__left { padding-top: 10px; width: 12%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/header\.scss}line{font-family:\0000315}}
+.header__right { display: inline-block; width: 88%; padding-top: 26px; text-align: right; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/header\.scss}line{font-family:\0000322}}
+.nav { display: inline-block; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/header\.scss}line{font-family:\0000326}}
+.nav__item { display: inline-block; position: relative; vertical-align: middle; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/header\.scss}line{font-family:\0000330}}
+.nav__item:after { content: ""; display: block; width: 0; height: 0; border: 2px solid #fff; border-radius: 50%; position: absolute; top: 50%; -webkit-transform: translate(-2px, -2px); transform: translate(-2px, -2px); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/header\.scss}line{font-family:\0000342}}
+.nav__item:first-child:after { display: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/header\.scss}line{font-family:\0000348}}
+.nav__link { vertical-align: middle; font-size: 13px; color: #fff; padding: 11px 15px; display: inline-block; text-transform: uppercase; text-decoration: none; font-family: 'ubuntu'; font-weight: 500; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/header\.scss}line{font-family:\0000359}}
+.order-link { vertical-align: middle; font-size: 13px; color: #fff; padding: 11px 15px; display: inline-block; text-transform: uppercase; text-decoration: none; border-radius: 5px; background-color: #e45028; font-family: 'ubuntu'; font-weight: 500; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/nav-point\.scss}line{font-family:\000031}}
+.nav-point { position: fixed; right: 40px; top: 90px; z-index: 100; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/nav-point\.scss}line{font-family:\000038}}
+.nav-point__item { margin-bottom: 5px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/nav-point\.scss}line{font-family:\0000312}}
+.nav-point__link { display: block; padding: 4px; width: 16px; height: 16px; background-color: transparent; border: 1px solid transparent; border-radius: 50%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/nav-point\.scss}line{font-family:\0000320}}
+.nav-point__link:after { content: ""; display: block; width: 0px; height: 0px; border: 3px solid #fff; border-radius: 50%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/nav-point\.scss}line{font-family:\0000328}}
+.nav-point__link--active { border: 1px solid #fff; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/page-two\.scss}line{font-family:\000031}}
+.page-two { height: 100vh; position: relative; background: url("../img/background/Background-we.jpg") center center no-repeat; background-color: #fff; background-size: cover; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/page-two\.scss}line{font-family:\000038}}
+.title--two, .content-two__desc { width: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/page-two\.scss}line{font-family:\0000313}}
+.title--two { text-align: center; padding-top: 120px; color: #2f3234; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/page-two\.scss}line{font-family:\0000319}}
+.content-two__desc { padding-top: 40px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/page-two\.scss}line{font-family:\0000323}}
+.content-two__item { display: inline-block; width: 280px; margin-right: 40px; text-align: center; vertical-align: top; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/page-two\.scss}line{font-family:\0000329}}
+.content-two__item:last-child { margin-right: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/page-two\.scss}line{font-family:\0000334}}
+.content-two__logo { height: 90px; margin-bottom: 30px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/page-two\.scss}line{font-family:\0000339}}
+.content-two__declaration { font-size: 24px; color: #2f3234; font-family: 'lifehack'; font-weight: 500; margin-bottom: 15px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/page-two\.scss}line{font-family:\0000346}}
+.content-two__text { font-size: 14px; color: #6d6e6e; line-height: 1.5; font-family: 'ubuntu'; font-weight: 300; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/page-six\.scss}line{font-family:\000031}}
+.page-six { height: 100vh; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/page-six\.scss}line{font-family:\000035}}
+.review { height: 100%; width: 100%; font-size: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/page-six\.scss}line{font-family:\0000311}}
+.review__item { display: inline-block; width: 25%; height: 50%; overflow: hidden; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/page-six\.scss}line{font-family:\0000318}}
+.review__block { display: block; width: 100%; height: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/page-six\.scss}line{font-family:\0000325}}
+.review__block--photo-1 { background: url("../img/content/photo-1.jpg") center center no-repeat; background-size: cover; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/page-six\.scss}line{font-family:\0000325}}
+.review__block--photo-2 { background: url("../img/content/photo-2.jpg") center center no-repeat; background-size: cover; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/page-six\.scss}line{font-family:\0000325}}
+.review__block--photo-3 { background: url("../img/content/photo-3.jpg") center center no-repeat; background-size: cover; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/page-six\.scss}line{font-family:\0000325}}
+.review__block--photo-4 { background: url("../img/content/photo-4.jpg") center center no-repeat; background-size: cover; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/page-six\.scss}line{font-family:\0000325}}
+.review__block--photo-5 { background: url("../img/content/photo-5.jpg") center center no-repeat; background-size: cover; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/page-six\.scss}line{font-family:\0000325}}
+.review__block--photo-6 { background: url("../img/content/photo-6.jpg") center center no-repeat; background-size: cover; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/page-six\.scss}line{font-family:\0000325}}
+.review__block--photo-7 { background: url("../img/content/photo-7.jpg") center center no-repeat; background-size: cover; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/page-six\.scss}line{font-family:\0000325}}
+.review__block--photo-8 { background: url("../img/content/photo-8.jpg") center center no-repeat; background-size: cover; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/page-six\.scss}line{font-family:\0000331}}
+.review__elem { width: 100%; height: 100%; padding: 48px 20px; font-size: 14px; color: #fff; background-color: rgba(69, 69, 69, 0.7); text-align: left; visibility: hidden; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/page-six\.scss}line{font-family:\0000342}}
+.review__block:hover .review__elem { visibility: visible; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/page-six\.scss}line{font-family:\0000347}}
+.review__reviewer-name { text-transform: uppercase; margin-bottom: 21px; font-family: 'gagalin'; font-weight: 400; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/page-six\.scss}line{font-family:\0000353}}
+.review__review-text { height: 65%; overflow: hidden; font-family: 'ubuntu'; font-weight: 300; line-height: 1.75; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/page-six\.scss}line{font-family:\0000360}}
+.review__review-btn { display: inline-block; padding: 10px 17px; font-size: 13px; margin-top: 6px; text-transform: uppercase; text-decoration: none; color: #fff; background-color: #2f3234; border-radius: 5px; font-family: 'ubuntu'; font-weight: 300; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/page-six\.scss}line{font-family:\0000371}}
+.review__review-btn:hover { background-color: #1f2122; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/footer\.scss}line{font-family:\000031}}
+.footer { background-color: #414141; height: 58px; margin-top: -58px; position: relative; bottom: 0; width: 100%; }
+
+/*# sourceMappingURL=main.css.map */

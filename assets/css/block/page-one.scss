@@ -1,0 +1,78 @@
+.page-one{
+  @include page();
+  background: url('../img/background/Background.jpg') center center no-repeat;
+  background-color: #070707;
+  background-size: cover;
+
+    &:before{
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      background-size: cover;
+      background: url('../img/background/texture.png');
+      background-color: rgba(#141414, 0.31);
+    }
+}
+
+.content-one{
+  @include clearfix();
+}
+
+.content-one__left,
+.content-one__right{
+  float: left;
+  width: 50%;
+}
+
+.content-one__left{
+  position: relative;
+}
+
+.content-one__drops{
+  position: absolute;
+  top: 55px;
+  left: 15px;
+}
+
+.content-one__img{
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  margin: 0;
+  padding-left: 50px;
+}
+
+.content-one__text{
+  padding-top: 127px;
+  padding-left: 7px;
+}
+
+.title--one,
+.content-one__desc{
+  display: inline-block;
+
+}
+
+.title--one{
+  color: #f9b43b;
+}
+
+.content-one__desc{
+  font-size: 65px;
+  color: #fff;
+  padding-top: 16px;
+  line-height: 1;
+  @include fonts(lifehack);
+}
+
+.arrow{
+  display: block;
+  width: 100%;
+  text-align: center;
+  height: 54px;
+  position: absolute;
+  bottom: 0;
+}
