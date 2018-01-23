@@ -1,8 +1,61 @@
 .footer{
-  background-color: #414141;
+  background-color: #111;
   height: 58px;
   margin-top: -58px;
-  position: relative;
+  position: absolute;
   bottom: 0;
   width: 100%;
+  @include clearfix();
+}
+
+.footer__left,
+.footer__right{
+  float: left;
+  width: 50%;
+}
+
+.footer__adress{
+  @include fonts(ubuntu, light);
+  font-size: 14px;
+  color: #fff;
+  margin-top: 11px;
+  margin-bottom: 11px;
+
+}
+
+.foooter__phone{
+  @include fonts(ubuntu, bold);
+  font-size: 14px;
+  color: #e45028;
+  margin-right: 4px;
+}
+
+.footer__right{
+  text-align: right;
+}
+
+.socials__item{
+  margin-top: 18px;
+  display: inline-block;
+  margin-right: 20px;
+    &:last-child{
+      margin-right: 0;
+    }
+}
+
+.socials__link{
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+}
+
+.icon{
+  display: inline-block;;
+  vertical-align: middle;
+  width: 20px;
+  height: 20px;
+  fill: #585858;
+    &:hover{
+      fill: #fff;
+    }
 }
