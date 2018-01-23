@@ -1,0 +1,103 @@
+.page-five{
+  @include page();
+  @include clearfix();
+  background: url('../img/background/menu.jpg') center center no-repeat;
+  background-size: cover;
+}
+
+.page-five__left,
+.page-five__right{
+  float: left;
+}
+
+.page-five__right{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.title--five{
+  color: #fff;
+  margin-left: 96px;
+  margin-top: 98px;
+}
+
+.menu{
+  font-size: 0;
+}
+
+.menu__list{
+  display: inline-block;
+  &--active{
+    .menu__title{
+      color: $orange;
+    }
+    .menu__desc{
+      width: 540px;
+    }
+  }
+}
+
+.menu__link{
+  text-decoration: none;
+  position: relative;
+  display: inline-block;
+  width: 80px;
+  height: 100vh;
+    &--meat{
+      background: url('../img/background/meat-burger.jpg') center center no-repeat;
+      background-size: cover;
+    }
+    &--veg{
+      background: url('../img/background/veg.jpg') center center no-repeat;
+      background-size: cover;
+    }
+    &--diet{
+      background: url('../img/background/dietary.jpg') center center no-repeat;
+      background-size: cover;
+    }
+    &:after{
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      background-size: cover;
+      background-color: rgba(#141414, .7);
+      z-index: 0;
+    }
+}
+
+.menu__title{
+  position: absolute;
+  left: 42px;
+  bottom: 17px;
+  font-size: 40px;
+  z-index: 10;
+  text-transform: uppercase;
+  white-space: nowrap;
+  @include fonts(gagalin);
+  color: #fff;
+  transform-origin: left;
+  transform: rotate(-90deg);
+}
+
+.menu__desc{
+  display: inline-block;
+  width: 0;
+  height: 100vh;
+  overflow: hidden;
+  background-size: cover;
+  background-color: rgba(#141414, .7);
+}
+
+.menu__text{
+  display: inline-block;
+  padding: 62px 35px;
+  font-size: 14px;
+  line-height: 1.8;
+  color: #fff;
+  @include fonts(ubuntu, light);
+}
