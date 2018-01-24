@@ -475,25 +475,28 @@ h1, h2, h3, h4, h5, h6 { margin: 0; font-weight: normal; }
 .footer__left, .footer__right { float: left; width: 50%; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/footer\.scss}line{font-family:\0000317}}
-.footer__adress { font-family: 'ubuntu'; font-weight: 300; font-size: 14px; color: #fff; margin-top: 11px; margin-bottom: 11px; }
+.footer__adress { font-family: 'ubuntu'; font-weight: 300; font-size: 14px; color: #fff; margin-top: 10px; margin-bottom: 8px; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/footer\.scss}line{font-family:\0000326}}
-.foooter__phone { font-family: 'ubuntu'; font-weight: 600; font-size: 14px; color: #e45028; margin-right: 4px; }
+.foooter__phone { font-family: 'ubuntu'; font-weight: 600; font-size: 14px; color: #e45028; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/footer\.scss}line{font-family:\0000333}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/footer\.scss}line{font-family:\0000332}}
+.foooter__phone-icon { margin-right: 6px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/footer\.scss}line{font-family:\0000336}}
 .footer__right { text-align: right; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/footer\.scss}line{font-family:\0000337}}
-.socials__item { margin-top: 18px; display: inline-block; margin-right: 20px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/footer\.scss}line{font-family:\0000341}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/footer\.scss}line{font-family:\0000340}}
+.socials__item { margin-top: 18px; display: inline-block; margin-right: 16px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/footer\.scss}line{font-family:\0000344}}
 .socials__item:last-child { margin-right: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/footer\.scss}line{font-family:\0000346}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/footer\.scss}line{font-family:\0000349}}
 .socials__link { display: inline-block; width: 20px; height: 20px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/footer\.scss}line{font-family:\0000352}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/footer\.scss}line{font-family:\0000355}}
 .icon { display: inline-block; vertical-align: middle; width: 20px; height: 20px; fill: #585858; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/footer\.scss}line{font-family:\0000358}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/footer\.scss}line{font-family:\0000361}}
 .icon:hover { fill: #fff; }
 
 /*# sourceMappingURL=main.css.map */
