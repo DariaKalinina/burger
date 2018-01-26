@@ -1,16 +1,16 @@
-.page-five{
+.menu{
   @include page();
   @include clearfix();
   background: url('../img/background/menu.jpg') center center no-repeat;
   background-size: cover;
 }
 
-.page-five__left,
-.page-five__right{
+.menu__left,
+.menu__right{
   float: left;
 }
 
-.page-five__right{
+.menu__right{
   position: absolute;
   top: 0;
   bottom: 0;
@@ -23,11 +23,11 @@
   margin-top: 98px;
 }
 
-.menu{
+.menu__list{
   font-size: 0;
 }
 
-.menu__list{
+.menu__item{
   display: inline-block;
   &--active{
     .menu__title{

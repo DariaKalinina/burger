@@ -206,45 +206,39 @@ h1, h2, h3, h4, h5, h6 { margin: 0; font-weight: normal; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/adjustment\.scss}line{font-family:\0000357}}
 * { -webkit-box-sizing: border-box; box-sizing: border-box; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/page-one\.scss}line{font-family:\000031}}
-.page-one { height: 100vh; position: relative; background: url("../img/background/Background.jpg") center center no-repeat; background-color: #070707; background-size: cover; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/page-one\.scss}line{font-family:\000037}}
-.page-one:before { content: ""; position: absolute; top: 0; left: 0; bottom: 0; right: 0; background-size: cover; background: url("../img/background/texture.png"); background-color: rgba(20, 20, 20, 0.31); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/hero\.scss}line{font-family:\000031}}
+.hero { height: 100vh; position: relative; background: url("../img/background/Background.jpg") center center no-repeat; background-color: #070707; background-size: cover; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/hero\.scss}line{font-family:\000037}}
+.hero:before { content: ""; position: absolute; top: 0; left: 0; bottom: 0; right: 0; background-size: cover; background: url("../img/background/texture.png"); background-color: rgba(20, 20, 20, 0.31); }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/mixin\/mixin\.scss}line{font-family:\000033}}
-.content:before, .content:after { content: ""; display: block; }
+.hero-content:before, .hero-content:after { content: ""; display: block; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/mixin\/mixin\.scss}line{font-family:\000038}}
-.content:after { clear: both; }
+.hero-content:after { clear: both; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/page-one\.scss}line{font-family:\0000324}}
-.content__left, .content__right { float: left; width: 50%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/hero\.scss}line{font-family:\0000324}}
+.hero-content__left, .hero-content__right { float: left; width: 50%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/page-one\.scss}line{font-family:\0000330}}
-.content__left { position: relative; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/hero\.scss}line{font-family:\0000330}}
+.hero-content__left { position: relative; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/page-one\.scss}line{font-family:\0000334}}
-.content-one__drops { position: absolute; top: 55px; left: 15px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/hero\.scss}line{font-family:\0000334}}
+.hero-content__drops { position: absolute; top: 55px; left: 15px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/page-one\.scss}line{font-family:\0000340}}
-.content-one__img { display: block; max-width: 100%; max-height: 100%; margin: 0; padding-left: 50px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/hero\.scss}line{font-family:\0000340}}
+.hero-content__img { display: block; max-width: 100%; max-height: 100%; margin: 0; padding-left: 50px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/page-one\.scss}line{font-family:\0000348}}
-.content-one__text { padding-top: 127px; padding-left: 7px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/hero\.scss}line{font-family:\0000348}}
+.hero-content__text { padding-top: 127px; padding-left: 7px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/page-one\.scss}line{font-family:\0000353}}
-.title--one, .content-one__desc { display: inline-block; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/hero\.scss}line{font-family:\0000353}}
+.title--one, .hero-content__desc { display: inline-block; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/page-one\.scss}line{font-family:\0000359}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/hero\.scss}line{font-family:\0000359}}
 .title--one { color: #f9b43b; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/page-one\.scss}line{font-family:\0000363}}
-.content-one__desc { font-size: 65px; color: #fff; padding-top: 16px; line-height: 1; font-family: 'lifehack'; font-weight: 500; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/page-one\.scss}line{font-family:\0000371}}
-.arrow { display: block; width: 100%; text-align: center; height: 54px; position: absolute; bottom: 0; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/page-one\.scss}line{font-family:\0000380}}
-.arrow__link { display: inline-block; width: 32px; height: 16px; background: url(../icons/arrow-scroll.svg) center center no-repeat; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/hero\.scss}line{font-family:\0000363}}
+.hero-content__desc { font-size: 65px; color: #fff; padding-top: 16px; line-height: 1; font-family: 'lifehack'; font-weight: 500; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/mixin\/mixin\.scss}line{font-family:\000033}}
 .header:before, .header:after { content: ""; display: block; }
@@ -276,193 +270,186 @@ h1, h2, h3, h4, h5, h6 { margin: 0; font-weight: normal; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/header\.scss}line{font-family:\0000359}}
 .order-link { vertical-align: middle; font-size: 13px; color: #fff; padding: 11px 15px; display: inline-block; text-transform: uppercase; text-decoration: none; border-radius: 5px; background-color: #e45028; font-family: 'ubuntu'; font-weight: 500; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/nav-point\.scss}line{font-family:\000031}}
-.nav-point { position: fixed; right: 50px; top: 90px; z-index: 100; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/hero-arrow\.scss}line{font-family:\000031}}
+.arrow { display: block; width: 100%; text-align: center; height: 54px; position: absolute; bottom: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/nav-point\.scss}line{font-family:\000038}}
-.nav-point__item { margin-bottom: 5px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/hero-arrow\.scss}line{font-family:\0000310}}
+.arrow__link { display: inline-block; width: 32px; height: 16px; background: url(../icons/arrow-scroll.svg) center center no-repeat; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/nav-point\.scss}line{font-family:\0000312}}
-.nav-point__link { display: block; padding: 4px; width: 16px; height: 16px; background-color: transparent; border: 1px solid transparent; border-radius: 50%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/nav-point\.scss}line{font-family:\0000320}}
-.nav-point__link:after { content: ""; display: block; width: 0px; height: 0px; border: 3px solid #fff; border-radius: 50%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/nav-point\.scss}line{font-family:\0000328}}
-.nav-point__link--active { border: 1px solid #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/about\.scss}line{font-family:\000031}}
+.about { height: 100vh; position: relative; background: url("../img/background/Background-we.jpg") center center no-repeat; background-color: #fff; background-size: cover; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/page-two\.scss}line{font-family:\000031}}
-.page-two { height: 100vh; position: relative; background: url("../img/background/Background-we.jpg") center center no-repeat; background-color: #fff; background-size: cover; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/about\.scss}line{font-family:\000038}}
+.title--two, .about-content__desc { width: 100%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/page-two\.scss}line{font-family:\000038}}
-.title--two, .content-two__desc { width: 100%; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/page-two\.scss}line{font-family:\0000313}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/about\.scss}line{font-family:\0000313}}
 .title--two { text-align: center; padding-top: 120px; color: #2f3234; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/page-two\.scss}line{font-family:\0000319}}
-.content-two__desc { padding-top: 40px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/about\.scss}line{font-family:\0000319}}
+.about-content__desc { padding-top: 40px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/page-two\.scss}line{font-family:\0000323}}
-.content-two__item { display: inline-block; width: 280px; margin-right: 40px; text-align: center; vertical-align: top; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/page-two\.scss}line{font-family:\0000329}}
-.content-two__item:last-child { margin-right: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/about\.scss}line{font-family:\0000323}}
+.about-content__item { display: inline-block; width: 280px; margin-right: 40px; text-align: center; vertical-align: top; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/about\.scss}line{font-family:\0000329}}
+.about-content__item:last-child { margin-right: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/page-two\.scss}line{font-family:\0000334}}
-.content-two__logo { height: 90px; margin-bottom: 30px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/about\.scss}line{font-family:\0000334}}
+.about-content__logo { height: 90px; margin-bottom: 30px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/page-two\.scss}line{font-family:\0000339}}
-.content-two__declaration { font-size: 24px; color: #2f3234; font-family: 'lifehack'; font-weight: 500; margin-bottom: 15px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/about\.scss}line{font-family:\0000339}}
+.about-content__declaration { font-size: 24px; color: #2f3234; font-family: 'lifehack'; font-weight: 500; margin-bottom: 15px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/page-two\.scss}line{font-family:\0000346}}
-.content-two__text { font-size: 14px; color: #6d6e6e; line-height: 1.5; font-family: 'ubuntu'; font-weight: 300; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/about\.scss}line{font-family:\0000346}}
+.about-content__text { font-size: 14px; color: #6d6e6e; line-height: 1.5; font-family: 'ubuntu'; font-weight: 300; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/page-four\.scss}line{font-family:\000031}}
-.page-four { height: 100vh; position: relative; background: url("../img/background/team.jpg") center center no-repeat; background-size: cover; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/team\.scss}line{font-family:\000031}}
+.team { height: 100vh; position: relative; background: url("../img/background/team.jpg") center center no-repeat; background-size: cover; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/page-four\.scss}line{font-family:\000037}}
-.page-four__right { position: absolute; top: 0; bottom: 0; right: 0; left: 51%; background-size: cover; background-color: rgba(47, 50, 52, 0.93); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/team\.scss}line{font-family:\000037}}
+.team__right { position: absolute; top: 0; bottom: 0; right: 0; left: 51%; background-size: cover; background-color: rgba(47, 50, 52, 0.93); }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/page-four\.scss}line{font-family:\0000317}}
-.page-four__content { padding-top: 100px; padding-left: 100px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/team\.scss}line{font-family:\0000317}}
+.team__content { padding-top: 100px; padding-left: 100px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/page-four\.scss}line{font-family:\0000322}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/team\.scss}line{font-family:\0000322}}
 .title--four { color: #f9b43b; margin-bottom: 36px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/page-four\.scss}line{font-family:\0000327}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/team\.scss}line{font-family:\0000327}}
 .accordeon-team { padding-left: 17px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/page-four\.scss}line{font-family:\0000331}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/team\.scss}line{font-family:\0000331}}
 .team__link { font-size: 14px; color: #fff; padding-bottom: 17px; display: inline-block; text-transform: uppercase; text-decoration: none; position: relative; font-family: 'gagalin'; font-weight: 400; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/page-four\.scss}line{font-family:\0000340}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/team\.scss}line{font-family:\0000340}}
 .team__link:after { content: ""; position: absolute; top: 5px; left: -20px; display: inline-block; width: 0; height: 0; border-top: 7px solid #f9b43b; border-left: 5px solid transparent; border-right: 5px solid transparent; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/page-four\.scss}line{font-family:\0000352}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/team\.scss}line{font-family:\0000352}}
 .team__link--active { color: #f9b43b; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/page-four\.scss}line{font-family:\0000356}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/team\.scss}line{font-family:\0000355}}
 .team__link--active:after { border-bottom: 7px solid #f9b43b; border-top: 0; border-left: 5px solid transparent; border-right: 5px solid transparent; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/page-four\.scss}line{font-family:\0000363}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/team\.scss}line{font-family:\0000362}}
 .team__link--active .team-desc { height: 138px; overflow: hidden; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/page-four\.scss}line{font-family:\0000370}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/team\.scss}line{font-family:\0000369}}
 .team-desc { height: 0px; width: 100%; overflow: hidden; padding-top: 17px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/page-four\.scss}line{font-family:\0000377}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/team\.scss}line{font-family:\0000376}}
 .team-desc__left, .team-desc__right { display: inline-block; vertical-align: top; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/page-four\.scss}line{font-family:\0000383}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/team\.scss}line{font-family:\0000382}}
 .team-desc__left { width: 100px; height: 100px; border-radius: 50%; overflow: hidden; position: relative; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/page-four\.scss}line{font-family:\0000391}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/team\.scss}line{font-family:\0000390}}
 .team-desc__img { max-height: 100px; position: absolute; position: absolute; top: 50%; left: 50%; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%); }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/page-four\.scss}line{font-family:\00003101}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/team\.scss}line{font-family:\00003100}}
 .team-desc__right { width: 235px; padding-left: 15px; text-transform: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/page-four\.scss}line{font-family:\00003108}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/team\.scss}line{font-family:\00003107}}
 .team-desc__prof { display: block; font-size: 14px; color: #fff; padding-bottom: 15px; font-family: 'ubuntu'; font-weight: 600; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/page-four\.scss}line{font-family:\00003116}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/team\.scss}line{font-family:\00003115}}
 .team-desc__text { display: block; font-size: 14px; color: #fff; line-height: 1.7; font-family: 'ubuntu'; font-weight: 300; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/page-five\.scss}line{font-family:\000031}}
-.page-five { height: 100vh; position: relative; background: url("../img/background/menu.jpg") center center no-repeat; background-size: cover; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/menu\.scss}line{font-family:\000031}}
+.menu { height: 100vh; position: relative; background: url("../img/background/menu.jpg") center center no-repeat; background-size: cover; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/mixin\/mixin\.scss}line{font-family:\000033}}
-.page-five:before, .page-five:after { content: ""; display: block; }
+.menu:before, .menu:after { content: ""; display: block; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/mixin\/mixin\.scss}line{font-family:\000038}}
-.page-five:after { clear: both; }
+.menu:after { clear: both; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/page-five\.scss}line{font-family:\000038}}
-.page-five__left, .page-five__right { float: left; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/menu\.scss}line{font-family:\000038}}
+.menu__left, .menu__right { float: left; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/page-five\.scss}line{font-family:\0000313}}
-.page-five__right { position: absolute; top: 0; bottom: 0; right: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/menu\.scss}line{font-family:\0000313}}
+.menu__right { position: absolute; top: 0; bottom: 0; right: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/page-five\.scss}line{font-family:\0000320}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/menu\.scss}line{font-family:\0000320}}
 .title--five { color: #fff; margin-left: 96px; margin-top: 98px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/page-five\.scss}line{font-family:\0000326}}
-.menu { font-size: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/menu\.scss}line{font-family:\0000326}}
+.menu__list { font-size: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/page-five\.scss}line{font-family:\0000330}}
-.menu__list { display: inline-block; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/page-five\.scss}line{font-family:\0000333}}
-.menu__list--active .menu__title { color: #f9b43b; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/page-five\.scss}line{font-family:\0000336}}
-.menu__list--active .menu__desc { width: 540px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/menu\.scss}line{font-family:\0000330}}
+.menu__item { display: inline-block; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/menu\.scss}line{font-family:\0000333}}
+.menu__item--active .menu__title { color: #f9b43b; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/menu\.scss}line{font-family:\0000336}}
+.menu__item--active .menu__desc { width: 540px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/page-five\.scss}line{font-family:\0000342}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/menu\.scss}line{font-family:\0000342}}
 .menu__link { text-decoration: none; position: relative; display: inline-block; width: 80px; height: 100vh; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/page-five\.scss}line{font-family:\0000348}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/menu\.scss}line{font-family:\0000348}}
 .menu__link--meat { background: url("../img/background/meat-burger.jpg") center center no-repeat; background-size: cover; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/page-five\.scss}line{font-family:\0000352}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/menu\.scss}line{font-family:\0000352}}
 .menu__link--veg { background: url("../img/background/veg.jpg") center center no-repeat; background-size: cover; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/page-five\.scss}line{font-family:\0000356}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/menu\.scss}line{font-family:\0000356}}
 .menu__link--diet { background: url("../img/background/dietary.jpg") center center no-repeat; background-size: cover; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/page-five\.scss}line{font-family:\0000360}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/menu\.scss}line{font-family:\0000360}}
 .menu__link:after { content: ""; position: absolute; top: 0; left: 0; bottom: 0; right: 0; background-size: cover; background-color: rgba(20, 20, 20, 0.7); z-index: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/page-five\.scss}line{font-family:\0000373}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/menu\.scss}line{font-family:\0000373}}
 .menu__title { position: absolute; left: 42px; bottom: 17px; font-size: 40px; z-index: 10; text-transform: uppercase; white-space: nowrap; font-family: 'gagalin'; font-weight: 400; color: #fff; -webkit-transform-origin: left; transform-origin: left; -webkit-transform: rotate(-90deg); transform: rotate(-90deg); }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/page-five\.scss}line{font-family:\0000387}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/menu\.scss}line{font-family:\0000387}}
 .menu__desc { display: inline-block; width: 0; height: 100vh; overflow: hidden; background-size: cover; background-color: rgba(20, 20, 20, 0.7); }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/page-five\.scss}line{font-family:\0000396}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/menu\.scss}line{font-family:\0000396}}
 .menu__text { display: inline-block; padding: 62px 35px; font-size: 14px; line-height: 1.8; color: #fff; font-family: 'ubuntu'; font-weight: 300; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/page-six\.scss}line{font-family:\000031}}
-.page-six { height: 100vh; position: relative; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/review\.scss}line{font-family:\000031}}
+.review { height: 100vh; position: relative; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/page-six\.scss}line{font-family:\000035}}
-.review { height: 100%; width: 100%; font-size: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/review\.scss}line{font-family:\000035}}
+.review__list { height: 100%; width: 100%; font-size: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/page-six\.scss}line{font-family:\0000311}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/review\.scss}line{font-family:\0000311}}
 .review__item { display: inline-block; width: 25%; height: 50%; overflow: hidden; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/page-six\.scss}line{font-family:\0000318}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/review\.scss}line{font-family:\0000318}}
 .review__block { display: block; width: 100%; height: 100%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/page-six\.scss}line{font-family:\0000325}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/review\.scss}line{font-family:\0000325}}
 .review__block--photo-1 { background: url("../img/content/photo-1.jpg") center center no-repeat; background-size: cover; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/page-six\.scss}line{font-family:\0000325}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/review\.scss}line{font-family:\0000325}}
 .review__block--photo-2 { background: url("../img/content/photo-2.jpg") center center no-repeat; background-size: cover; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/page-six\.scss}line{font-family:\0000325}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/review\.scss}line{font-family:\0000325}}
 .review__block--photo-3 { background: url("../img/content/photo-3.jpg") center center no-repeat; background-size: cover; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/page-six\.scss}line{font-family:\0000325}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/review\.scss}line{font-family:\0000325}}
 .review__block--photo-4 { background: url("../img/content/photo-4.jpg") center center no-repeat; background-size: cover; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/page-six\.scss}line{font-family:\0000325}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/review\.scss}line{font-family:\0000325}}
 .review__block--photo-5 { background: url("../img/content/photo-5.jpg") center center no-repeat; background-size: cover; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/page-six\.scss}line{font-family:\0000325}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/review\.scss}line{font-family:\0000325}}
 .review__block--photo-6 { background: url("../img/content/photo-6.jpg") center center no-repeat; background-size: cover; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/page-six\.scss}line{font-family:\0000325}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/review\.scss}line{font-family:\0000325}}
 .review__block--photo-7 { background: url("../img/content/photo-7.jpg") center center no-repeat; background-size: cover; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/page-six\.scss}line{font-family:\0000325}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/review\.scss}line{font-family:\0000325}}
 .review__block--photo-8 { background: url("../img/content/photo-8.jpg") center center no-repeat; background-size: cover; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/page-six\.scss}line{font-family:\0000331}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/review\.scss}line{font-family:\0000331}}
 .review__elem { width: 100%; height: 100%; padding: 48px 20px; font-size: 14px; color: #fff; background-color: rgba(69, 69, 69, 0.7); text-align: left; visibility: hidden; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/page-six\.scss}line{font-family:\0000342}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/review\.scss}line{font-family:\0000342}}
 .review__block:hover .review__elem { visibility: visible; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/page-six\.scss}line{font-family:\0000347}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/review\.scss}line{font-family:\0000347}}
 .review__reviewer-name { text-transform: uppercase; margin-bottom: 21px; font-family: 'gagalin'; font-weight: 400; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/page-six\.scss}line{font-family:\0000353}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/review\.scss}line{font-family:\0000353}}
 .review__review-text { height: 65%; overflow: hidden; font-family: 'ubuntu'; font-weight: 300; line-height: 1.75; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/page-six\.scss}line{font-family:\0000360}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/review\.scss}line{font-family:\0000360}}
 .review__review-btn { display: inline-block; padding: 10px 17px; font-size: 13px; margin-top: 6px; text-transform: uppercase; text-decoration: none; color: #fff; background-color: #2f3234; border-radius: 5px; font-family: 'ubuntu'; font-weight: 300; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/page-six\.scss}line{font-family:\0000371}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/review\.scss}line{font-family:\0000371}}
 .review__review-btn:hover { background-color: #1f2122; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/page-eight\.scss}line{font-family:\000031}}
-.page-eight { height: 100vh; position: relative; background: url("../img/background/map.jpg") center center no-repeat; background-size: cover; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/contact\.scss}line{font-family:\000031}}
+.contact { height: 100vh; position: relative; background: url("../img/background/map.jpg") center center no-repeat; background-size: cover; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/footer\.scss}line{font-family:\000031}}
 .footer { background-color: #111; height: 58px; margin-top: -58px; position: absolute; bottom: 0; width: 100%; }
@@ -498,5 +485,18 @@ h1, h2, h3, h4, h5, h6 { margin: 0; font-weight: normal; }
 .icon { display: inline-block; vertical-align: middle; width: 20px; height: 20px; fill: #585858; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/footer\.scss}line{font-family:\0000361}}
 .icon:hover { fill: #fff; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/nav-point\.scss}line{font-family:\000031}}
+.nav-point { position: fixed; right: 50px; top: 90px; z-index: 100; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/nav-point\.scss}line{font-family:\000038}}
+.nav-point__item { margin-bottom: 5px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/nav-point\.scss}line{font-family:\0000312}}
+.nav-point__link { display: block; padding: 4px; width: 16px; height: 16px; background-color: transparent; border: 1px solid transparent; border-radius: 50%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/nav-point\.scss}line{font-family:\0000320}}
+.nav-point__link:after { content: ""; display: block; width: 0px; height: 0px; border: 3px solid #fff; border-radius: 50%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/nav-point\.scss}line{font-family:\0000328}}
+.nav-point__link--active { border: 1px solid #fff; }
 
 /*# sourceMappingURL=main.css.map */

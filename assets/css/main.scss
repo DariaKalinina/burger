@@ -10,12 +10,13 @@ $orange: #f9b43b;
 
 //----------стили
 @import "block/adjustment.scss";
-@import "block/page-one.scss";
+@import "block/hero.scss";
 @import "block/header.scss";
-@import "block/nav-point.scss";
-@import "block/page-two.scss";
-@import "block/page-four.scss";
-@import "block/page-five.scss";
-@import "block/page-six.scss";
-@import "block/page-eight.scss";
+@import "block/hero-arrow.scss";
+@import "block/about.scss";
+@import "block/team.scss";
+@import "block/menu.scss";
+@import "block/review.scss";
+@import "block/contact.scss";
 @import "block/footer.scss";
+@import "block/nav-point.scss";

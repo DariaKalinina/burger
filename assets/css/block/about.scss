@@ -1,4 +1,4 @@
-.page-two{
+.about{
   @include page();
   background: url('../img/background/Background-we.jpg') center center no-repeat;
   background-color: #fff;
@@ -6,7 +6,7 @@
 }
 
 .title--two,
-.content-two__desc{
+.about-content__desc{
   width: 100%;
 }
 
@@ -16,11 +16,11 @@
   color: #2f3234;
 }
 
-.content-two__desc{
+.about-content__desc{
   padding-top: 40px;
 }
 
-.content-two__item{
+.about-content__item{
   display: inline-block;
   width: 280px;
   margin-right: 40px;
@@ -31,19 +31,19 @@
     }
 }
 
-.content-two__logo{
+.about-content__logo{
   height: 90px;
   margin-bottom: 30px;
 }
 
-.content-two__declaration{
+.about-content__declaration{
   font-size: 24px;
   color: #2f3234;
   @include fonts(lifehack);
   margin-bottom: 15px;
 }
 
-.content-two__text{
+.about-content__text{
   font-size: 14px;
   color: #6d6e6e;
   line-height: 1.5;

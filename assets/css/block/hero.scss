@@ -1,4 +1,4 @@
-.page-one{
+.hero{
   @include page();
   background: url('../img/background/Background.jpg') center center no-repeat;
   background-color: #070707;
@@ -17,27 +17,27 @@
     }
 }
 
-.content{
+.hero-content{
   @include clearfix();
 }
 
-.content__left,
-.content__right{
+.hero-content__left,
+.hero-content__right{
   float: left;
   width: 50%;
 }
 
-.content__left{
+.hero-content__left{
   position: relative;
 }
 
-.content-one__drops{
+.hero-content__drops{
   position: absolute;
   top: 55px;
   left: 15px;
 }
 
-.content-one__img{
+.hero-content__img{
   display: block;
   max-width: 100%;
   max-height: 100%;
@@ -45,13 +45,13 @@
   padding-left: 50px;
 }
 
-.content-one__text{
+.hero-content__text{
   padding-top: 127px;
   padding-left: 7px;
 }
 
 .title--one,
-.content-one__desc{
+.hero-content__desc{
   display: inline-block;
 
 }
@@ -60,26 +60,10 @@
   color: $orange;
 }
 
-.content-one__desc{
+.hero-content__desc{
   font-size: 65px;
   color: #fff;
   padding-top: 16px;
   line-height: 1;
   @include fonts(lifehack);
-}
-
-.arrow{
-  display: block;
-  width: 100%;
-  text-align: center;
-  height: 54px;
-  position: absolute;
-  bottom: 0;
-}
-
-.arrow__link{
-  display: inline-block;
-  width: 32px;
-  height: 16px;
-  background: url(../icons/arrow-scroll.svg) center center no-repeat;
 }
