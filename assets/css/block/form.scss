@@ -1,0 +1,20 @@
+.form{
+  @include page();
+  background: url('../img/background/form-bg.jpg') center center no-repeat;
+  background-size: cover;
+}
+
+.form__title{
+  color: $white;
+}
+
+.form__input{
+  background-color: $white;
+  border: 1px solid $beige;
+  border-radius: 5px;
+  height: 34px;
+    &:focus{
+      outline: none!important;
+      border: 2px solid #f9b43b;
+    }
+}

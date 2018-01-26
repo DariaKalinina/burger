@@ -1,7 +1,6 @@
 .about{
   @include page();
   background: url('../img/background/Background-we.jpg') center center no-repeat;
-  background-color: #fff;
   background-size: cover;
 }
 
@@ -13,7 +12,6 @@
 .title--two{
   text-align: center;
   padding-top: 120px;
-  color: #2f3234;
 }
 
 .about-content__desc{
@@ -38,14 +36,14 @@
 
 .about-content__declaration{
   font-size: 24px;
-  color: #2f3234;
+  color:  $black;
   @include fonts(lifehack);
   margin-bottom: 15px;
 }
 
 .about-content__text{
   font-size: 14px;
-  color: #6d6e6e;
+  color: $grey;
   line-height: 1.5;
     @include fonts(ubuntu,light);
 }

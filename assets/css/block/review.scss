@@ -33,7 +33,7 @@
   height: 100%;
   padding: 48px 20px;
   font-size: 14px;
-  color: #fff;
+  color: $white;
   background-color: rgba(#454545, 0.7);
   text-align: left;
   visibility: hidden;
@@ -64,8 +64,8 @@
   margin-top: 6px;
   text-transform: uppercase;
   text-decoration: none;
-  color: #fff;
-  background-color: #2f3234;
+  color: $white;
+  background-color: $black;
   border-radius: 5px;
   @include fonts(ubuntu, light);
     &:hover{

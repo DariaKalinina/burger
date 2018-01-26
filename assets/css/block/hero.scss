@@ -1,7 +1,6 @@
 .hero{
   @include page();
   background: url('../img/background/Background.jpg') center center no-repeat;
-  background-color: #070707;
   background-size: cover;
 
     &:before{
@@ -13,7 +12,7 @@
       right: 0;
       background-size: cover;
       background: url('../img/background/texture.png');
-      background-color: rgba(#141414, 0.31);
+      background-color: rgba($dark-grey, 0.31);
     }
 }
 
@@ -53,16 +52,11 @@
 .title--one,
 .hero-content__desc{
   display: inline-block;
-
-}
-
-.title--one{
-  color: $orange;
 }
 
 .hero-content__desc{
   font-size: 65px;
-  color: #fff;
+  color: $white;
   padding-top: 16px;
   line-height: 1;
   @include fonts(lifehack);

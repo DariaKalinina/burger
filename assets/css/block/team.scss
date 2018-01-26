@@ -11,7 +11,7 @@
   right: 0;
   left: 51%;
   background-size: cover;
-  background-color: rgba(#2f3234, 0.93);
+  background-color: rgba($black, 0.93);
 }
 
 .team__content{
@@ -20,7 +20,6 @@
 }
 
 .title--four{
-  color: $orange;
   margin-bottom: 36px;
 }
 
@@ -30,7 +29,7 @@
 
 .team__link{
   font-size: 14px;
-  color: #fff;
+  color: $white;
   padding-bottom: 17px;
   display: inline-block;
   text-transform: uppercase;
@@ -107,7 +106,7 @@
 .team-desc__prof{
   display: block;
   font-size: 14px;
-  color: #fff;
+  color: $white;
   padding-bottom: 15px;
   @include fonts(ubuntu, bold);
 }
@@ -115,7 +114,7 @@
 .team-desc__text{
   display: block;
   font-size: 14px;
-  color: #fff;
+  color: $white;
   line-height: 1.7;
   @include fonts(ubuntu, light);
 }

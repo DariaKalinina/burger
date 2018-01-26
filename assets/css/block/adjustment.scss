@@ -32,6 +32,17 @@ html, body{
   font-size: 72px;
   text-transform: uppercase;
   @include fonts(gagalin);
+      &--color{
+        &--orange{
+          color: $orange;
+        }
+        &--white{
+          color: $white;
+        }
+        &--black{
+          color: $black;
+        }
+      }
 }
 
 /*------------стили для тегов------------*/
