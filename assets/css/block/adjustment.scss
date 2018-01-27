@@ -21,11 +21,20 @@ html, body{
   position: relative;
 }
 
+.section{
+  display: flex;
+  height: 100vh;
+  position: relative;
+  flex-direction: column;
+}
+
 .container{
+  display: flex;
   width: 940px;
   height: 100vh;
   margin: 0 auto;
   position: relative;
+  flex-direction: column;
 }
 
 .title{

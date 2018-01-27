@@ -1,10 +1,10 @@
 .team{
-  @include page();
   background: url('../img/background/team.jpg') center center no-repeat;
   background-size: cover;
 }
 
 .team__right{
+  display: flex;
   position: absolute;
   top: 0;
   bottom: 0;
@@ -15,22 +15,32 @@
 }
 
 .team__content{
-  padding-top: 100px;
-  padding-left: 100px;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  padding-left: 97px;
+}
+
+.team__content-title{
+  display: flex;
+  flex: 3.3;
+  align-items: flex-end;
 }
 
 .title--four{
-  margin-bottom: 36px;
+  padding-bottom: 34px;
 }
 
 .accordeon-team{
-  padding-left: 17px;
+  display: flex;
+  flex: 6.7;
+  padding-left: 19px;
 }
 
 .team__link{
   font-size: 14px;
   color: $white;
-  padding-bottom: 17px;
+  padding-bottom: 20px;
   display: inline-block;
   text-transform: uppercase;
   text-decoration: none;
@@ -89,18 +99,15 @@
 .team-desc__img{
   max-height: 100px;
   position: absolute;
-  position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-
 }
 
 .team-desc__right{
   width: 235px;
   padding-left: 15px;
   text-transform: none;
-
 }
 
 .team-desc__prof{

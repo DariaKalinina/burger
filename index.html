@@ -8,7 +8,7 @@
 </head>
 <body>
   <div class="wrapper">
-    <section class="hero">
+    <section class="section hero">
       <div class="container">
         <header class="header">
           <div class="header__left">
@@ -41,16 +41,18 @@
           </div>
         </header>
         <main class="hero-content">
-          <div class="hero-content__left">
-            <img src="assets/img/content/burger_main.png" alt="Burgers" class="hero-content__img">
-          </div>
-          <div class="hero-content__right">
-            <div class="hero-content__text">
-              <h1 class="title title--one title--color--orange">
-                мы делаем
-              </h1>
-              <div class="hero-content__desc">
-                натуральные бургеры
+          <div class="hero-content__wrapper">
+            <div class="hero-content__left">
+              <img src="assets/img/content/burger_main.png" alt="Burgers" class="hero-content__img">
+            </div>
+            <div class="hero-content__right">
+              <div class="hero-content__text">
+                <h1 class="title title--color--orange">
+                  мы делаем
+                </h1>
+                <div class="hero-content__desc">
+                  натуральные бургеры
+                </div>
               </div>
             </div>
           </div>
@@ -61,49 +63,57 @@
         </div>
       </div>
     </section>
-    <section class="about">
+
+    <section class="section about">
       <div class="container">
         <main class="about-content">
-          <h1 class="title title--two title--color--black">
-            мы лучшие
-          </h1>
+          <div class="about-content__title">
+            <h1 class="title title--two title--color--black">
+              мы лучшие
+            </h1>
+          </div>
           <div class="about-content__desc">
             <ul class="about-content__list">
               <li class="about-content__item">
                 <div class="about-content__logo">
                   <img src="assets/icons/meat.svg" alt="meat" class="about-content__svg-1">
                 </div>
-                <div class="about-content__declaration">
-                  100% свежее мясо</div>
-                <div class="about-content__text">
-                  Драма представляет собой деструктивный цикл.
-                  Анапест представляет собой анапест. Ямб неравномерен.
-                 </div>
+                <div class="about-content__article">
+                  <div class="about-content__caption">
+                    100% свежее мясо</div>
+                  <div class="about-content__text">
+                    Драма представляет собой деструктивный цикл.
+                    Анапест представляет собой анапест. Ямб неравномерен.
+                   </div>
+                </div>
               </li>
               <li class="about-content__item">
                 <div class="about-content__logo">
                   <img src="assets/icons/hand.svg" alt="hand" class="about-content__svg-2">
                 </div>
-                <div class="about-content__declaration">
-                  Ручная сборка
-                </div>
-                <div class="about-content__text">
-                  Драма представляет собой деструктивный цикл.
-                  Анапест представляет собой анапест. Первое
-                  полустишие притягивает сюжетный реформаторский
-                   пафос.
+                <div class="about-content__article">
+                  <div class="about-content__caption">
+                    Ручная сборка
+                  </div>
+                  <div class="about-content__text">
+                    Драма представляет собой деструктивный цикл.
+                    Анапест представляет собой анапест. Первое
+                    полустишие притягивает сюжетный реформаторский
+                     пафос.
+                  </div>
                 </div>
               </li>
               <li class="about-content__item">
                 <div class="about-content__logo">
                   <img src="assets/icons/natural.svg" alt="natural" class="about-content__svg-3">
                 </div>
-                <div class="about-content__declaration">
-                  Натуральные ингридиенты
-                </div>
-                <div class="about-content__text">
-                  Драма представляет собой деструктивный цикл.
-                  Анапест представляет собой анапест.
+                <div class="about-content__article">
+                  <div class="about-content__caption">
+                    Натуральные ингридиенты</div>
+                  <div class="about-content__text">
+                    Драма представляет собой деструктивный цикл.
+                    Анапест представляет собой анапест.
+                   </div>
                 </div>
               </li>
             </ul>
@@ -111,10 +121,13 @@
         </main>
       </div>
     </section>
-    <section class="team">
+
+    <section class="section team">
       <div class="team__right">
         <div class="team__content">
-          <h1 class="title title--four title--color--orange">команда</h1>
+          <div class="team__content-title">
+            <h1 class="title title--four title--color--orange">команда</h1>
+          </div>
           <div class="accordeon-team">
             <ul class="team__list">
               <li class="team__item">
@@ -178,7 +191,8 @@
         </div>
       </div>
     </section>
-    <section class="menu">
+
+    <section class="section menu">
       <div class="menu__left">
         <h1 class="title title--five title--color--white">меню</h1>
       </div>
@@ -234,7 +248,8 @@
         </div>
       </div>
     </section>
-    <section class="review">
+
+    <section class="section review">
       <ul class="review__list">
         <li class="review__item">
           <div class="review__block review__block--photo-1">
@@ -390,66 +405,85 @@
         </li>
       </ul>
     </section>
-    <section class="form">
+
+    <section class="section form">
       <div class="container">
-        <h1 class="title title--color--orange">закажите доставку</h1>
+          <h1 class="title title--color--orange title--seven">
+            закажите доставку
+          </h1>
+
         <div class="form__block">
           <form action="#" method="post" class="form__form">
             <div class="form__left">
-              <label class="form__elem">
-                <div class="form__title">Имя</div>
-                <input type="text" class="form__input">
-              </label>
-              <label class="form__elem">
-                <div class="form__title">Телефон</div>
-                <input type="text" class="form__input" placeholder="89161234567">
-              </label>
-              <label class="form__elem">
-                <div class="form__title">Улица</div>
-                <input type="text" class="form__input">
-              </label>
-              <label class="form__elem">
-                <div class="form__title">Дом</div>
-                <input type="text" class="form__input">
-              </label>
-              <label class="form__elem">
-                <div class="form__title">Корпус</div>
-                <input type="text" class="form__input">
-              </label>
-              <label class="form__elem">
-                <div class="form__title">Квартира</div>
-                <input type="text" class="form__input">
-              </label>
-              <label class="form__elem">
-                <div class="form__title">Этаж</div>
-                <input type="text" class="form__input">
-              </label>
+              <div class="form__row">
+                <label class="form__elem">
+                  <div class="form__title">Имя</div>
+                  <input type="text" class="form__input">
+                </label>
+                <label class="form__elem">
+                  <div class="form__title">Телефон</div>
+                  <input type="text" class="form__input" placeholder="89161234567">
+                </label>
+              </div>
+              <div class="form__row">
+                <label class="form__elem">
+                  <div class="form__title">Улица</div>
+                  <input type="text" class="form__input">
+                </label>
+              </div>
+              <div class="form__row">
+                <label class="form__elem">
+                  <div class="form__title">Дом</div>
+                  <input type="text" class="form__input">
+                </label>
+                <label class="form__elem">
+                  <div class="form__title">Корпус</div>
+                  <input type="text" class="form__input">
+                </label>
+                <label class="form__elem">
+                  <div class="form__title">Квартира</div>
+                  <input type="text" class="form__input">
+                </label>
+                <label class="form__elem">
+                  <div class="form__title">Этаж</div>
+                  <input type="text" class="form__input">
+                </label>
+              </div>
             </div>
             <div class="form__right">
-              <label class="form__elem">
-                <div class="form__title">Комментарий</div>
-                <input type="text" class="form__input">
-              </label>
-              <label class="form__elem">
-                <div class="form__title">Потребуется сдача</div>
-                <input type="radio" name="radio-pay" class="form__radio">
-              </label>
-              <label class="form__elem">
-                <div class="form__title">Оплата картой</div>
-                <input type="radio" name="radio-pay" class="form__radio">
-              </label>
-              <label class="form__elem">
-                <div class="form__title">Не перезванивать</div>
-                <input type="checkbox" class="form__check">
-              </label>
-              <input type='submit' value='заказать' class="form__submit order-link">
-              <input type='reset' value='Очистить' class="form__reset">
+              <div class="form__row form__row--textarea">
+                <label class="form__elem">
+                  <div class="form__title">Комментарий</div>
+                  <textarea name="text" class="form__textarea"></textarea>
+                </label>
+              </div>
+              <div class="form__row">
+                <label class="form__elem form__elem--row">
+                  <input type="radio" name="radio-pay" class="form__radio">
+                  <div class="form__title form__title--row">Потребуется сдача</div>
+                </label>
+                <label class="form__elem form__elem--row">
+                  <input type="radio" name="radio-pay" class="form__radio">
+                  <div class="form__title form__title--row">Оплата картой</div>
+                </label>
+              </div>
+              <div class="form__row">
+                <label class="form__elem form__elem--row form__elem--row-last">
+                  <input type="checkbox" class="form__check">
+                  <div class="form__title form__title--row">Не перезванивать</div>
+                </label>
+              </div>
+              <div class="form__row">
+                <input type='submit' value='заказать' class="form__submit order-link">
+                <input type='reset' value='Очистить' class="form__reset">
+              </div>
             </div>
           </form>
         </div>
       </div>
     </section>
-    <section class="contact">
+
+    <section class="section contact">
       <footer class="footer">
         <div class="container">
           <div class="footer__left">
@@ -497,6 +531,7 @@
       </footer>
     </section>
   </div>
+
   <div class="nav-point">
     <ul class="nav-point__list">
       <li class="nav-point__item">
@@ -525,5 +560,6 @@
       </li>
     </ul>
   </div>
+
 </body>
 </html>

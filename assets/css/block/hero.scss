@@ -1,5 +1,4 @@
 .hero{
-  @include page();
   background: url('../img/background/Background.jpg') center center no-repeat;
   background-size: cover;
 
@@ -17,47 +16,40 @@
 }
 
 .hero-content{
-  @include clearfix();
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+}
+
+.hero-content__wrapper{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .hero-content__left,
 .hero-content__right{
-  float: left;
-  width: 50%;
-}
-
-.hero-content__left{
-  position: relative;
-}
-
-.hero-content__drops{
-  position: absolute;
-  top: 55px;
-  left: 15px;
+  flex: 1;
+  align-items: flex-start;
+  transform: translateY(-76px);
 }
 
 .hero-content__img{
-  display: block;
+  display: flex;
   max-width: 100%;
   max-height: 100%;
-  margin: 0;
-  padding-left: 50px;
+  margin: 0 0 0 auto;
 }
 
-.hero-content__text{
-  padding-top: 127px;
-  padding-left: 7px;
-}
-
-.title--one,
-.hero-content__desc{
-  display: inline-block;
+.hero-content__right{
+  padding-top: 72px;
+  padding-left: 14px;
 }
 
 .hero-content__desc{
   font-size: 65px;
   color: $white;
-  padding-top: 16px;
-  line-height: 1;
+  padding-top: 19px;
+  line-height: 0.9;
   @include fonts(lifehack);
 }

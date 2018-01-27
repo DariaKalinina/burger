@@ -1,5 +1,4 @@
 .menu{
-  @include page();
   @include clearfix();
   background: url('../img/background/menu.jpg') center center no-repeat;
   background-size: cover;

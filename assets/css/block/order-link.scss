@@ -1,9 +1,8 @@
 .order-link{
-  vertical-align: middle;
+  display: flex;
   font-size: 13px;
   color: $white;
-  padding: 11px 15px;
-  display: inline-block;
+  padding: 10px 16px;
   text-transform: uppercase;
   text-decoration: none;
   border-radius: 5px;

@@ -1,32 +1,41 @@
 .header{
-  @include clearfix();
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
 }
 
 .header__left,
 .header__right{
-  float: left;
+  display: flex;
 }
 
 .header__left{
-  padding-top: 10px;
-  width: 12%;
+  justify-content: flex-start;
+}
+
+.logo{
+  max-width: 89px;
+  max-height: 69px;
+  overflow: hidden;
 }
 
 .header__right{
-  display: inline-block;
-  width: 88%;
-  padding-top: 26px;
-  text-align: right;
+  justify-content: flex-end;
+  align-items: center;
 }
 
-.nav{
-  display: inline-block;
+.nav__list{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .nav__item{
-  display: inline-block;
+  display: flex;
+  align-items: center;
   position: relative;
-  vertical-align: middle;
     &:after{
       content: "";
       display: block;
@@ -46,11 +55,10 @@
 }
 
 .nav__link{
-  vertical-align: middle;
+  display: flex;
   font-size: 13px;
   color: $white;
-  padding: 11px 15px;
-  display: inline-block;
+  padding: 10px 17px;
   text-transform: uppercase;
   text-decoration: none;
   @include fonts(ubuntu, medium);

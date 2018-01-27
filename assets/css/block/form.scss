@@ -1,20 +1,131 @@
 .form{
-  @include page();
   background: url('../img/background/form-bg.jpg') center center no-repeat;
   background-size: cover;
 }
 
+.title--seven{
+  display: block;
+  text-align: center;
+  padding-top: 125px;
+  padding-bottom: 35px;
+}
+
+.form__block{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form__form{
+  display: flex;
+  flex-grow: 1;
+  flex-direction: row;
+}
+
+.form__left,
+.form__right{
+  display: flex;
+  flex: 1 0 50%;
+  flex-direction: column;
+}
+
+.form__left{
+  padding-right: 10px;
+}
+
+.form__right{
+  padding-left: 10px;
+}
+
+.form__row{
+  display: flex;
+  flex-grow: 0;
+  flex-direction: row;
+  // padding-left: 10px;
+  // padding-right: 10px;
+
+      &--textarea{
+        flex-grow: 2;
+      }
+}
+
+.form__elem{
+  display: block;
+  flex: 1 1 0;
+  margin-bottom: 17px;
+  margin-right: 20px;
+
+    &:last-child{
+      margin-right: 0;
+    }
+
+    &--row{
+      display: flex;
+      flex: 0 1 32%;
+      flex-direction: row;
+      align-items: center;
+      justify-content: flex-start;
+    }
+
+    &--row-last{
+      margin-top: 10px;
+    }
+}
+
 .form__title{
   color: $white;
+  @include fonts(ubuntu, light);
+  font-size: 14px;
+  margin-bottom: 8px;
+    &--row{
+      margin-bottom: 0;
+    }
 }
 
 .form__input{
   background-color: $white;
   border: 1px solid $beige;
   border-radius: 5px;
+  width: 100%;
   height: 34px;
     &:focus{
       outline: none!important;
       border: 2px solid #f9b43b;
     }
+}
+
+.form__textarea{
+  display: block;
+  background-color: $white;
+  border: 1px solid $beige;
+  border-radius: 5px;
+  width: 100%;
+  height: 110px;
+
+    &:focus{
+      outline: none!important;
+      border: 2px solid #f9b43b;
+    }
+}
+
+.form__radio,
+.form__check{
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.form__submit,
+.form__reset{
+  &:focus{
+    outline: none!important;
+  }
+}
+
+.form__reset{
+  padding-left: 20px;
+  background-color: transparent;
+  border: none;
+  color: $white;
+  @include fonts(ubuntu, light);
+  font-size: 14px;
 }
