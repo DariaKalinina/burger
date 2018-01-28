@@ -1,10 +1,12 @@
 .team{
-  @include page();
   background: url('../img/background/team.jpg') center center no-repeat;
   background-size: cover;
 }
 
 .team__right{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: absolute;
   top: 0;
   bottom: 0;
@@ -15,16 +17,18 @@
 }
 
 .team__content{
-  padding-top: 100px;
-  padding-left: 100px;
+  display: flex;
+  flex-direction: column;
+  transform: translateY(-6px);
 }
 
 .title--four{
+  margin-left: 12px;
   margin-bottom: 36px;
 }
 
 .accordeon-team{
-  padding-left: 17px;
+  padding-left: 31px;
 }
 
 .team__link{
@@ -59,6 +63,7 @@
       }
 
       .team-desc{
+        display: flex;
         height: 138px;
         overflow: hidden;
       }

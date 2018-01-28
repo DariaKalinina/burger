@@ -1,14 +1,16 @@
 // ---------------------mixin
-@mixin clearfix() {
-    &:before,
-    &:after {
-        content: "";
-        display: block;
-    }
-    &:after {
-        clear: both;
-    }
-}
+
+// нужен для float
+// @mixin clearfix() {
+//     &:before,
+//     &:after {
+//         content: "";
+//         display: block;
+//     }
+//     &:after {
+//         clear: both;
+//     }
+// }
 
 @mixin fonts($font-famyly: ubuntu, $weight: light) {
   @if $font-famyly == ubuntu {

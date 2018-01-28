@@ -1,22 +1,18 @@
 .header{
-  @include clearfix();
-}
-
-.header__left,
-.header__right{
-  float: left;
-}
-
-.header__left{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   padding-top: 10px;
-  width: 12%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 80px;
 }
 
-.header__right{
-  display: inline-block;
-  width: 88%;
-  padding-top: 26px;
-  text-align: right;
+.logo{
+  max-width: 90px;
+  min-height: 70px;
 }
 
 .nav{

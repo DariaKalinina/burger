@@ -1,13 +1,8 @@
 .menu{
-  @include page();
-  @include clearfix();
   background: url('../img/background/menu.jpg') center center no-repeat;
   background-size: cover;
-}
-
-.menu__left,
-.menu__right{
-  float: left;
+  display: flex;
+  justify-content: space-between;
 }
 
 .menu__right{

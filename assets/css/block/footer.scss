@@ -5,13 +5,12 @@
   position: absolute;
   bottom: 0;
   width: 100%;
-  @include clearfix();
 }
 
-.footer__left,
-.footer__right{
-  float: left;
-  width: 50%;
+.footer__wrapper{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .footer__adress{
