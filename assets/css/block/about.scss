@@ -9,7 +9,7 @@
   align-content: center;
   flex-direction: column;
   height: 100%;
-  transform: translateY(-21px);
+  transform: translateY(rem(-21px));
 }
 
 
@@ -20,7 +20,7 @@
 
 .title--two{
   text-align: center;
-  padding-bottom: 40px;
+  padding-bottom: rem(40px);
 }
 
 .about-content__list{
@@ -35,8 +35,8 @@
 }
 
 .about-content__logo{
-  max-height: 90px;
-  margin-bottom: 30px;
+  max-height: rem(90px);
+  margin-bottom: rem(30px);
 }
 
 .about-content__article{
@@ -45,14 +45,14 @@
 }
 
 .about-content__caption{
-  font-size: 24px;
+  font-size: rem(24px);
   color:  $black;
   @include fonts(lifehack);
-  margin-bottom: 15px;
+  margin-bottom: rem(15px);
 }
 
 .about-content__text{
-  font-size: 14px;
+  font-size: rem(14px);
   color: $grey;
   line-height: 1.5;
     @include fonts(ubuntu,light);

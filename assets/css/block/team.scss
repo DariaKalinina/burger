@@ -19,22 +19,22 @@
 .team__content{
   display: flex;
   flex-direction: column;
-  transform: translateY(-6px);
+  transform: translateY(rem(-6px));
 }
 
 .title--four{
-  margin-left: 12px;
-  margin-bottom: 36px;
+  margin-left: rem(12px);
+  margin-bottom: rem(36px);
 }
 
 .accordeon-team{
-  padding-left: 31px;
+  padding-left: rem(31px);
 }
 
 .team__link{
-  font-size: 14px;
+  font-size: rem(14px);
   color: $white;
-  padding-bottom: 17px;
+  padding-bottom: rem(17px);
   display: inline-block;
   text-transform: uppercase;
   text-decoration: none;
@@ -43,38 +43,38 @@
     &:after{
       content: "";
       position: absolute;
-      top: 5px;
-      left: -20px;
+      top: rem(5px);
+      left: rem(-20px);
       display: inline-block;
       width: 0;
       height: 0;
-      border-top: 7px solid $orange;
-      border-left: 5px solid transparent;
-      border-right: 5px solid transparent;
+      border-top: rem(7px) solid $orange;
+      border-left: rem(5px) solid transparent;
+      border-right: rem(5px) solid transparent;
     }
     &--active{
       color: $orange;
 
       &:after{
-        border-bottom: 7px solid $orange;
+        border-bottom: rem(7px) solid $orange;
         border-top: 0;
-        border-left: 5px solid transparent;
-        border-right: 5px solid transparent;
+        border-left: rem(5px) solid transparent;
+        border-right: rem(5px) solid transparent;
       }
 
       .team-desc{
         display: flex;
-        height: 138px;
+        height: rem(138px);
         overflow: hidden;
       }
     }
 }
 
 .team-desc{
-  height: 0px;
+  height: rem(0px);
   width: 100%;
   overflow: hidden;
-  padding-top: 17px;
+  padding-top: rem(17px);
 }
 
 .team-desc__left,
@@ -84,15 +84,15 @@
 }
 
 .team-desc__left{
-  width: 100px;
-  height: 100px;
+  width: rem(100px);
+  height: rem(100px);
   border-radius: 50%;
   overflow: hidden;
   position: relative;
 }
 
 .team-desc__img{
-  max-height: 100px;
+  max-height: rem(100px);
   position: absolute;
   position: absolute;
   top: 50%;
@@ -102,23 +102,23 @@
 }
 
 .team-desc__right{
-  width: 235px;
-  padding-left: 15px;
+  width: rem(235px);
+  padding-left: rem(15px);
   text-transform: none;
 
 }
 
 .team-desc__prof{
   display: block;
-  font-size: 14px;
+  font-size: rem(14px);
   color: $white;
-  padding-bottom: 15px;
+  padding-bottom: rem(15px);
   @include fonts(ubuntu, bold);
 }
 
 .team-desc__text{
   display: block;
-  font-size: 14px;
+  font-size: rem(14px);
   color: $white;
   line-height: 1.7;
   @include fonts(ubuntu, light);

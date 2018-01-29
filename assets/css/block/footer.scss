@@ -1,7 +1,7 @@
 .footer{
   background-color: $total-black;
-  height: 58px;
-  margin-top: -58px;
+  height: rem(58px);
+  margin-top: rem(-58px);
   position: absolute;
   bottom: 0;
   width: 100%;
@@ -15,21 +15,21 @@
 
 .footer__adress{
   @include fonts(ubuntu, light);
-  font-size: 14px;
+  font-size: rem(14px);
   color: $white;
-  margin-top: 10px;
-  margin-bottom: 8px;
+  margin-top: rem(10px);
+  margin-bottom: rem(8px);
 
 }
 
 .foooter__phone{
   @include fonts(ubuntu, bold);
-  font-size: 14px;
+  font-size: rem(14px);
   color: $red;
 }
 
 .foooter__phone-icon{
-  margin-right: 6px;
+  margin-right: rem(6px);
 }
 
 .footer__right{
@@ -37,9 +37,9 @@
 }
 
 .socials__item{
-  margin-top: 18px;
+  margin-top: rem(18px);
   display: inline-block;
-  margin-right: 16px;
+  margin-right: rem(16px);
     &:last-child{
       margin-right: 0;
     }
@@ -47,15 +47,15 @@
 
 .socials__link{
   display: inline-block;
-  width: 20px;
-  height: 20px;
+  width: rem(20px);
+  height: rem(20px);
 }
 
 .icon{
   display: inline-block;;
   vertical-align: middle;
-  width: 20px;
-  height: 20px;
+  width: rem(20px);
+  height: rem(20px);
   fill: $light-grey;
     &:hover{
       fill: $white;

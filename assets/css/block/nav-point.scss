@@ -1,31 +1,31 @@
 .nav-point{
   position: fixed;
-  right: 50px;
-  top: 90px;
+  right: rem(50px);
+  top: rem(90px);
   z-index: 100;
 }
 
 .nav-point__item{
-  margin-bottom: 5px;
+  margin-bottom: rem(5px);
 }
 
 .nav-point__link{
   display: block;
-  padding: 4px;
-  width: 16px;
-  height: 16px;
+  padding: rem(4px);
+  width: rem(16px);
+  height: rem(16px);
   background-color: transparent;
-  border: 1px solid transparent;
+  border: rem(1px) solid transparent;
   border-radius: 50%;
     &:after{
       content: "";
       display: block;
-      width: 0px;
-      height: 0px;
-      border: 3px solid $white;
+      width: rem(0px);
+      height: rem(0px);
+      border: rem(3px) solid $white;
       border-radius: 50%;
     }
   &--active{
-    border: 1px solid $white;
+    border: rem(1px) solid $white;
   }
 }

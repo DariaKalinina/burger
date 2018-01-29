@@ -13,8 +13,8 @@
 }
 
 .title--five{
-  margin-left: 96px;
-  margin-top: 98px;
+  margin-left: rem(96px);
+  margin-top: rem(98px);
 }
 
 .menu__list{
@@ -28,7 +28,7 @@
       color: $orange;
     }
     .menu__desc{
-      width: 540px;
+      width: rem(540px);
     }
   }
 }
@@ -37,7 +37,7 @@
   text-decoration: none;
   position: relative;
   display: inline-block;
-  width: 80px;
+  width: rem(80px);
   height: 100vh;
     &--meat{
       background: url('../img/background/meat-burger.jpg') center center no-repeat;
@@ -66,9 +66,9 @@
 
 .menu__title{
   position: absolute;
-  left: 42px;
-  bottom: 17px;
-  font-size: 40px;
+  left: rem(42px);
+  bottom: rem(17px);
+  font-size: rem(40px);
   z-index: 10;
   text-transform: uppercase;
   white-space: nowrap;
@@ -89,8 +89,8 @@
 
 .menu__text{
   display: inline-block;
-  padding: 62px 35px;
-  font-size: 14px;
+  padding: rem(62px) rem(35px);
+  font-size: rem(14px);
   line-height: 1.8;
   color: $white;
   @include fonts(ubuntu, light);

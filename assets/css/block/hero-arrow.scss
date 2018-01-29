@@ -2,14 +2,14 @@
   display: block;
   width: 100%;
   text-align: center;
-  height: 54px;
+  height: rem(54px);
   position: absolute;
   bottom: 0;
 }
 
 .arrow__link{
   display: inline-block;
-  width: 32px;
-  height: 16px;
+  width: rem(32px);
+  height: rem(16px);
   background: url(../icons/arrow-scroll.svg) center center no-repeat;
 }

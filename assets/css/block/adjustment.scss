@@ -5,8 +5,8 @@ html, body{
   position: relative;
 }
 
-.body{
-  font-size: 14px;
+body{
+  font-size: rem(14px);
   font-family: 'ubuntu', Arial, sans-serif;
   font-weight: 300;
   line-height: 1.42;
@@ -27,14 +27,14 @@ html, body{
 }
 
 .container{
-  width: 940px;
+  width: rem(940px);
   height: 100vh;
   margin: 0 auto;
   position: relative;
 }
 
 .title{
-  font-size: 72px;
+  font-size: rem(72px);
   text-transform: uppercase;
   @include fonts(gagalin);
       &--color{

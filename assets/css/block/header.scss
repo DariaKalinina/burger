@@ -2,17 +2,17 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 10px;
+  padding-top: rem(10px);
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
-  height: 80px;
+  height: rem(80px);
 }
 
 .logo{
-  max-width: 90px;
-  min-height: 70px;
+  max-width: rem(90px);
+  min-height: rem(70px);
 }
 
 .nav{
@@ -28,11 +28,11 @@
       display: block;
       width: 0;
       height: 0;
-      border: 2px solid $white;
+      border: rem(2px) solid $white;
       border-radius: 50%;
       position: absolute;
       top: 50%;
-      transform: translate(-2px, -2px);
+      transform: translate(rem(-2px), rem(-2px));
     }
     &:first-child{
       &:after{
@@ -43,9 +43,9 @@
 
 .nav__link{
   vertical-align: middle;
-  font-size: 13px;
+  font-size: rem(13px);
   color: $white;
-  padding: 11px 15px;
+  padding: rem(11px) rem(15px);
   display: inline-block;
   text-transform: uppercase;
   text-decoration: none;
