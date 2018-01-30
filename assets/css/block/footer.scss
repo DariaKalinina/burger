@@ -5,12 +5,21 @@
   position: absolute;
   bottom: 0;
   width: 100%;
+    @include phone{
+      height: rem(114px);
+      margin-top: rem(-115px);
+    }
 }
 
 .footer__wrapper{
   display: flex;
   justify-content: space-between;
   align-items: center;
+    @include phone{
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+    }
 }
 
 .footer__adress{
@@ -37,11 +46,13 @@
 }
 
 .socials__item{
-  margin-top: rem(18px);
   display: inline-block;
   margin-right: rem(16px);
     &:last-child{
       margin-right: 0;
+    }
+    @include phone{
+      margin-top: rem(10px);
     }
 }
 
@@ -49,6 +60,7 @@
   display: inline-block;
   width: rem(20px);
   height: rem(20px);
+
 }
 
 .icon{

@@ -4,8 +4,32 @@
   }
 }
 
+@mixin tablet840{
+  @media screen and (max-width: 840px){
+    @content;
+  }
+}
+
+@mixin tablet700{
+  @media screen and (max-width: 700px){
+    @content;
+  }
+}
+
 @mixin phone{
   @media screen and (max-width: $phone){
+    @content;
+  }
+}
+
+@mixin phone450{
+  @media screen and (max-width: 450px){
+    @content;
+  }
+}
+
+@mixin phone420{
+  @media screen and (max-width: 420px){
     @content;
   }
 }

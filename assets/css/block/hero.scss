@@ -31,6 +31,10 @@
       flex-direction: column;
       text-align: center;
     }
+    @include tablet{
+      transform: translateY(-11px);
+    }
+
 }
 
 .hero-content__left,
@@ -52,6 +56,9 @@
       padding-top: rem(18px);
       padding-left: 0;
     }
+    @include phone{
+      max-width: 80%;
+    }
 }
 
 .title--one,
@@ -66,6 +73,10 @@
     padding-top: rem(14px);
     padding-left: 0;
   }
+  @include phone{
+    font-size: rem(63px);
+    padding-top: rem(28px);
+  }
 }
 
 
@@ -77,8 +88,14 @@
   line-height: 1;
   @include fonts(lifehack);
     @include tablet{
-      width: 60%;
       padding-top: rem(12px);
       padding-left: 0;
+    }
+    @include phone{
+      font-size: rem(54px);
+      padding-top: 0;
+    }
+    @include phone450{
+      font-size: rem(50px);
     }
 }

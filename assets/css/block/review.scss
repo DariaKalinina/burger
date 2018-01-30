@@ -41,6 +41,12 @@
       text-align: center;
       padding: rem(32px) rem(42px);
     }
+    @include phone{
+      text-align: center;
+      padding-top: rem(46px);
+      padding-bottom: rem(48px);
+    }
+
 }
 
 .review__block:hover .review__elem{
@@ -52,6 +58,9 @@
   text-transform: uppercase;
   margin-bottom: rem(21px);
   @include fonts(gagalin);
+    @include phone{
+      font-size: rem(24px);
+    }
 }
 
 .review__review-text{
@@ -59,9 +68,16 @@
   overflow: hidden;
   @include fonts(ubuntu, light);
   line-height: 1.75;
+    @include tablet{
+      height: 45%;;
+    }
+    @include phone{
+      display: none;
+    }
 }
 
-.review__review-btn{
+.review__review-btn,
+.review__review-read{
   display: inline-block;
   padding: rem(10px) rem(17px);
   font-size: rem(13px);
@@ -74,5 +90,20 @@
   @include fonts(ubuntu, light);
     &:hover{
       background-color: #1f2122;
+    }
+}
+
+.review__review-btn{
+  @include phone{
+    display: none;
+  }
+}
+
+.review__review-read{
+  display: none;
+  margin-top: 0;
+  @include fonts(ubuntu, medium);
+    @include phone{
+      display: inline-block;
     }
 }

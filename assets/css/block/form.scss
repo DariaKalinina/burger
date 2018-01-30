@@ -8,6 +8,17 @@
   text-align: center;
   padding-top: rem(125px);
   padding-bottom: rem(35px);
+  white-space: nowrap;
+    @include tablet700{
+      padding-top: 0;
+      white-space: normal;
+    }
+    @include phone{
+      white-space: normal;
+      padding-top: rem(58px);
+      padding-bottom: rem(25px);
+      line-height: 1.16;
+    }
 }
 
 .form__form{
@@ -19,6 +30,9 @@
       flex-grow: 0;
       max-width: 65%;
       margin: 0 auto;
+    }
+    @include phone{
+      max-width: 100%;
     }
 }
 
@@ -50,6 +64,15 @@
 
       &--textarea{
         flex-grow: 2;
+          @include phone{
+          margin-bottom: rem(11px);
+          }
+      }
+      &--center{
+        @include phone{
+          margin-top: rem(8px);
+          justify-content: center;
+        }
       }
 }
 
@@ -58,6 +81,7 @@
   flex: 1 1 0;
   margin-bottom: rem(17px);
   margin-right: rem(20px);
+
     &:last-child{
       margin-right: 0;
     }
@@ -69,6 +93,9 @@
       align-items: center;
       justify-content: flex-start;
       white-space: nowrap;
+        @include phone{
+          padding-left: rem(23px);
+        }
     }
 
     &--row-last{
@@ -77,6 +104,19 @@
           margin-top: rem(5px);
           margin-bottom: rem(36px);
         }
+    }
+
+    @include phone{
+      margin-right: rem(11px);
+      &:nth-child(3){
+        margin-right: 0;
+      }
+    }
+
+    &--none{
+      @include phone{
+        display: none;
+      }
     }
 }
 

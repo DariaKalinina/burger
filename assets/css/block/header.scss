@@ -62,6 +62,9 @@
     &:last-child{
       padding-right: rem(14px);
     }
+    @include tablet840{
+      padding: rem(11px) rem(7px);
+    }
 }
 
 .header__burger-menu{

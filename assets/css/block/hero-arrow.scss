@@ -5,6 +5,9 @@
   height: rem(54px);
   position: absolute;
   bottom: 0;
+  @include phone{
+    height: rem(45px);
+  }
 }
 
 .arrow__link{

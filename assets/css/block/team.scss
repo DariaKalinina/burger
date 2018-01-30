@@ -33,7 +33,12 @@
   margin-left: rem(12px);
   margin-bottom: rem(29px);
     @include tablet{
+      margin-top: rem(11px);
       margin-bottom: rem(26px);
+    }
+    @include phone{
+      margin-top: rem(63px);
+      margin-bottom: rem(15px);
     }
 
 }

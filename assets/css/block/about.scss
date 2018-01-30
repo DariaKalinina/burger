@@ -27,27 +27,50 @@
 .title--two{
   text-align: center;
   padding-bottom: rem(32px);
+    @include phone{
+      font-size: rem(50px);
+      padding-top: rem(123px);
+      padding-bottom: rem(14px);
+    }
 }
 
 .about-content__list{
   display: flex;
+    @include phone{
+      flex-direction: column;
+    }
 }
 
 .about-content__item{
   display: flex;
-  flex: 1;
+  flex: 1 1 33%;
   flex-direction: column;
   align-items: center;
+    @include phone{
+      flex-direction: row;
+      align-items: flex-start;
+      justify-content: space-between;
+      padding-bottom: rem(46px);
+    }
 }
 
 .about-content__logo{
   max-height: rem(90px);
   margin-bottom: rem(30px);
+    @include phone{
+      max-width: rem(90px);
+      margin: 0 auto;
+    }
 }
 
 .about-content__article{
   text-align: center;
   max-width: 90%;
+    @include phone{
+      width: 77%;
+      text-align: left;
+      padding-left: rem(26px);
+    }
 }
 
 .about-content__caption{
@@ -55,6 +78,12 @@
   color:  $black;
   @include fonts(lifehack);
   margin-bottom: rem(15px);
+    @include phone{
+      white-space: nowrap;
+    }
+    @include phone450{
+      white-space: pre-line;
+    }
 }
 
 .about-content__text{
