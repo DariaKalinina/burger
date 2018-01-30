@@ -27,10 +27,14 @@ body{
 }
 
 .container{
-  width: rem(940px);
+  max-width: rem(940px);
+  width: 100%;
   height: 100vh;
   margin: 0 auto;
   position: relative;
+    @include tablet{
+      max-width: rem(720px);
+    }
 }
 
 .title{

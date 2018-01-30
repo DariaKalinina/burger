@@ -9,6 +9,10 @@
   width: 25%;
   height: 50%;
   overflow: hidden;
+    @include tablet{
+      width: 50%;
+      height: 25%;
+    }
 }
 
 .review__block{
@@ -33,6 +37,10 @@
   background-color: rgba(#454545, 0.7);
   text-align: left;
   visibility: hidden;
+    @include tablet{
+      text-align: center;
+      padding: rem(32px) rem(42px);
+    }
 }
 
 .review__block:hover .review__elem{

@@ -9,7 +9,13 @@
   align-content: center;
   flex-direction: column;
   height: 100%;
+}
+
+.about-content__wrapper{
   transform: translateY(rem(-21px));
+    @include tablet{
+      transform: translateY(rem(-94px));
+    }
 }
 
 
@@ -20,7 +26,7 @@
 
 .title--two{
   text-align: center;
-  padding-bottom: rem(40px);
+  padding-bottom: rem(32px);
 }
 
 .about-content__list{
@@ -55,5 +61,5 @@
   font-size: rem(14px);
   color: $grey;
   line-height: 1.5;
-    @include fonts(ubuntu,light);
+  @include fonts(ubuntu,light);
 }

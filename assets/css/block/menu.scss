@@ -15,6 +15,10 @@
 .title--five{
   margin-left: rem(96px);
   margin-top: rem(98px);
+    @include tablet{
+      margin-left: rem(24px);
+      margin-top: rem(90px);
+    }
 }
 
 .menu__list{
@@ -23,12 +27,16 @@
 
 .menu__item{
   display: inline-block;
+
   &--active{
     .menu__title{
       color: $orange;
     }
     .menu__desc{
       width: rem(540px);
+        @include tablet{
+          width: rem(528px);
+        }
     }
   }
 }
@@ -39,18 +47,22 @@
   display: inline-block;
   width: rem(80px);
   height: 100vh;
+
     &--meat{
       background: url('../img/background/meat-burger.jpg') center center no-repeat;
       background-size: cover;
     }
+
     &--veg{
       background: url('../img/background/veg.jpg') center center no-repeat;
       background-size: cover;
     }
+
     &--diet{
       background: url('../img/background/dietary.jpg') center center no-repeat;
       background-size: cover;
     }
+
     &:after{
       content: "";
       position: absolute;

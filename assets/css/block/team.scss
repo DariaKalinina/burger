@@ -14,32 +14,91 @@
   left: 51%;
   background-size: cover;
   background-color: rgba($black, 0.93);
+    @include tablet{
+        left: 0;
+      }
 }
 
 .team__content{
-  display: flex;
-  flex-direction: column;
-  transform: translateY(rem(-6px));
+  transform: translateY(-46px);
+    @include tablet{
+      text-align: center;
+    }
+
 }
 
 .title--four{
+  display: block;
+  margin-top: rem(40px);
   margin-left: rem(12px);
-  margin-bottom: rem(36px);
+  margin-bottom: rem(29px);
+    @include tablet{
+      margin-bottom: rem(26px);
+    }
+
 }
 
 .accordeon-team{
+  display: block;
   padding-left: rem(31px);
+}
+
+
+.team__item{
+  padding-bottom: rem(15px);
+  padding-top: rem(15px);
+    @include tablet{
+      padding-bottom: rem(11px);
+      padding-top: rem(11px);
+    }
+
+    &:first-child{
+      padding-top: 0;
+    }
+
+    &:last-child{
+      padding-bottom: 0;
+    }
+
+    &--active{
+      .team__link{
+        color: $orange;
+
+        &:after{
+          border-bottom: rem(7px) solid $orange;
+          border-top: 0;
+          border-left: rem(5px) solid transparent;
+          border-right: rem(5px) solid transparent;
+        }
+      }
+      .team-desc{
+        display: flex;
+        padding-top: rem(12px);
+        height: rem(125px);
+        overflow: hidden;
+          @include tablet{
+            padding-top: rem(12px);
+            padding-right: rem(31px);
+            height: rem(211px);
+            flex-direction: column;
+            align-items: center;
+          }
+      }
+    }
 }
 
 .team__link{
   font-size: rem(14px);
   color: $white;
-  padding-bottom: rem(17px);
   display: inline-block;
   text-transform: uppercase;
   text-decoration: none;
   position: relative;
   @include fonts(gagalin);
+    @include tablet{
+      font-size: rem(25px);
+    }
+
     &:after{
       content: "";
       position: absolute;
@@ -51,22 +110,10 @@
       border-top: rem(7px) solid $orange;
       border-left: rem(5px) solid transparent;
       border-right: rem(5px) solid transparent;
-    }
-    &--active{
-      color: $orange;
-
-      &:after{
-        border-bottom: rem(7px) solid $orange;
-        border-top: 0;
-        border-left: rem(5px) solid transparent;
-        border-right: rem(5px) solid transparent;
-      }
-
-      .team-desc{
-        display: flex;
-        height: rem(138px);
-        overflow: hidden;
-      }
+        @include tablet{
+          top: rem(12px);
+          left: rem(-19px);
+        }
     }
 }
 
@@ -74,7 +121,6 @@
   height: rem(0px);
   width: 100%;
   overflow: hidden;
-  padding-top: rem(17px);
 }
 
 .team-desc__left,
@@ -89,30 +135,25 @@
   border-radius: 50%;
   overflow: hidden;
   position: relative;
-}
-
-.team-desc__img{
-  max-height: rem(100px);
-  position: absolute;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-
+  background: url('../img/content/team-photo.jpg') center center no-repeat;
+  background-size: cover;
 }
 
 .team-desc__right{
   width: rem(235px);
-  padding-left: rem(15px);
-  text-transform: none;
-
+  padding-left: rem(18px);
+    @include tablet{
+      padding-left: 0;
+      padding-top: rem(13px);
+      width: rem(341px);
+    }
 }
 
 .team-desc__prof{
   display: block;
   font-size: rem(14px);
   color: $white;
-  padding-bottom: rem(15px);
+  padding-bottom: rem(13px);
   @include fonts(ubuntu, bold);
 }
 

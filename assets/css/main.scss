@@ -9,12 +9,18 @@ $light-grey: #585858;
 $dark-grey: #141414;
 $beige: #d1cfcb;
 
+// ---------------------max-width
+$tablet: 768px;
+$phone: 480px;
+
+
 //----------layout
 @import "layout/normalize.scss";
 @import "layout/fonts.scss";
 
 //----------mixin
 @import "mixin/mixin.scss";
+@import "mixin/media.scss";
 
 //----------стили
 @import "block/adjustment.scss";
