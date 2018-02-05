@@ -1,0 +1,20 @@
+.burger{
+  background-image: linear-gradient(to bottom, rgb(249,180,59), rgb(235,140,56) 48%, rgb(249,180,59) 100%);
+}
+
+.burger__content{
+  display: flex;
+  height: 72%;
+  padding-top: 14%;
+}
+
+.burger__content-left,
+.burger__content-right{
+  flex-grow: 1;
+  flex-basis: 50%;
+}
+
+.burger__content-left{
+  background: url(../img/content/burgers-slider/burger.png) center center no-repeat;
+  background-size: contain;
+}

@@ -13,6 +13,8 @@
 .logo{
   max-width: rem(90px);
   min-height: rem(70px);
+  position: relative;
+  z-index: 1;
 }
 
 .nav{
@@ -59,10 +61,8 @@
   text-transform: uppercase;
   text-decoration: none;
   @include fonts(ubuntu, medium);
-    &:last-child{
-      padding-right: rem(14px);
-    }
-    @include tablet840{
+
+    @include tablet885{
       padding: rem(11px) rem(7px);
     }
 }
@@ -72,6 +72,7 @@
   padding-left: rem(30px);
   padding-right: rem(6px);
     @include tablet{
+      position: relative;
       display: inline-block;
     }
 }
@@ -104,4 +105,25 @@
       width: rem(24px);
       height: rem(4px);
     }
+}
+
+.header__x{
+display: none;
+z-index: 15;
+background: #c1c2c2;
+height: rem(4px);
+width: rem(28px);
+position: relative;
+transform: rotate(45deg);
+
+  &:after {
+  content: "";
+  display: block;
+  position: absolute;
+  height: rem(28px);
+  width: rem(4px);
+  background: #c1c2c2;
+  top: rem(-12px);
+  left: rem(12px);
+  }
 }

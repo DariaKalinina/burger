@@ -77,17 +77,10 @@
         }
       }
       .team-desc{
-        display: flex;
-        padding-top: rem(12px);
         height: rem(125px);
-        overflow: hidden;
-          @include tablet{
-            padding-top: rem(12px);
-            padding-right: rem(31px);
-            height: rem(211px);
-            flex-direction: column;
-            align-items: center;
-          }
+            @include tablet{
+              height: rem(211px);
+            }
       }
     }
 }
@@ -126,6 +119,16 @@
   height: rem(0px);
   width: 100%;
   overflow: hidden;
+  display: flex;
+  padding-top: rem(12px);
+
+    @include tablet{
+      padding-top: rem(12px);
+      padding-right: rem(31px);
+      height: rem(0px);
+      flex-direction: column;
+      align-items: center;
+    }
 }
 
 .team-desc__left,
