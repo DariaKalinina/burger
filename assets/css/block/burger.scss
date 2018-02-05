@@ -6,12 +6,18 @@
   display: flex;
   height: 100vh;
   align-items: center;
-
 }
+
 .burger__content{
   display: flex;
   height: 72%;
   align-items: center;
+    @include tablet{
+      flex-direction: column;
+      height: 100%;
+      text-align: center;
+      justify-content: center;
+    }
 }
 
 .burger__content-left{
@@ -20,20 +26,50 @@
   height: 100%;
   position: relative;
   display: flex;
-  justify-content: flex-start;
   align-items: center;
-
+  justify-content: center;
+    @include tablet{
+      width: 65%;
+      height: auto;
+      flex-grow: 0;
+      flex-basis: 39%;
+    }
+    @include phone{
+      width: 100%;
+      flex-basis: 45%;
+      align-items: flex-end;
+    }
 }
 
 .burger__content-right{
   flex-grow: 1;
   flex-basis: 50%;
   padding-left: 10px;
+    @include tablet{
+      width: 81%;
+      flex-grow: 0;
+      flex-basis: 38%;
+    }
+    @include phone{
+      flex-basis: 40%;
+      width: 100%;
+      padding-left: 0;
+    }
 }
 
 .burger__content-img{
   max-width: 100%;
   max-height: 70%;
+    @include tablet{
+      max-height: 100%;
+      margin-top: 60px;
+      margin-left: 10px;
+    }
+    @include phone{
+      max-width: 80%;
+      max-height: 80%;
+      padding-left: 6px;
+    }
 }
 
 .burger__composition{
@@ -52,12 +88,11 @@
 }
 
 .burger__composition-svg{
-  max-height: 50%;
-  max-width: 50%;
+  max-height: 55%;
+  max-width: 55%;
 }
 
-.burger__composition-text,
-.burger__kkal-text{
+.burger__composition-text{
   color: $white;
   font-size: 16px;
   @include fonts(gagalin);
@@ -73,6 +108,12 @@
   text-transform: uppercase;
   text-decoration: none;
   text-align: center;
+    @include tablet{
+      bottom: inherit;
+      left: inherit;
+      top: 0;
+      right: 0;
+    }
 }
 
 .burger__kkal-svg{
@@ -85,10 +126,27 @@
   background: url(../icons/kkal.svg) center center no-repeat;
 }
 
+.burger__kkal-text{
+  color: $white;
+  font-size: 16px;
+  @include fonts(gagalin);
+}
+
 .title--three{
   padding-top: 8px;
   padding-bottom: 44px;
   line-height: 0.9;
+    @include tablet{
+      padding-top: 24px;
+    }
+    @include phone{
+      line-height: 1.1;
+      padding-top: 30px;
+      padding-bottom: 20px;
+      width: 89%;
+      padding-left: 54px;
+    }
+
 }
 
 .burger__desk{
@@ -97,11 +155,11 @@
   font-size: 14px;
   line-height: 1.75;
   @include fonts(ubuntu, light);
+    @include tablet{
+      padding-bottom: 15px;
+    }
 }
 
-.burger__order{
-  vertical-align: baseline;
-}
 
 .burger__price{
   vertical-align: baseline;
@@ -109,6 +167,11 @@
   color: rgb(228, 80, 40);
   font-size: 72px;
   @include fonts(gagalin);
+    @include phone{
+      font-size: 50px;
+      vertical-align: bottom;
+      line-height: 1;
+    }
 }
 
 .burger__ruble{
@@ -117,11 +180,19 @@
   color: rgb(228, 80, 40);
   font-size: 30px;
   @include fonts(gagalin);
+    @include phone{
+      font-size: 24px;
+      vertical-align: bottom;
+      line-height: 1;
+    }
 }
 
 .burger__link{
   vertical-align: baseline;
   margin-left: 23px;
+    @include phone{
+      vertical-align: bottom;
+    }
 }
 
 .arrow__left,
@@ -134,8 +205,20 @@
 
 .arrow__left{
   left: -24px;
+    @include tablet{
+      left: 30px;
+    }
+    @include phone{
+      left: 10px;
+    }
 }
 
 .arrow__right{
   right: -24px;
+    @include tablet{
+      right: 30px;
+    }
+    @include phone{
+      right: 10px;
+    }
 }
