@@ -15,4 +15,19 @@
   width: rem(32px);
   height: rem(16px);
   background: url(../icons/arrow-scroll.svg) center center no-repeat;
+
+    &--left{
+      transform: rotate(90deg);
+      transform-origin: top;
+      margin-top: 50%;
+
+    }
+
+    &--right{
+      transform: rotate(-90deg);
+      transform-origin: top;
+      margin-top: 50%;
+
+    }
+
 }

@@ -2,19 +2,140 @@
   background-image: linear-gradient(to bottom, rgb(249,180,59), rgb(235,140,56) 48%, rgb(249,180,59) 100%);
 }
 
+.burger__wrapper{
+  display: flex;
+  height: 100vh;
+  align-items: center;
+
+}
 .burger__content{
   display: flex;
   height: 72%;
-  padding-top: 14%;
-}
-
-.burger__content-left,
-.burger__content-right{
-  flex-grow: 1;
-  flex-basis: 50%;
+  align-items: center;
 }
 
 .burger__content-left{
-  background: url(../img/content/burgers-slider/burger.png) center center no-repeat;
-  background-size: contain;
+  flex-grow: 1;
+  flex-basis: 50%;
+  height: 100%;
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+}
+
+.burger__content-right{
+  flex-grow: 1;
+  flex-basis: 50%;
+  padding-left: 10px;
+}
+
+.burger__content-img{
+  max-width: 100%;
+  max-height: 70%;
+}
+
+.burger__composition{
+  display: block;
+  border-radius: 5px;
+  background-color: #f08c33;
+  width: 90px;
+  height: 90px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding-top: 16px;
+  text-align: center;
+}
+
+.burger__composition-svg{
+  max-height: 50%;
+  max-width: 50%;
+}
+
+.burger__composition-text,
+.burger__kkal-text{
+  color: $white;
+  font-size: 16px;
+  @include fonts(gagalin);
+}
+
+.burger__kkal{
+  display: block;
+  width: 60px;
+  height: 77px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+}
+
+.burger__kkal-svg{
+  padding-top: 30px;
+  height: 60px;
+  width: 60px;
+  color: $white;
+  font-size: 18px;
+  @include fonts(gagalin);
+  background: url(../icons/kkal.svg) center center no-repeat;
+}
+
+.title--three{
+  padding-top: 8px;
+  padding-bottom: 44px;
+  line-height: 0.9;
+}
+
+.burger__desk{
+  padding-bottom: 8px;
+  color: $white;
+  font-size: 14px;
+  line-height: 1.75;
+  @include fonts(ubuntu, light);
+}
+
+.burger__order{
+  vertical-align: baseline;
+}
+
+.burger__price{
+  vertical-align: baseline;
+  display: inline-block;
+  color: rgb(228, 80, 40);
+  font-size: 72px;
+  @include fonts(gagalin);
+}
+
+.burger__ruble{
+  vertical-align: baseline;
+  display: inline-block;
+  color: rgb(228, 80, 40);
+  font-size: 30px;
+  @include fonts(gagalin);
+}
+
+.burger__link{
+  vertical-align: baseline;
+  margin-left: 23px;
+}
+
+.arrow__left,
+.arrow__right{
+  display: flex;
+  align-items: center;
+  position: absolute;
+  height: 100%;
+}
+
+.arrow__left{
+  left: -24px;
+}
+
+.arrow__right{
+  right: -24px;
 }
