@@ -1544,69 +1544,84 @@ h6 {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/menu\.scss}line{font-family:\000038}}
 .menu__left {
-  width: 50%;
-  text-align: center; }
+  width: 30%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/menu\.scss}line{font-family:\0000313}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/menu\.scss}line{font-family:\0000312}}
 .menu__right {
+  width: 70%;
   position: absolute;
   top: 0;
   bottom: 0;
   right: 0; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/menu\.scss}line{font-family:\0000320}}
-.title--five {
-  margin-left: 6rem;
-  margin-top: 6.125rem; }
   @media screen and (max-width: 768px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/menu\.scss}line{font-family:\0000320}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/menu\.scss}line{font-family:\0000312}}
+    .menu__right {
+      width: 100%;
+      z-index: 5; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/menu\.scss}line{font-family:\0000324}}
+.title--five {
+  text-align: center;
+  margin-left: 2.5rem;
+  margin-top: 5.125rem; }
+  @media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/menu\.scss}line{font-family:\0000324}}
     .title--five {
       margin-left: 1.5rem;
       margin-top: 5.625rem; } }
   @media screen and (max-width: 768px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/menu\.scss}line{font-family:\0000320}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/menu\.scss}line{font-family:\0000324}}
     .title--five {
       margin-left: 0;
       margin-top: 2.625rem; } }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/menu\.scss}line{font-family:\0000333}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/menu\.scss}line{font-family:\0000338}}
 .menu__list {
-  font-size: 0; }
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/menu\.scss}line{font-family:\0000337}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/menu\.scss}line{font-family:\0000343}}
 .menu__item {
-  display: inline-block; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/menu\.scss}line{font-family:\0000341}}
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 0;
+      -ms-flex-positive: 0;
+          flex-grow: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/menu\.scss}line{font-family:\0000348}}
   .menu__item--active .menu__title {
     color: #f9b43b; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/menu\.scss}line{font-family:\0000344}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/menu\.scss}line{font-family:\0000351}}
   .menu__item--active .menu__desc {
-    width: 33.75rem; }
-    @media screen and (max-width: 768px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/menu\.scss}line{font-family:\0000344}}
-      .menu__item--active .menu__desc {
-        width: 33rem; } }
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+    width: 70%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/menu\.scss}line{font-family:\0000353}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/menu\.scss}line{font-family:\0000358}}
 .menu__link {
   text-decoration: none;
   position: relative;
   display: inline-block;
   width: 5rem;
   height: 100vh; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/menu\.scss}line{font-family:\0000360}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/menu\.scss}line{font-family:\0000365}}
   .menu__link--meat {
     background: url("../img/background/meat-burger.jpg") center center no-repeat;
     background-size: cover; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/menu\.scss}line{font-family:\0000365}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/menu\.scss}line{font-family:\0000370}}
   .menu__link--veg {
     background: url("../img/background/veg.jpg") center center no-repeat;
     background-size: cover; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/menu\.scss}line{font-family:\0000370}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/menu\.scss}line{font-family:\0000375}}
   .menu__link--diet {
     background: url("../img/background/dietary.jpg") center center no-repeat;
     background-size: cover; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/menu\.scss}line{font-family:\0000375}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/menu\.scss}line{font-family:\0000380}}
   .menu__link:after {
     content: "";
     position: absolute;
@@ -1618,7 +1633,7 @@ h6 {
     background-color: rgba(20, 20, 20, 0.7);
     z-index: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/menu\.scss}line{font-family:\0000388}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/menu\.scss}line{font-family:\0000393}}
 .menu__title {
   position: absolute;
   left: 2.625rem;
@@ -1635,21 +1650,20 @@ h6 {
   -webkit-transform: rotate(-90deg);
           transform: rotate(-90deg); }
   @media screen and (max-width: 480px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/menu\.scss}line{font-family:\0000388}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/menu\.scss}line{font-family:\0000393}}
     .menu__title {
       left: 2.3125rem;
       bottom: 2.0625rem; } }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/menu\.scss}line{font-family:\00003106}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/menu\.scss}line{font-family:\00003111}}
 .menu__desc {
-  display: inline-block;
   width: 0;
   height: 100vh;
   overflow: hidden;
   background-size: cover;
   background-color: rgba(20, 20, 20, 0.7); }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/menu\.scss}line{font-family:\00003115}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/menu\.scss}line{font-family:\00003119}}
 .menu__text {
   display: inline-block;
   padding: 3.875rem 2.1875rem;
