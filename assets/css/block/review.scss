@@ -42,7 +42,6 @@
       padding: rem(32px) rem(42px);
     }
     @include phone{
-      text-align: center;
       padding-top: rem(46px);
       padding-bottom: rem(48px);
     }
@@ -60,6 +59,7 @@
   @include fonts(gagalin);
     @include phone{
       font-size: rem(24px);
+      margin-bottom: 6%;
     }
 }
 

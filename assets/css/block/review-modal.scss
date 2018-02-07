@@ -1,0 +1,70 @@
+.review__wrapper{
+  display: none;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba($black, .92);
+  height: 100vh;
+  z-index: 10;
+}
+
+
+.review__modal{
+  border-radius: 5px;
+  background-color: $white;
+  position: fixed;
+  width: 460px;
+  padding: 30px 20px 25px;
+  text-align: left;
+    @include tablet{
+      width: 473px;
+    }
+    @include phone{
+      width: 96%;
+    }
+}
+
+.review__modal-name{
+  color: $black;
+  text-transform: uppercase;
+  margin-bottom: rem(18px);
+  @include fonts(gagalin);
+  font-size: 14px;
+
+}
+
+.review__modal-text{
+  height: 75%;
+  overflow: hidden;
+  @include fonts(ubuntu, light);
+  line-height: 1.75;
+  font-size: 14px;
+  color: $black;
+}
+
+.review__x{
+display: block;
+background: #ec8468;
+height: rem(4px);
+width: rem(20px);
+position: absolute;
+top: 28px;
+right: 18px;
+transform: rotate(45deg);
+
+  &:after {
+  content: "";
+  background: #ec8468;
+  display: block;
+  position: absolute;
+  height: rem(20px);
+  width: rem(4px);
+  top: rem(-8px);
+  left: rem(8px);
+  }
+}

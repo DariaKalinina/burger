@@ -1135,7 +1135,7 @@ h6 {
           flex-grow: 1;
   -ms-flex-preferred-size: 50%;
       flex-basis: 50%;
-  padding-left: 10px; }
+  padding-left: 0.625rem; }
   @media screen and (max-width: 768px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/burger\.scss}line{font-family:\0000344}}
     .burger__content-right {
@@ -1161,28 +1161,28 @@ h6 {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/burger\.scss}line{font-family:\0000360}}
     .burger__content-img {
       max-height: 100%;
-      margin-top: 60px;
-      margin-left: 10px; } }
+      margin-top: 3.75rem;
+      margin-left: 0.625rem; } }
   @media screen and (max-width: 480px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/burger\.scss}line{font-family:\0000360}}
     .burger__content-img {
       max-width: 80%;
       max-height: 80%;
-      padding-left: 6px; } }
+      padding-left: 0.375rem; } }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/burger\.scss}line{font-family:\0000375}}
 .burger__composition {
   display: block;
-  border-radius: 5px;
+  border-radius: 0.3125rem;
   background-color: #f08c33;
-  width: 90px;
-  height: 90px;
+  width: 5.625rem;
+  height: 5.625rem;
   position: absolute;
   top: 0;
   left: 0;
   text-transform: uppercase;
   text-decoration: none;
-  padding-top: 16px;
+  padding-top: 1rem;
   text-align: center; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/burger\.scss}line{font-family:\0000390}}
@@ -1193,15 +1193,15 @@ h6 {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/burger\.scss}line{font-family:\0000395}}
 .burger__composition-text {
   color: #ffffff;
-  font-size: 16px;
+  font-size: 1rem;
   font-family: 'gagalin';
   font-weight: 400; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/burger\.scss}line{font-family:\00003101}}
 .burger__kkal {
   display: block;
-  width: 60px;
-  height: 77px;
+  width: 3.75rem;
+  height: 4.8125rem;
   position: absolute;
   bottom: 0;
   left: 0;
@@ -1218,93 +1218,94 @@ h6 {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/burger\.scss}line{font-family:\00003119}}
 .burger__kkal-svg {
-  padding-top: 30px;
-  height: 60px;
-  width: 60px;
+  padding-top: 1.875rem;
+  max-height: 3.75rem;
+  max-width: 3.75rem;
   color: #ffffff;
-  font-size: 18px;
+  font-size: 1.125rem;
   font-family: 'gagalin';
   font-weight: 400;
-  background: url(../icons/kkal.svg) center center no-repeat; }
+  background: url(../icons/kkal.svg) center center no-repeat;
+  background-size: contain; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/burger\.scss}line{font-family:\00003129}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/burger\.scss}line{font-family:\00003130}}
 .burger__kkal-text {
   color: #ffffff;
-  font-size: 16px;
+  font-size: 1rem;
   font-family: 'gagalin';
   font-weight: 400; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/burger\.scss}line{font-family:\00003135}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/burger\.scss}line{font-family:\00003136}}
 .title--three {
-  padding-top: 8px;
-  padding-bottom: 44px;
+  padding-top: 0.5rem;
+  padding-bottom: 2.75rem;
   line-height: 0.9; }
   @media screen and (max-width: 768px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/burger\.scss}line{font-family:\00003135}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/burger\.scss}line{font-family:\00003136}}
     .title--three {
-      padding-top: 24px; } }
+      padding-top: 1.5rem; } }
   @media screen and (max-width: 480px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/burger\.scss}line{font-family:\00003135}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/burger\.scss}line{font-family:\00003136}}
     .title--three {
       line-height: 1.1;
-      padding-top: 30px;
-      padding-bottom: 20px;
+      padding-top: 1.875rem;
+      padding-bottom: 1.25rem;
       width: 89%;
-      padding-left: 54px; } }
+      padding-left: 3.375rem; } }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/burger\.scss}line{font-family:\00003152}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/burger\.scss}line{font-family:\00003153}}
 .burger__desk {
-  padding-bottom: 8px;
+  padding-bottom: 0.5rem;
   color: #ffffff;
-  font-size: 14px;
+  font-size: 0.875rem;
   line-height: 1.75;
   font-family: 'ubuntu';
   font-weight: 300; }
   @media screen and (max-width: 768px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/burger\.scss}line{font-family:\00003152}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/burger\.scss}line{font-family:\00003153}}
     .burger__desk {
-      padding-bottom: 15px; } }
+      padding-bottom: 0.9375rem; } }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/burger\.scss}line{font-family:\00003164}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/burger\.scss}line{font-family:\00003165}}
 .burger__price {
   vertical-align: baseline;
   display: inline-block;
   color: #e45028;
-  font-size: 72px;
+  font-size: 4.5rem;
   font-family: 'gagalin';
   font-weight: 400; }
   @media screen and (max-width: 480px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/burger\.scss}line{font-family:\00003164}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/burger\.scss}line{font-family:\00003165}}
     .burger__price {
-      font-size: 50px;
+      font-size: 3.125rem;
       vertical-align: bottom;
       line-height: 1; } }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/burger\.scss}line{font-family:\00003177}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/burger\.scss}line{font-family:\00003178}}
 .burger__ruble {
   vertical-align: baseline;
   display: inline-block;
   color: #e45028;
-  font-size: 30px;
+  font-size: 1.875rem;
   font-family: 'gagalin';
   font-weight: 400; }
   @media screen and (max-width: 480px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/burger\.scss}line{font-family:\00003177}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/burger\.scss}line{font-family:\00003178}}
     .burger__ruble {
-      font-size: 24px;
+      font-size: 1.5rem;
       vertical-align: bottom;
       line-height: 1; } }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/burger\.scss}line{font-family:\00003190}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/burger\.scss}line{font-family:\00003191}}
 .burger__link {
   vertical-align: baseline;
-  margin-left: 23px; }
+  margin-left: 1.4375rem; }
   @media screen and (max-width: 480px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/burger\.scss}line{font-family:\00003190}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/burger\.scss}line{font-family:\00003191}}
     .burger__link {
       vertical-align: bottom; } }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/burger\.scss}line{font-family:\00003198}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/burger\.scss}line{font-family:\00003199}}
 .arrow__left,
 .arrow__right {
   display: -webkit-box;
@@ -1316,29 +1317,29 @@ h6 {
   position: absolute;
   height: 100%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/burger\.scss}line{font-family:\00003206}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/burger\.scss}line{font-family:\00003207}}
 .arrow__left {
-  left: -24px; }
+  left: -1.5rem; }
   @media screen and (max-width: 768px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/burger\.scss}line{font-family:\00003206}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/burger\.scss}line{font-family:\00003207}}
     .arrow__left {
-      left: 30px; } }
+      left: 1.875rem; } }
   @media screen and (max-width: 480px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/burger\.scss}line{font-family:\00003206}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/burger\.scss}line{font-family:\00003207}}
     .arrow__left {
-      left: 10px; } }
+      left: 0.625rem; } }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/burger\.scss}line{font-family:\00003216}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/burger\.scss}line{font-family:\00003217}}
 .arrow__right {
-  right: -24px; }
+  right: -1.5rem; }
   @media screen and (max-width: 768px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/burger\.scss}line{font-family:\00003216}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/burger\.scss}line{font-family:\00003217}}
     .arrow__right {
-      right: 30px; } }
+      right: 1.875rem; } }
   @media screen and (max-width: 480px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/burger\.scss}line{font-family:\00003216}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/burger\.scss}line{font-family:\00003217}}
     .arrow__right {
-      right: 10px; } }
+      right: 0.625rem; } }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/team\.scss}line{font-family:\000031}}
 .team {
@@ -1755,24 +1756,24 @@ h6 {
   @media screen and (max-width: 480px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/review\.scss}line{font-family:\0000331}}
     .review__elem {
-      text-align: center;
       padding-top: 2.875rem;
       padding-bottom: 3rem; } }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/review\.scss}line{font-family:\0000352}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/review\.scss}line{font-family:\0000351}}
 .review__block:hover .review__elem {
   visibility: visible; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/review\.scss}line{font-family:\0000357}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/review\.scss}line{font-family:\0000356}}
 .review__reviewer-name {
   text-transform: uppercase;
   margin-bottom: 1.3125rem;
   font-family: 'gagalin';
   font-weight: 400; }
   @media screen and (max-width: 480px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/review\.scss}line{font-family:\0000357}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/review\.scss}line{font-family:\0000356}}
     .review__reviewer-name {
-      font-size: 1.5rem; } }
+      font-size: 1.5rem;
+      margin-bottom: 6%; } }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/review\.scss}line{font-family:\0000366}}
 .review__review-text {
@@ -1824,6 +1825,83 @@ h6 {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/review\.scss}line{font-family:\00003102}}
     .review__review-read {
       display: inline-block; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/review-modal\.scss}line{font-family:\000031}}
+.review__wrapper {
+  display: none;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: rgba(47, 50, 52, 0.92);
+  height: 100vh;
+  z-index: 10; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/review-modal\.scss}line{font-family:\0000317}}
+.review__modal {
+  border-radius: 5px;
+  background-color: #ffffff;
+  position: fixed;
+  width: 460px;
+  padding: 30px 20px 25px;
+  text-align: left; }
+  @media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/review-modal\.scss}line{font-family:\0000317}}
+    .review__modal {
+      width: 473px; } }
+  @media screen and (max-width: 480px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/review-modal\.scss}line{font-family:\0000317}}
+    .review__modal {
+      width: 96%; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/review-modal\.scss}line{font-family:\0000332}}
+.review__modal-name {
+  color: #2f3234;
+  text-transform: uppercase;
+  margin-bottom: 1.125rem;
+  font-family: 'gagalin';
+  font-weight: 400;
+  font-size: 14px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/review-modal\.scss}line{font-family:\0000341}}
+.review__modal-text {
+  height: 75%;
+  overflow: hidden;
+  font-family: 'ubuntu';
+  font-weight: 300;
+  line-height: 1.75;
+  font-size: 14px;
+  color: #2f3234; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/review-modal\.scss}line{font-family:\0000350}}
+.review__x {
+  display: block;
+  background: #ec8468;
+  height: 0.25rem;
+  width: 1.25rem;
+  position: absolute;
+  top: 28px;
+  right: 18px;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/review-modal\.scss}line{font-family:\0000360}}
+  .review__x:after {
+    content: "";
+    background: #ec8468;
+    display: block;
+    position: absolute;
+    height: 1.25rem;
+    width: 0.25rem;
+    top: -0.5rem;
+    left: 0.5rem; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Daria\/Documents\/project2\/assets\/css\/block\/form\.scss}line{font-family:\000031}}
 .form {

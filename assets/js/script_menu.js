@@ -27,3 +27,11 @@ var menuArray = document.querySelectorAll('.menu__item');
     menuArray[0].classList.remove('menu__item--active');
     menuArray[1].classList.remove('menu__item--active');
   });
+
+function showWidth() {
+  var width = window.innerWidth;
+
+  return width;
+};
+
+window.addEventListener("resize", showWidth);
