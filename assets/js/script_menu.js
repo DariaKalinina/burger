@@ -1,7 +1,7 @@
 "use script";
 var menuArray = document.querySelectorAll('.menu__item');
 
-  menuArray[0].addEventListener('click', function () {
+  menuArray[0].addEventListener('click', function (event) {
     event.preventDefault();
     console.log('click1');
 
@@ -10,7 +10,7 @@ var menuArray = document.querySelectorAll('.menu__item');
     menuArray[2].classList.remove('menu__item--active');
   });
 
-  menuArray[1].addEventListener('click', function () {
+  menuArray[1].addEventListener('click', function (event) {
     event.preventDefault();
     console.log('click2');
 
@@ -19,7 +19,7 @@ var menuArray = document.querySelectorAll('.menu__item');
     menuArray[2].classList.remove('menu__item--active');
   });
 
-  menuArray[2].addEventListener('click', function () {
+  menuArray[2].addEventListener('click', function (event) {
     event.preventDefault();
     console.log('click2');
 
@@ -28,10 +28,10 @@ var menuArray = document.querySelectorAll('.menu__item');
     menuArray[1].classList.remove('menu__item--active');
   });
 
-function showWidth() {
-  var width = window.innerWidth;
-
-  return width;
-};
-
-window.addEventListener("resize", showWidth);
+// function showWidth() {
+//   var width = window.innerWidth;
+//
+//   return width;
+// };
+//
+// window.addEventListener("resize", showWidth);
