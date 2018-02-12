@@ -10,4 +10,6 @@
   border: none!important;
   background-color: rgb(228, 80, 40);
   @include fonts(ubuntu, medium);
+  z-index: 1;
+  position: relative;
 }

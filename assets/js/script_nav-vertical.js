@@ -1,4 +1,4 @@
-"use script";
+"use strict";
 var batton = document.querySelector('.header__burger-menu');
 var block = document.querySelector('.header__burger-blocs');
 var menu = document.querySelector('.nav-vertical');

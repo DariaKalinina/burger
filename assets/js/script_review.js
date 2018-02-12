@@ -1,3 +1,4 @@
+"use strict";
 var moreList = document.querySelectorAll('.review__review-btn');
 var readList = document.querySelectorAll('.review__review-read');
 var wrapperList = document.querySelectorAll('.review__wrapper');

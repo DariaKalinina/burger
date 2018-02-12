@@ -5,7 +5,21 @@
 .burger__wrapper{
   display: flex;
   height: 100vh;
+}
+
+.burger__slider{
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+}
+
+.burger__list{
+  display: flex;
+  height: 100%;
   align-items: center;
+  position: relative;
+  will-change: right;
+  transition: right 0.3s;
 }
 
 .burger__content{

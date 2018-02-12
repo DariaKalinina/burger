@@ -1,5 +1,6 @@
-"use script";
+"use strict";
 var menuArray = document.querySelectorAll('.menu__item');
+
 
   menuArray[0].addEventListener('click', function (event) {
     event.preventDefault();
@@ -28,10 +29,13 @@ var menuArray = document.querySelectorAll('.menu__item');
     menuArray[1].classList.remove('menu__item--active');
   });
 
-// function showWidth() {
-//   var width = window.innerWidth;
-//
-//   return width;
-// };
-//
-// window.addEventListener("resize", showWidth);
+
+
+  window.addEventListener('resize', function (){
+    var width = document.body.clientWidth;
+
+      if (width<=480) {
+
+      }
+
+  });

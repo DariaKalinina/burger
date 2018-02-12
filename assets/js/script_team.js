@@ -1,4 +1,4 @@
-"use script";
+"use strict";
 var teamArray = document.querySelectorAll('.team__item');
 
 teamArray[0].classList.add('team__item--active');
