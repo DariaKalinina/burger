@@ -22,6 +22,12 @@
   }
 }
 
+@mixin phone540{
+  @media screen and (max-width: 540px){
+    @content;
+  }
+}
+
 @mixin phone450{
   @media screen and (max-width: 450px){
     @content;

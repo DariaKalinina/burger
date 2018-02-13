@@ -5,10 +5,10 @@
 .burger__wrapper{
   display: flex;
   height: 100vh;
+  justify-content: center;
 }
 
 .burger__slider{
-  width: 100%;
   overflow: hidden;
   display: flex;
 }
@@ -19,7 +19,7 @@
   align-items: center;
   position: relative;
   will-change: right;
-  transition: right 0.3s;
+  transition-duration: .3s;
 }
 
 .burger__content{
@@ -173,8 +173,22 @@
     @include tablet{
       padding-bottom: rem(15px);
     }
+    @include phone540{
+      padding-bottom: rem(5px);
+    }
+    @include phone450{
+      padding-bottom: rem(15px);
+    }
 }
 
+.burger__order{
+  @include phone540{
+    padding-bottom: rem(10px);
+  }
+  @include phone450{
+    padding-bottom: 0;
+  }
+}
 
 .burger__price{
   vertical-align: baseline;
