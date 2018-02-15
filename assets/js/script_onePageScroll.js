@@ -67,17 +67,17 @@ $(document).on('keydown', e => {
 
 
 // плагин для анимации на телефоне
-$(function() {
-  $(document).swipe( {
-    swipe:function(event, direction, distance, duration, fingerCount, fingerData) {
-      const phoneDirection = direction;
-      // смена направления, тк плагин возвращает up и down
-      if (phoneDirection == 'up') {
-        scrollToSection('down');
-      }
-      if (phoneDirection == 'down') {
-        scrollToSection('up');
-      }
-    }
-  });
-});
+// $(function() {
+//   $(document).swipe( {
+//     swipe:function(event, direction, distance, duration, fingerCount, fingerData) {
+//       const phoneDirection = direction;
+//       // смена направления, тк плагин возвращает up и down
+//       if (phoneDirection == 'up') {
+//         scrollToSection('down');
+//       }
+//       if (phoneDirection == 'down') {
+//         scrollToSection('up');
+//       }
+//     }
+//   });
+// });
