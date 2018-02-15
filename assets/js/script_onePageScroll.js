@@ -1,7 +1,12 @@
 const sections = $(".section");
+
 const display = $(".maincontent");
 let inScroll = false;
 
+var mobileDetect = new MobileDetect('window.navigator.userAgent');
+// console.log(mobileDetect);
+var inMobile = mobileDetect.mobile();
+// console.log(inMobile);
 
 const transition = sectiomEq => {
   const position = `${sectiomEq * -100}%`;
@@ -61,23 +66,24 @@ $(document).on('keydown', e => {
   }
 
   // для того, чтобы не дергался экран
-  touchmove: e => e.preventDefault()
+  // touchmove: e => e.preventDefault()
 
 });
 
-
-// плагин для анимации на телефоне
-// $(function() {
-//   $(document).swipe( {
-//     swipe:function(event, direction, distance, duration, fingerCount, fingerData) {
-//       const phoneDirection = direction;
-//       // смена направления, тк плагин возвращает up и down
-//       if (phoneDirection == 'up') {
-//         scrollToSection('down');
-//       }
-//       if (phoneDirection == 'down') {
-//         scrollToSection('up');
-//       }
-//     }
-//   });
-// });
+if (inMobile) {
+  // плагин для анимации на телефоне
+  $(function() {
+    $(document).swipe( {
+      swipe:function(event, direction, distance, duration, fingerCount, fingerData) {
+        const phoneDirection = direction;
+        // смена направления, тк плагин возвращает up и down
+        if (phoneDirection == 'up') {
+          scrollToSection('down');
+        }
+        if (phoneDirection == 'down') {
+          scrollToSection('up');
+        }
+      }
+    });
+  });
+}
