@@ -106,12 +106,15 @@
 
 .header__x{
   display: none;
-  z-index: 15;
   height: rem(24px);
   width: rem(24px);
   position: relative;
   margin-right: rem(16px);
-  margin-top: rem(12px);
+  margin-top: rem(4px);
+    &--visible{
+      display: inline-block;
+      z-index: 15;
+    }
 }
 
 .header__x-block{

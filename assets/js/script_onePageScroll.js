@@ -1,13 +1,34 @@
 const sections = $(".section");
-
 const display = $(".maincontent");
 let inScroll = false;
 
+//создается и проверяется флаг для мобильного устройства
 var mobileDetect = new MobileDetect('window.navigator.userAgent');
-// console.log(mobileDetect);
 var inMobile = mobileDetect.mobile();
-// console.log(inMobile);
 
+//делает точки для вертикального меню
+var generateDot = function () {
+  for (var i = 0; i < $(".section").length; i++) {
+    var dot = $('<li>', {
+      attr: {
+        class: "nav-point__item",
+        'data-scroll-number': i
+      },
+      html: '<a href="#" class="nav-point__link"></a>'
+    });
+    $(".nav-point__list").append(dot);
+  }
+};
+generateDot();
+
+
+// добавить градицу у вертикального меню с точками
+const dotItem = navPointItemEq => {
+    $(".nav-point__item").eq(navPointItemEq).addClass("nav-point__item--active")
+    .siblings().removeClass("nav-point__item--active");
+  }
+
+// функция для смещения секции
 const transition = sectiomEq => {
   const position = `${sectiomEq * -100}%`;
 
@@ -23,13 +44,13 @@ const transition = sectiomEq => {
 
     setTimeout(() => {
       inScroll = false;
-    }, 1300);
-    // 1300 - 1 секунда анимация + 300 мс задержка для отмены инерции движения
-
+      dotItem(sectiomEq);
+    }, 1200);
+    // 1200 - 1 секунда анимация + 200 мс задержка для отмены инерции движения
   }
 }
 
-
+//выбор направления и смещение
 const scrollToSection = direction => {
   const activeSection = sections.filter('.active');
   const nextSection = activeSection.next();
@@ -64,11 +85,21 @@ $(document).on('keydown', e => {
   if (keyD == 38) {
     scrollToSection('up');
   }
-
   // для того, чтобы не дергался экран
-  // touchmove: e => e.preventDefault()
-
+  touchmove: e => e.preventDefault()
 });
+
+
+//переход по data атрибуту
+$('[data-scroll-number]').on('click', e => {
+  e.preventDefault();
+
+  const target = parseInt($(e.currentTarget).attr('data-scroll-number'));
+  console.log(typeof target);
+  transition(target);
+
+})
+
 
 if (inMobile) {
   // плагин для анимации на телефоне

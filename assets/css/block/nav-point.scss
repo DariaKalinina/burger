@@ -7,6 +7,11 @@
 
 .nav-point__item{
   margin-bottom: rem(5px);
+  &--active{
+    .nav-point__link{
+    border: rem(1px) solid $white;
+    }
+  }
 }
 
 .nav-point__link{
@@ -25,7 +30,4 @@
       border: rem(3px) solid $white;
       border-radius: 50%;
     }
-  &--active{
-    border: rem(1px) solid $white;
-  }
 }

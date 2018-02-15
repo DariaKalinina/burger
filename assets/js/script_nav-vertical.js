@@ -2,18 +2,32 @@
 var batton = document.querySelector('.header__burger-menu');
 var block = document.querySelector('.header__burger-blocs');
 var menu = document.querySelector('.nav-vertical');
-var logo = document.querySelector('.logo');
-var cross = document.querySelector('.header__x');
+// var cross = document.querySelector('.header__x');
 
 batton.addEventListener('click', function (event) {
   event.preventDefault();
   menu.style.display = 'block';
-  logo.style.zIndex = '15';
-  cross.style.display = 'inline-block';
+});
+//
+//
+// cross.addEventListener('click', function (event) {
+//   event.preventDefault();
+//   menu.style.display = 'none';
+//   console.log('click cross');
+// });
+
+$('.header__x').on('click', e => {
+  e.preventDefault();
+  console.log('click cross');
+  menu.style.display = 'none';
 });
 
-cross.addEventListener('click', function (event) {
-  event.preventDefault();
+$('[data-scroll-number]').on('click', e => {
+  e.preventDefault();
+
+  const target = parseInt($(e.currentTarget).attr('data-scroll-number'));
+  console.log(typeof target);
+  transition(target);
   menu.style.display = 'none';
-  cross.style.display = 'none';
+
 });

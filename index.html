@@ -25,27 +25,27 @@
             <div class="header__right">
               <nav class="nav">
                 <ul class="nav__list">
-                  <li class="nav__item">
+                  <li class="nav__item" data-scroll-number="1">
                     <a href="#" class="nav__link">о нас</a>
                   </li>
-                  <li class="nav__item">
+                  <li class="nav__item" data-scroll-number="2">
                     <a href="#" class="nav__link">бургеры</a>
                   </li>
-                  <li class="nav__item">
+                  <li class="nav__item" data-scroll-number="3">
                     <a href="#" class="nav__link">команда</a>
                   </li>
-                  <li class="nav__item">
+                  <li class="nav__item" data-scroll-number="4">
                     <a href="#" class="nav__link">меню</a>
                   </li>
-                  <li class="nav__item">
+                  <li class="nav__item" data-scroll-number="5">
                     <a href="#" class="nav__link">отзывы</a>
                   </li>
-                  <li class="nav__item">
+                  <li class="nav__item" data-scroll-number="7">
                     <a href="#" class="nav__link">контакты</a>
                   </li>
                 </ul>
               </nav>
-              <a href="#" class="order-link">заказать</a>
+              <a href="#" class="order-link" data-scroll-number="6">заказать</a>
               <a href="#" class="header__burger-menu">
                 <ul class="header__burger-list">
                   <li class="header__burger-blocs">
@@ -82,7 +82,7 @@
           </main>
 
           <div class="arrow">
-            <a href="#" class="arrow__link">
+            <a href="#" class="arrow__link" data-scroll-number="1">
             </a>
           </div>
 
@@ -773,61 +773,50 @@
           </div>
         </footer>
       </section>
+
     </div>
+
   </div>
 
   <!--===============Вертикальная навигация==========-->
   <div class="nav-point">
-    <ul class="nav-point__list">
-      <li class="nav-point__item">
-        <a href="#" class="nav-point__link  nav-point__link--active"></a>
-      </li>
-      <li class="nav-point__item">
-        <a href="#" class="nav-point__link"></a>
-      </li>
-      <li class="nav-point__item">
-        <a href="#" class="nav-point__link"></a>
-      </li>
-      <li class="nav-point__item">
-        <a href="#" class="nav-point__link"></a>
-      </li>
-      <li class="nav-point__item">
-        <a href="#" class="nav-point__link"></a>
-      </li>
-      <li class="nav-point__item">
-        <a href="#" class="nav-point__link"></a>
-      </li>
-      <li class="nav-point__item">
-        <a href="#" class="nav-point__link"></a>
-      </li>
-      <li class="nav-point__item">
-        <a href="#" class="nav-point__link"></a>
-      </li>
-    </ul>
+    <ul class="nav-point__list"></ul>
   </div>
 
   <!--===============Модальное окно навигации========-->
   <div class="nav-vertical">
-    <ul class="nav-vertical__list">
-      <li class="nav-vertical__item">
-        <a href="#" class="nav-vertical__link">о нас</a>
-      </li>
-      <li class="nav-vertical__item">
-        <a href="#" class="nav-vertical__link">бургеры</a>
-      </li>
-      <li class="nav-vertical__item">
-        <a href="3" class="nav-vertical__link">команда</a>
-      </li>
-      <li class="nav-vertical__item">
-        <a href="#" class="nav-vertical__link">меню</a>
-      </li>
-      <li class="nav-vertical__item">
-        <a href="#" class="nav-vertical__link">отзывы</a>
-      </li>
-      <li class="nav-vertical__item">
-        <a href="#" class="nav-vertical__link">контакты</a>
-      </li>
-    </ul>
+    <div class="container">
+      <header class="header">
+        <a href="#" class="header__left">
+          <img src="assets/icons/logo.svg" alt="logo" class="logo">
+        </a>
+        <div class="header__right">
+          <a href="#" class="header__x header__x--visible">
+              <div class="header__x-block"></div>
+          </a>
+        </div>
+      </header>
+      <ul class="nav-vertical__list">
+        <li class="nav-vertical__item" data-scroll-number="1">
+          <a href="#" class="nav-vertical__link">о нас</a>
+        </li>
+        <li class="nav-vertical__item" data-scroll-number="2">
+          <a href="#" class="nav-vertical__link">бургеры</a>
+        </li>
+        <li class="nav-vertical__item" data-scroll-number="3">
+          <a href="3" class="nav-vertical__link">команда</a>
+        </li>
+        <li class="nav-vertical__item" data-scroll-number="4">
+          <a href="#" class="nav-vertical__link">меню</a>
+        </li>
+        <li class="nav-vertical__item" data-scroll-number="5">
+          <a href="#" class="nav-vertical__link">отзывы</a>
+        </li>
+        <li class="nav-vertical__item" data-scroll-number="7">
+          <a href="#" class="nav-vertical__link">контакты</a>
+        </li>
+      </ul>
+    </div>
   </div>
 
   <!--===============Модальное окно отзывы===========-->
@@ -1009,7 +998,6 @@
   <!-- библиотека определение работы на телефоне-->
 
   <script src="assets/js/script_onePageScroll.js"></script>
-  <script src="assets/js/script_dots.js"></script>
   <script src="assets/js/script_nav-vertical.js"></script>
   <script src="assets/js/script_team.js"></script>
   <script src="assets/js/script_menu.js"></script>

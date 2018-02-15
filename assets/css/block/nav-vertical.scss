@@ -1,6 +1,6 @@
 .nav-vertical{
   background-color: $black;
-  height: 100vh;
+  height: 100%;
   position: fixed;
   top: 0;
   bottom: 0;
@@ -13,7 +13,7 @@
 }
 
 .nav-vertical__list{
- margin-top: 27%;
+ padding-top: 27%;
  display: flex;
  flex-direction: column;
  align-items: center;
