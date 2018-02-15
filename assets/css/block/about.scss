@@ -5,63 +5,89 @@
 
 .about-content{
   display: flex;
-  flex: 1;
   justify-content: center;
-  align-items: center;
+  align-content: center;
   flex-direction: column;
+  height: 100%;
 }
 
-.about-content__title{
-  display: flex;
-  flex: 3.7;
-  align-items: flex-end;
+.about-content__wrapper{
+  transform: translateY(rem(-21px));
+    @include tablet{
+      transform: translateY(rem(-94px));
+    }
+}
+
+
+.title--two,
+.about-content__desc{
+  width: 100%;
 }
 
 .title--two{
-  padding-bottom: 38px;
-}
-
-.about-content__desc{
-  display: flex;
-  flex: 6.3;
+  text-align: center;
+  padding-bottom: rem(32px);
+    @include phone{
+      font-size: rem(50px);
+      padding-top: rem(123px);
+      padding-bottom: rem(14px);
+    }
 }
 
 .about-content__list{
   display: flex;
-  flex-direction: row;
+    @include phone{
+      flex-direction: column;
+    }
 }
 
 .about-content__item{
   display: flex;
-  flex: 1;
+  flex: 1 1 33%;
   flex-direction: column;
   align-items: center;
-
+    @include phone{
+      flex-direction: row;
+      align-items: flex-start;
+      justify-content: space-between;
+      padding-bottom: rem(46px);
+    }
 }
 
 .about-content__logo{
-  max-height: 90px;
-  margin-bottom: 30px;
+  max-height: rem(90px);
+  margin-bottom: rem(30px);
+    @include phone{
+      max-width: rem(90px);
+      margin: 0 auto;
+    }
 }
 
 .about-content__article{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  text-align: center;
   max-width: 90%;
+    @include phone{
+      width: 77%;
+      text-align: left;
+      padding-left: rem(26px);
+    }
 }
 
 .about-content__caption{
-  font-size: 24px;
+  font-size: rem(24px);
   color:  $black;
   @include fonts(lifehack);
-  margin-bottom: 15px;
-  text-align: center;
+  margin-bottom: rem(15px);
+    @include phone{
+      white-space: nowrap;
+    }
+    @include phone450{
+      white-space: pre-line;
+    }
 }
 
 .about-content__text{
-  text-align: center;
-  font-size: 14px;
+  font-size: rem(14px);
   color: $grey;
   line-height: 1.5;
   @include fonts(ubuntu,light);

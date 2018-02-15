@@ -1,0 +1,34 @@
+.arrow{
+  display: block;
+  width: 100%;
+  text-align: center;
+  height: rem(54px);
+  position: absolute;
+  bottom: 0;
+  @include phone{
+    height: rem(45px);
+  }
+}
+
+.arrow__link{
+  display: inline-block;
+  width: rem(32px);
+  height: rem(16px);
+  background: url(../icons/arrow-scroll.svg) center center no-repeat;
+
+    &--left{
+      transform: rotate(90deg);
+      transform-origin: top;
+      margin-top: 50%;
+      z-index: 2;
+
+    }
+
+    &--right{
+      transform: rotate(-90deg);
+      transform-origin: top;
+      margin-top: 50%;
+      z-index: 2;
+    }
+
+}

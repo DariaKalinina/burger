@@ -5,6 +5,8 @@
 
 .team__right{
   display: flex;
+  justify-content: center;
+  align-items: center;
   position: absolute;
   top: 0;
   bottom: 0;
@@ -12,74 +14,121 @@
   left: 51%;
   background-size: cover;
   background-color: rgba($black, 0.93);
+    @include tablet{
+        left: 0;
+      }
 }
 
 .team__content{
-  display: flex;
-  flex: 1;
-  flex-direction: column;
-  padding-left: 97px;
-}
+  transform: translateY(-46px);
+    @include tablet{
+      text-align: center;
+    }
 
-.team__content-title{
-  display: flex;
-  flex: 3.3;
-  align-items: flex-end;
 }
 
 .title--four{
-  padding-bottom: 34px;
+  display: block;
+  margin-top: rem(40px);
+  margin-left: rem(12px);
+  margin-bottom: rem(29px);
+    @include tablet{
+      margin-top: rem(11px);
+      margin-bottom: rem(26px);
+    }
+    @include phone{
+      margin-top: rem(63px);
+      margin-bottom: rem(15px);
+    }
+
 }
 
 .accordeon-team{
-  display: flex;
-  flex: 6.7;
-  padding-left: 19px;
+  display: block;
+  padding-left: rem(31px);
+}
+
+
+.team__item{
+  padding-bottom: rem(15px);
+  padding-top: rem(15px);
+    @include tablet{
+      padding-bottom: rem(11px);
+      padding-top: rem(11px);
+    }
+
+    &:first-child{
+      padding-top: 0;
+    }
+
+    &:last-child{
+      padding-bottom: 0;
+    }
+
+    &--active{
+      .team__link{
+        color: $orange;
+
+        &:after{
+          border-bottom: rem(7px) solid $orange;
+          border-top: 0;
+          border-left: rem(5px) solid transparent;
+          border-right: rem(5px) solid transparent;
+        }
+      }
+      .team-desc{
+        height: rem(125px);
+            @include tablet{
+              height: rem(211px);
+            }
+      }
+    }
 }
 
 .team__link{
-  font-size: 14px;
+  font-size: rem(14px);
   color: $white;
-  padding-bottom: 20px;
   display: inline-block;
   text-transform: uppercase;
   text-decoration: none;
   position: relative;
   @include fonts(gagalin);
+    @include tablet{
+      font-size: rem(25px);
+    }
+
     &:after{
       content: "";
       position: absolute;
-      top: 5px;
-      left: -20px;
+      top: rem(5px);
+      left: rem(-20px);
       display: inline-block;
       width: 0;
       height: 0;
-      border-top: 7px solid $orange;
-      border-left: 5px solid transparent;
-      border-right: 5px solid transparent;
-    }
-    &--active{
-      color: $orange;
-
-      &:after{
-        border-bottom: 7px solid $orange;
-        border-top: 0;
-        border-left: 5px solid transparent;
-        border-right: 5px solid transparent;
-      }
-
-      .team-desc{
-        height: 138px;
-        overflow: hidden;
-      }
+      border-top: rem(7px) solid $orange;
+      border-left: rem(5px) solid transparent;
+      border-right: rem(5px) solid transparent;
+        @include tablet{
+          top: rem(12px);
+          left: rem(-19px);
+        }
     }
 }
 
 .team-desc{
-  height: 0px;
+  height: rem(0px);
   width: 100%;
   overflow: hidden;
-  padding-top: 17px;
+  display: flex;
+  padding-top: rem(12px);
+
+    @include tablet{
+      padding-top: rem(12px);
+      padding-right: rem(31px);
+      height: rem(0px);
+      flex-direction: column;
+      align-items: center;
+    }
 }
 
 .team-desc__left,
@@ -89,38 +138,36 @@
 }
 
 .team-desc__left{
-  width: 100px;
-  height: 100px;
+  width: rem(100px);
+  height: rem(100px);
   border-radius: 50%;
   overflow: hidden;
   position: relative;
-}
-
-.team-desc__img{
-  max-height: 100px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  background: url('../img/content/team-photo.jpg') center center no-repeat;
+  background-size: cover;
 }
 
 .team-desc__right{
-  width: 235px;
-  padding-left: 15px;
-  text-transform: none;
+  width: rem(235px);
+  padding-left: rem(18px);
+    @include tablet{
+      padding-left: 0;
+      padding-top: rem(13px);
+      width: rem(341px);
+    }
 }
 
 .team-desc__prof{
   display: block;
-  font-size: 14px;
+  font-size: rem(14px);
   color: $white;
-  padding-bottom: 15px;
+  padding-bottom: rem(13px);
   @include fonts(ubuntu, bold);
 }
 
 .team-desc__text{
   display: block;
-  font-size: 14px;
+  font-size: rem(14px);
   color: $white;
   line-height: 1.7;
   @include fonts(ubuntu, light);

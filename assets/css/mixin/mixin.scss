@@ -1,15 +1,7 @@
 // ---------------------mixin
-@mixin clearfix() {
-    &:before,
-    &:after {
-        content: "";
-        display: block;
-    }
-    &:after {
-        clear: both;
-    }
-}
 
+
+// =================примесь для шрифтов=============
 @mixin fonts($font-famyly: ubuntu, $weight: light) {
   @if $font-famyly == ubuntu {
     font-family: 'ubuntu';
@@ -36,4 +28,10 @@
     font-family: 'gagalin';
     font-weight: 400;
     }
+}
+
+
+// =================перевод px в rem=============
+@function rem($px){
+  @return $px/16px+0rem;
 }

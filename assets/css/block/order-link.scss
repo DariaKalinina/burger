@@ -1,12 +1,15 @@
 .order-link{
-  display: flex;
-  font-size: 13px;
+  vertical-align: middle;
+  font-size: rem(13px);
   color: $white;
-  padding: 10px 16px;
+  padding: rem(9px) rem(15px);
+  display: inline-block;
   text-transform: uppercase;
   text-decoration: none;
-  border-radius: 5px;
+  border-radius: rem(5px);
   border: none!important;
   background-color: rgb(228, 80, 40);
   @include fonts(ubuntu, medium);
+  z-index: 1;
+  position: relative;
 }
