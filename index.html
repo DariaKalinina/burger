@@ -645,43 +645,43 @@
             закажите доставку
           </h1>
 
-          <form action="#" method="post" class="form__form">
+          <form action="#" method="post" class="form__form" id="form">
             <div class="form__left">
 
               <div class="form__row">
                 <label class="form__elem">
                   <div class="form__title">Имя</div>
-                  <input type="text" class="form__input">
+                  <input type="text" class="form__input" id="user-name" name="user-name">
                 </label>
                 <label class="form__elem">
                   <div class="form__title">Телефон</div>
-                  <input type="text" class="form__input" placeholder="89161234567">
+                  <input type="text" class="form__input" id="user-phone" placeholder="89161234567" name="user-phone">
                 </label>
               </div>
 
               <div class="form__row">
                 <label class="form__elem">
                   <div class="form__title">Улица</div>
-                  <input type="text" class="form__input">
+                  <input type="text" class="form__input" id="address-street" name="street">
                 </label>
               </div>
 
               <div class="form__row">
                 <label class="form__elem">
                   <div class="form__title">Дом</div>
-                  <input type="text" class="form__input">
+                  <input type="text" class="form__input" id="address-house" name="house">
                 </label>
                 <label class="form__elem">
                   <div class="form__title">Корпус</div>
-                  <input type="text" class="form__input">
+                  <input type="text" class="form__input" id="address-house-block" name="house-block">
                 </label>
                 <label class="form__elem">
                   <div class="form__title">Квартира</div>
-                  <input type="text" class="form__input">
+                  <input type="text" class="form__input" id="address-apart" name="appart">
                 </label>
                 <label class="form__elem form__elem--none">
                   <div class="form__title">Этаж</div>
-                  <input type="text" class="form__input">
+                  <input type="text" class="form__input" id="address-fl" name="fl">
                 </label>
               </div>
             </div>
@@ -691,24 +691,24 @@
               <div class="form__row form__row--textarea">
                 <label class="form__elem">
                   <div class="form__title">Комментарий</div>
-                  <textarea name="text" class="form__textarea"></textarea>
+                  <textarea name="text" class="form__textarea" id="comment"></textarea>
                 </label>
               </div>
 
               <div class="form__row form__row--center">
                 <label class="form__elem form__elem--row">
-                  <input type="radio" name="radio-pay" class="form__radio">
+                  <input type="radio" name="radio-pay" class="form__radio" id="pay-by-cash" value="cash">
                   <div class="form__title form__title--row">Потребуется сдача</div>
                 </label>
                 <label class="form__elem form__elem--row">
-                  <input type="radio" name="radio-pay" class="form__radio">
+                  <input type="radio" name="radio-pay" class="form__radio" id="pay-by-card" value="card">
                   <div class="form__title form__title--row">Оплата по карте</div>
                 </label>
               </div>
 
               <div class="form__row form__row--center">
                 <label class="form__elem form__elem--row form__elem--row-last">
-                  <input type="checkbox" class="form__check">
+                  <input type="checkbox" name="check" class="form__check" id="no-callback" value="1">
                   <div class="form__title form__title--row">Не перезванивать</div>
                 </label>
               </div>
@@ -999,10 +999,11 @@
 
   <script src="assets/js/script_onePageScroll.js"></script>
   <script src="assets/js/script_nav-vertical.js"></script>
+  <script src="assets/js/script_slider.js"></script>
   <script src="assets/js/script_team.js"></script>
   <script src="assets/js/script_menu.js"></script>
   <script src="assets/js/script_review.js"></script>
-  <script src="assets/js/script_slider.js"></script>
+  <script src="assets/js/script_form.js"></script>
 
 </body>
 </html>
