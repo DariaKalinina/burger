@@ -172,11 +172,49 @@
           </div>
           <div class="burger__slider">
             <div class="burger__list">
+
               <div class="burger__content">
                 <div class="burger__content-left">
                   <a href="#" class="burger__composition">
                     <img src="assets/icons/burger.svg" class="burger__composition-svg" alt="composition"><img>
                     <div class="burger__composition-text">Состав</div>
+                    <div class="burger__composition-block">
+                      <a href="#" class="burger__composition-x">
+                          <div class="burger__composition-x-block"></div>
+                      </a>
+                      <ul class="burger__composition-list">
+                        <li class="burger__composition-item">
+                          <div class="burger__composition-svg"></div>
+                          <div class="burger__composition-ingred">Говядина</div>
+                          <div class="burger__composition-gramm">300 г</div>
+                        </li>
+                        <li class="burger__composition-item">
+                          <div class="burger__composition-svg"></div>
+                          <div class="burger__composition-ingred">Булочки</div>
+                          <div class="burger__composition-gramm">100 г</div>
+                        </li>
+                        <li class="burger__composition-item">
+                          <div class="burger__composition-svg"></div>
+                          <div class="burger__composition-ingred">Зелень</div>
+                          <div class="burger__composition-gramm">70 г</div>
+                        </li>
+                        <li class="burger__composition-item">
+                          <div class="burger__composition-svg"></div>
+                          <div class="burger__composition-ingred">Соус</div>
+                          <div class="burger__composition-gramm">150 г</div>
+                        </li>
+                        <li class="burger__composition-item">
+                          <div class="burger__composition-svg"></div>
+                          <div class="burger__composition-ingred">Овощи</div>
+                          <div class="burger__composition-gramm">200 г</div>
+                        </li>
+                        <li class="burger__composition-item">
+                          <div class="burger__composition-svg"></div>
+                          <div class="burger__composition-ingred">Сыр</div>
+                          <div class="burger__composition-gramm">80 г</div>
+                        </li>
+                      </ul>
+                    </div>
                   </a>
                   <a href="#" class="burger__kkal">
                     <div class="burger__kkal-svg">1200</div>
@@ -198,6 +236,7 @@
                   </div>
                 </div>
               </div>
+
               <div class="burger__content">
                 <div class="burger__content-left">
                   <a href="#" class="burger__composition">
@@ -224,6 +263,7 @@
                   </div>
                 </div>
               </div>
+
               <div class="burger__content">
                 <div class="burger__content-left">
                   <a href="#" class="burger__composition">
@@ -250,6 +290,7 @@
                   </div>
                 </div>
               </div>
+
               <div class="burger__content">
                 <div class="burger__content-left">
                   <a href="#" class="burger__composition">
@@ -276,6 +317,7 @@
                   </div>
                 </div>
               </div>
+
               <div class="burger__content">
                 <div class="burger__content-left">
                   <a href="#" class="burger__composition">
@@ -302,6 +344,7 @@
                   </div>
                 </div>
               </div>
+
             </div>
           </div>
           <div class="arrow__right">
@@ -645,7 +688,7 @@
             закажите доставку
           </h1>
 
-          <form action="#" method="post" class="form__form" id="form">
+          <form action="assets/php/server.php" method="post" class="form__form" id="form">
             <div class="form__left">
 
               <div class="form__row">
@@ -989,6 +1032,26 @@
     </div>
   </div>
 
+  <!--===============Модальное окно для формы=========-->
+  <div class="form__wrapper">
+    <div class="form__modal form__modal--ok">
+      <div class="form__modal-text">
+        Сообщение отправлено
+      </div>
+      <a href="#" class="form__x">
+        Закрыть
+      </a>
+    </div>
+    <div class="form__modal form__modal--error">
+      <div class="form__modal-text">
+        Ошибка
+      </div>
+      <a href="#" class="form__x">
+        Закрыть
+      </a>
+    </div>
+  </div>
+
   <!--===============Скрипты=========================-->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <!-- библиотека jQuery -->
@@ -998,6 +1061,8 @@
   <!-- библиотека определение работы на телефоне-->
 
   <script src="assets/js/script_onePageScroll.js"></script>
+  <script src="https://api-maps.yandex.ru/2.0-stable/?load=package.standard&lang=ru-RU" type="text/javascript"> </script>
+  <script src="assets/js/script_map.js"></script>
   <script src="assets/js/script_nav-vertical.js"></script>
   <script src="assets/js/script_slider.js"></script>
   <script src="assets/js/script_team.js"></script>

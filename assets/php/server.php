@@ -31,7 +31,7 @@
   </html>
   ';
 
-$headers = "From: Администратор сайта <admin@loftschool.com\r\n>".
+$headers = "From: Администратор сайта <daria.boychenko@gmail.com\r\n>".
           "MINE-Version: 1.0" . "\r\n".
           "Content-type: text/html; charset=UTF-8" . "\r\n";
 $mail = mail('lynxx91@mail.ru', 'Заказ', $mail_message, $headers);
@@ -44,6 +44,7 @@ if ($mail) {
   $data['status'] ="NO";
 }
 
+// echo $mail;
 echo json_encode($data);
 
 ?>

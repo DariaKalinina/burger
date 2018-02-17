@@ -21,7 +21,7 @@ var generateDot = function () {
 };
 generateDot();
 
-
+$(".nav-point__item").eq(0).addClass("nav-point__item--active");
 // добавить градицу у вертикального меню с точками
 const dotItem = navPointItemEq => {
     $(".nav-point__item").eq(navPointItemEq).addClass("nav-point__item--active")
@@ -44,6 +44,7 @@ const transition = sectiomEq => {
 
     setTimeout(() => {
       inScroll = false;
+      $(".nav-point__item").eq(0).removeClass("nav-point__item--active");
       dotItem(sectiomEq);
     }, 1200);
     // 1200 - 1 секунда анимация + 200 мс задержка для отмены инерции движения

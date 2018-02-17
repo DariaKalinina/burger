@@ -11,6 +11,11 @@
     .nav-point__link{
     border: rem(1px) solid $white;
     }
+  }  
+  &:hover{
+    .nav-point__link{
+    border: rem(1px) solid $white;
+    }
   }
 }
 
