@@ -106,9 +106,11 @@ if (isMobile) {
         swipe: function (event, direction, distance, duration, fingerCount, fingerData) {
             //смена направления
 
-            const scrollDirection = direction == 'down' ? 'up' : 'down';
+            const scrollDirection = direction === 'down'?
+            'up' :
+            'down';
 
-            scrollToSection(direction);
+            scrollToSection(scrollDirection);
         }
     });
 }
