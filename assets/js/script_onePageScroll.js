@@ -4,7 +4,7 @@ let inScroll = false;
 
 //создается и проверяется флаг для мобильного устройства
 var mobileDetect = new MobileDetect('window.navigator.userAgent');
-var inMobile = mobileDetect.mobile();
+var isMobile = mobileDetect.mobile();
 
 //делает точки для вертикального меню
 var generateDot = function () {
@@ -102,7 +102,7 @@ $('[data-scroll-number]').on('click', e => {
 })
 
 
-if (inMobile) {
+if (isMobile) {
   // плагин для анимации на телефоне
   $(function() {
     $(document).swipe({
