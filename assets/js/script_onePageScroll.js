@@ -110,14 +110,11 @@ if (inMobile) {
       swipe:function(event, direction, distance, duration, fingerCount, fingerData) {
         console.log('в swipe!!!!');
         console.log(event, direction);
-        const phoneDirection = direction;
+        const scrollDirection = direction === 'down' ? 'up' : 'down';
+
+        scrollToSection(scrollDirection);
         // смена направления, тк плагин возвращает up и down
-        if (phoneDirection == 'up') {
-          scrollToSection('down');
-        }
-        if (phoneDirection == 'down') {
-          scrollToSection('up');
-        }
+
       }
     });
   });
