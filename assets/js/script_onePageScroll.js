@@ -105,6 +105,7 @@ if (isMobile) {
     $(document).swipe({
         swipe: function (event, direction, distance, duration, fingerCount, fingerData) {
             //смена направления
+
             const scrollDirection = direction == 'down' ? 'up' : 'down';
 
             scrollToSection(direction);
