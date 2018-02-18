@@ -37,9 +37,9 @@ body{
 .section{
   height: 100%;
   position: relative;
-    @include tablet{
-    min-height: initial;
-  }
+  //   @include tablet{
+  //   min-height: initial;
+  // }
 }
 
 .container{
