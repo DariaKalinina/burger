@@ -64,6 +64,10 @@
 .hero-content__right{
   padding-top: 72px;
   padding-left: 14px;
+  @include phone{
+    padding-top: 36px;
+    padding-bottom: 36px;
+  }
 }
 
 .title--one{
