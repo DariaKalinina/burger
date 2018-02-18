@@ -108,13 +108,14 @@ if (inMobile) {
     $(document).swipe( {
       swipe:function(event, direction, distance, duration, fingerCount, fingerData) {
         const phoneDirection = direction;
+        scrollToSection(direction);
         // смена направления, тк плагин возвращает up и down
-        if (phoneDirection == 'up') {
-          scrollToSection('down');
-        }
-        if (phoneDirection == 'down') {
-          scrollToSection('up');
-        }
+        // if (phoneDirection == 'up') {
+        //   scrollToSection('down');
+        // }
+        // if (phoneDirection == 'down') {
+        //   scrollToSection('up');
+        // }
       }
     });
   });
