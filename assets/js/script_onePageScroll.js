@@ -47,7 +47,7 @@ const transition = sectiomEq => {
       $(".nav-point__item").eq(0).removeClass("nav-point__item--active");
       dotItem(sectiomEq);
     }, 1300);
-    // 1200 - 1 секунда анимация + 200 мс задержка для отмены инерции движения
+    // 1300 - 1 секунда анимация + 300 мс задержка для отмены инерции движения
   }
 }
 
@@ -87,7 +87,7 @@ $(document).on('keydown', e => {
     scrollToSection('up');
   }
   // для того, чтобы не дергался экран
-  touchmove: e => e.preventDefault()
+  // touchmove: e => e.preventDefault()
 });
 
 
