@@ -42,10 +42,11 @@ const transition = sectiomEq => {
       transform: `translate(0, ${position})`
     });
 
+    $(".nav-point__item").eq(0).removeClass("nav-point__item--active");
+    dotItem(sectiomEq);
+
     setTimeout(() => {
       inScroll = false;
-      $(".nav-point__item").eq(0).removeClass("nav-point__item--active");
-      dotItem(sectiomEq);
     }, 1300);
     // 1300 - 1 секунда анимация + 300 мс задержка для отмены инерции движения
   }
