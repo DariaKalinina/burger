@@ -41,6 +41,7 @@ const transition = sectiomEq => {
 
     display.css({
       transform: `translate(0, ${position})`
+      "-webkit-transform": `translate(0, ${position})`
     });
 
     $(".nav-point__item").eq(0).removeClass("nav-point__item--active");
