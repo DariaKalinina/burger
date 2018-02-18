@@ -89,17 +89,23 @@
 
 .burger__composition{
   display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-decoration: none;
+}
+
+.burger__composition-wrapper{
   border-radius: rem(5px);
   background-color: #f08c33;
   width: rem(90px);
   height: rem(90px);
-  position: absolute;
-  top: 0;
-  left: 0;
-  text-transform: uppercase;
-  text-decoration: none;
   padding-top: rem(16px);
   text-align: center;
+    &--active{
+      background-color: #e35028;
+    }
+
 }
 
 .burger__composition-svg{
@@ -109,6 +115,7 @@
 
 .burger__composition-text{
   color: $white;
+  text-transform: uppercase;
   font-size: rem(16px);
   @include fonts(gagalin);
 }

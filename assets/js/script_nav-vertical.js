@@ -8,13 +8,7 @@ batton.addEventListener('click', function (event) {
   event.preventDefault();
   menu.style.display = 'block';
 });
-//
-//
-// cross.addEventListener('click', function (event) {
-//   event.preventDefault();
-//   menu.style.display = 'none';
-//   console.log('click cross');
-// });
+
 
 $('.header__x').on('click', e => {
   e.preventDefault();

@@ -1,0 +1,111 @@
+.burger__composition-block{
+  display: none;
+  position: absolute;
+  white-space: nowrap;
+  left: 90px;
+  top: 0;
+  border-radius: 5px;
+  background-color: rgba($white, .9);
+  padding: 6%;
+  // width: calc(100%-180px);
+  height: 332px;
+  z-index: 2;
+    &--active{
+      display: block;
+    }
+    @include tablet{
+      width: calc(100% - 150px);
+    }
+    @include phone{
+      width: calc(100% - 90px);
+    }
+}
+
+.burger__x{
+  display: none;
+  vertical-align: top;
+  z-index: 2;
+  width: 20px;
+  height: 20px;
+  position: relative;
+    @include tablet{
+      display: inline-block;
+    }
+    @include phone{
+      margin-left: 30px;
+    }
+}
+
+.burger__x-block{
+  z-index: 15;
+  background: #eb8262;
+  height: rem(4px);
+  width: rem(24px);
+  position: absolute;
+  top: 10px;
+  left: -2px;
+  transform: rotate(45deg);
+
+    &:after {
+    content: "";
+    display: block;
+    position: absolute;
+    height: rem(24px);
+    width: rem(4px);
+    background: #eb8262;
+    top: rem(-10px);
+    left: rem(10px);
+  }
+}
+
+.burger__composition-list{
+  display: inline-block;
+  vertical-align: top;
+  width: 270px;
+  padding-right: 20px;
+    @include tablet{
+      width: 80%;
+    }
+    // @include phone{
+    //   margin-left: 30px;
+    // }
+}
+
+.burger__composition-item{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+    &:last-child{
+      margin-bottom: 0;
+    }
+}
+
+.burger__composition-img{
+  flex-grow: 0;
+  max-width: 45px;
+  max-height: 40px;
+}
+
+.burger__composition-ingred-svg{
+  // width: 100%;
+  // height: 100%;
+}
+
+.burger__composition-ingred{
+  flex-grow: 1;
+  text-align: left;
+  font-size: 14px;
+  @include fonts(ubuntu, medium);
+  color: $black;
+  margin-left: 25px;
+}
+
+.burger__composition-gramm{
+  flex-grow: 0;
+  text-align: right;
+  font-size: 14px;
+  text-transform: lowercase;
+  @include fonts(ubuntu, light);
+  color: $black;
+}
