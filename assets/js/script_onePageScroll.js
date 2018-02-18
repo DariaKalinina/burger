@@ -2,9 +2,9 @@ const sections = $(".section");
 const display = $(".maincontent");
 let inScroll = false;
 
-//создается и проверяется флаг для мобильного устройства
-var mobileDetect = new MobileDetect('window.navigator.userAgent');
-var isMobile = mobileDetect.mobile();
+
+const mobileDetect = new MobileDetect(window.navigator.userAgent);
+const isMobile = mobileDetect.mobile();
 
 //делает точки для вертикального меню
 var generateDot = function () {
@@ -32,7 +32,8 @@ const dotItem = navPointItemEq => {
 const transition = sectiomEq => {
   const position = `${sectiomEq * -100}%`;
 
-  if (!inScroll) {
+  if (inScroll) return;
+
     inScroll = true;
 
     sections.eq(sectiomEq).addClass("active")
@@ -49,8 +50,8 @@ const transition = sectiomEq => {
       inScroll = false;
     }, 1300);
     // 1300 - 1 секунда анимация + 300 мс задержка для отмены инерции движения
-  }
-}
+  };
+
 
 //выбор направления и смещение
 const scrollToSection = direction => {
@@ -111,4 +112,4 @@ $('[data-scroll-number]').on('click', e => {
             scrollToSection(direction);
         }
     });
-// }    
+// }
