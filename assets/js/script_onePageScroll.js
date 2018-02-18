@@ -103,19 +103,21 @@ $('[data-scroll-number]').on('click', e => {
 
 
 if (inMobile) {
+  console.log('mobile!!!');
   // плагин для анимации на телефоне
   $(function() {
     $(document).swipe( {
       swipe:function(event, direction, distance, duration, fingerCount, fingerData) {
+        console.log('в swipe!!!!');
+        console.log(event, direction);
         const phoneDirection = direction;
-        scrollToSection(direction);
         // смена направления, тк плагин возвращает up и down
-        // if (phoneDirection == 'up') {
-        //   scrollToSection('down');
-        // }
-        // if (phoneDirection == 'down') {
-        //   scrollToSection('up');
-        // }
+        if (phoneDirection == 'up') {
+          scrollToSection('down');
+        }
+        if (phoneDirection == 'down') {
+          scrollToSection('up');
+        }
       }
     });
   });
