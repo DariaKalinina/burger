@@ -102,8 +102,8 @@ $('[data-scroll-number]').on('click', e => {
 })
 
 
-if (inMobile) {
-  console.log('mobile!!!');
+// if (inMobile) {
+//   console.log('mobile!!!');
   // плагин для анимации на телефоне
   $(function() {
     $(document).swipe( {
@@ -121,4 +121,4 @@ if (inMobile) {
       }
     });
   });
-}
+// }
