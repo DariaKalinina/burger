@@ -109,5 +109,5 @@ if (isMobile) {
 
             scrollToSection(direction);
         }
-
     });
+}    
