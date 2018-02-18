@@ -46,7 +46,7 @@ const transition = sectiomEq => {
       inScroll = false;
       $(".nav-point__item").eq(0).removeClass("nav-point__item--active");
       dotItem(sectiomEq);
-    }, 1200);
+    }, 1300);
     // 1200 - 1 секунда анимация + 200 мс задержка для отмены инерции движения
   }
 }
@@ -103,12 +103,11 @@ $('[data-scroll-number]').on('click', e => {
 
 
 if (inMobile) {
-  console.log('mobile!!!');
   // плагин для анимации на телефоне
   $(function() {
-    $(document).swipe( {
+    $(document).swipe({
       swipe:function(event, direction, distance, duration, fingerCount, fingerData) {
-        console.log('в swipe!!!!');
+
         console.log(event, direction);
         const scrollDirection = direction === 'down' ? 'up' : 'down';
 
