@@ -40,15 +40,16 @@ const transition = sectiomEq => {
     .siblings().removeClass("active");
 
     display.css({
-      transform: `translate(0, ${position})`
+      transform: `translate(0, ${position})`,
       "-webkit-transform": `translate(0, ${position})`
     });
 
     $(".nav-point__item").eq(0).removeClass("nav-point__item--active");
-    dotItem(sectiomEq);
+
 
     setTimeout(() => {
       inScroll = false;
+      dotItem(sectiomEq);
     }, 1300);
     // 1300 - 1 секунда анимация + 300 мс задержка для отмены инерции движения
   };
@@ -88,9 +89,9 @@ $(document).on('keydown', e => {
   }
   if (keyD == 38) {
     scrollToSection('up');
-  }
+  },
   // для того, чтобы не дергался экран
-  // touchmove: e => e.preventDefault()
+  touchmove: e => e.preventDefault()
 });
 
 
@@ -99,11 +100,11 @@ $('[data-scroll-number]').on('click', e => {
   e.preventDefault();
 
   const target = parseInt($(e.currentTarget).attr('data-scroll-number'));
-  console.log(typeof target);
+
   transition(target);
 })
 
-// if (isMobile) {
+if (isMobile) {
     $(document).swipe({
         swipe: function (event, direction, distance, duration, fingerCount, fingerData) {
             //смена направления
@@ -113,4 +114,4 @@ $('[data-scroll-number]').on('click', e => {
             scrollToSection(direction);
         }
     });
-// }
+}
