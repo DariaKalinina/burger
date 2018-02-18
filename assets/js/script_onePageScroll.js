@@ -99,23 +99,15 @@ $('[data-scroll-number]').on('click', e => {
   const target = parseInt($(e.currentTarget).attr('data-scroll-number'));
   console.log(typeof target);
   transition(target);
-
 })
 
-
 if (isMobile) {
-  // плагин для анимации на телефоне
-  $(function() {
     $(document).swipe({
-      swipe:function(event, direction, distance, duration, fingerCount, fingerData) {
+        swipe: function (event, direction, distance, duration, fingerCount, fingerData) {
+            //смена направления
+            const scrollDirection = direction == 'down' ? 'up' : 'down';
 
-        console.log(event, direction);
-        const scrollDirection = direction === 'down' ? 'up' : 'down';
+            scrollToSection(direction);
+        }
 
-        scrollToSection(scrollDirection);
-        // смена направления, тк плагин возвращает up и down
-
-      }
     });
-  });
-}
