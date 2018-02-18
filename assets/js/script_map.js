@@ -37,6 +37,7 @@ ymaps.ready(init);
 
       myMap.behaviors.disable('scrollZoom');
       myMap.behaviors.disable('multiTouch');
+      myMap.behaviors.disable('drag');
       myMap.geoObjects.add(myPlacemark1);
       myMap.geoObjects.add(myPlacemark2);
       myMap.geoObjects.add(myPlacemark3);
