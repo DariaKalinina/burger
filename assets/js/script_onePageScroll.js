@@ -101,7 +101,7 @@ $('[data-scroll-number]').on('click', e => {
   transition(target);
 })
 
-if (isMobile) {
+// if (isMobile) {
     $(document).swipe({
         swipe: function (event, direction, distance, duration, fingerCount, fingerData) {
             //смена направления
@@ -111,4 +111,4 @@ if (isMobile) {
             scrollToSection(direction);
         }
     });
-}    
+// }    
