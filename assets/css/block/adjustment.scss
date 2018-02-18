@@ -37,6 +37,12 @@ body{
 .section{
   height: 100%;
   position: relative;
+  min-height: 600px;
+  overflow: hidden;
+
+	@include tablet{
+		min-height: initial;
+	}
 }
 
 .container{
