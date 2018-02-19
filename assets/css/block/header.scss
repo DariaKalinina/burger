@@ -123,8 +123,8 @@
   height: rem(4px);
   width: rem(28px);
   position: absolute;
-  top: 10px;
-  left: -2px;
+  top: rem(10px);
+  left: rem(-2px);
   transform: rotate(45deg);
 
     &:after {

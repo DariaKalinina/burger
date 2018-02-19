@@ -28,7 +28,7 @@ body{
 
 .maincontent{
   height: 100%;
-  min-height: 600px;
+  min-height: rem(600px);
   position: relative;
   transition: 1s;
   will-change: transform;
@@ -41,7 +41,6 @@ body{
 .section{
   height: 100%;
   position: relative;
-  // min-height: 600px;
   overflow: hidden;
 }
 

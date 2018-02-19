@@ -4,11 +4,11 @@
   justify-content: center;
   position: absolute;
   bottom: 0;
-  height: 54px;
+  height: rem(54px);
 }
 
 .arrow__link{
-  width: 32px;
-  height: 16px;
+  width: rem(32px);
+  height: rem(16px);
   background: url(../icons/arrow-scroll.svg) center center no-repeat;
 }

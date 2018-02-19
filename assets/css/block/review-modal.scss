@@ -15,14 +15,14 @@
 
 
 .review__modal{
-  border-radius: 5px;
+  border-radius: rem(5px);
   background-color: $white;
   position: fixed;
-  width: 460px;
-  padding: 30px 20px 25px;
+  width: rem(460px);
+  padding: rem(30px) rem(20px) rem(25px);
   text-align: left;
     @include tablet{
-      width: 473px;
+      width: rem(473px);
     }
     @include phone{
       width: 96%;
@@ -34,7 +34,7 @@
   text-transform: uppercase;
   margin-bottom: rem(18px);
   @include fonts(gagalin);
-  font-size: 14px;
+  font-size: rem(14px);
 
 }
 
@@ -43,7 +43,7 @@
   overflow: hidden;
   @include fonts(ubuntu, light);
   line-height: 1.75;
-  font-size: 14px;
+  font-size: rem(14px);
   color: $black;
 }
 
@@ -53,8 +53,8 @@ background: #ec8468;
 height: rem(4px);
 width: rem(20px);
 position: absolute;
-top: 28px;
-right: 18px;
+top: rem(28px);
+right: rem(18px);
 transform: rotate(45deg);
 
   &:after {

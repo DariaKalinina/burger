@@ -6,8 +6,8 @@
   display: flex;
   height: 100vh;
   justify-content: center;
-  padding-top: 50px;
-  padding-bottom: 70px;
+  padding-top: rem(50px);
+  padding-bottom: rem(70px);
 }
 
 .burger__slider{
@@ -186,12 +186,6 @@
     @include phone540{
       padding-bottom: rem(5px);
     }
-}
-
-.burger__order{
-  // @include phone540{
-  //   padding-bottom: rem(50px);
-  // }
 }
 
 .burger__price{
