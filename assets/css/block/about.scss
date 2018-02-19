@@ -12,9 +12,9 @@
 }
 
 .about-content__wrapper{
-  transform: translateY(3%);
+  transform: translateY(-3%);
     @include tablet{
-      transform: translateY(9%);
+      transform: translateY(-9%);
     }
   // transform: translateY(rem(-21px));
   //   @include tablet{

@@ -45,3 +45,9 @@
     @content;
   }
 }
+
+@mixin phoneH544{
+  @media screen and (max-height: 544px){
+    @content;
+  }
+}

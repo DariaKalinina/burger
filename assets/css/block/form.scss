@@ -23,6 +23,9 @@
       padding-bottom: 3%;
       line-height: 1.16;
     }
+    @include phoneH544{
+      padding-top: 3%;
+    }
 }
 
 .form__form{
@@ -107,6 +110,9 @@
         @include tablet{
           margin-top: rem(5px);
           margin-bottom: rem(36px);
+        }
+        @include phoneH544{
+          margin-bottom: rem(16px);
         }
     }
 
