@@ -12,10 +12,14 @@
 }
 
 .about-content__wrapper{
-  transform: translateY(rem(-21px));
+  transform: translateY(3%);
     @include tablet{
-      transform: translateY(rem(-94px));
+      transform: translateY(9%);
     }
+  // transform: translateY(rem(-21px));
+  //   @include tablet{
+  //     transform: translateY(rem(-94px));
+  //   }
 }
 
 

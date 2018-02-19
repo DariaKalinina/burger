@@ -107,10 +107,10 @@ if (isMobile) {
 
 
   // if ($('body').hasClass('mobile')) {
-    // console.log('мобилка');
-    // var viewportHeight = $('.section').outerHeight();
-    // $('.section').css({ height: viewportHeight });
-    // console.log(viewportHeight);
+    console.log('мобилка');
+    var viewportHeight = $('.section').outerHeight();
+    $('.section').css({ height: viewportHeight });
+    console.log(viewportHeight);
   // }
 
   $(document).swipe({
