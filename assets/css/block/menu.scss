@@ -35,8 +35,13 @@
     }
 }
 
+.accordeon-menu{
+  height: 100%;
+}
+
 .menu__list{
   display: flex;
+  height: 100%;
   justify-content: flex-end;
 }
 
@@ -58,9 +63,9 @@
 .menu__link{
   text-decoration: none;
   position: relative;
-  display: inline-block;
+  display: block;
   width: rem(80px);
-  height: 100vh;
+  height: 100%;
 
     &--meat{
       background: url('../img/background/meat-burger.jpg') center center no-repeat;
@@ -93,24 +98,25 @@
 .menu__title{
   position: absolute;
   left: rem(42px);
-  bottom: rem(17px);
+  bottom: rem(40px);
   font-size: rem(40px);
   z-index: 10;
+  line-height: 0;
   text-transform: uppercase;
   white-space: nowrap;
   @include fonts(gagalin);
   color: $white;
   transform-origin: left;
   transform: rotate(-90deg);
-    @include phone{
-      left: rem(37px);
-      bottom: rem(33px);
-    }
+    // @include phone{
+    //   left: rem(37px);
+    //   bottom: rem(33px);
+    // }
 }
 
 .menu__desc{
   width: 0;
-  height: 100vh;
+  height: 100%;
   overflow: hidden;
   background-size: cover;
   background-color: rgba($dark-grey, .7);
