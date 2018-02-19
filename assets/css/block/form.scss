@@ -17,8 +17,8 @@
       max-width: 70%;
       margin: 0 auto;
       white-space: normal;
-      padding-top: 7%;
-      padding-bottom: 3%;
+      padding-top: 13%;
+      padding-bottom: 7%;
       line-height: 1.16;
     }
 }
@@ -105,9 +105,6 @@
         @include tablet{
           margin-top: rem(5px);
           margin-bottom: rem(36px);
-        }
-        @include phoneH544{
-          margin-bottom: rem(16px);
         }
     }
 

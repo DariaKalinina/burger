@@ -31,11 +31,21 @@ var menuArray = document.querySelectorAll('.menu__item');
 
 
 
-  window.addEventListener('resize', function (){
+
     var width = document.body.clientWidth;
 
       if (width<=480) {
+        console.log('phone');
 
-      }
-
-  });
+        // // const menuPhone = menuPhoneItemEq => {
+        //   $('.menu__item').eq(1).addClass('menu__item--active')
+        //   .siblings().removeClass('menu__item--active');
+        //
+        // 
+        //   $('.menu__item').eq(1).css({"z-index": "1"})
+        //   .siblings().css({"z-index": "0"});
+        //
+        //   // if($('.menu__item').hasClass('menu__item--active')){
+        //   //   $('.menu__desc').css({"width": "100%"});
+        //   // };
+        };
