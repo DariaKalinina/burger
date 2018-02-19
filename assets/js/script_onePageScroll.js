@@ -101,16 +101,27 @@ $('[data-scroll-number]').on('click', e => {
   transition(target);
 })
 
+
+
 if (isMobile) {
-    $(document).swipe({
-        swipe: function (event, direction, distance, duration, fingerCount, fingerData) {
-            //смена направления
 
-            const scrollDirection = direction === 'down'?
-            'up' :
-            'down';
+  
+  // if ($('body').hasClass('mobile')) {
+    console.log('мобилка');
+    var viewportHeight = $('.section').outerHeight();
+    $('.section').css({ height: viewportHeight });
+    console.log(viewportHeight);
+  // }
 
-            scrollToSection(scrollDirection);
-        }
-    });
+  $(document).swipe({
+      swipe: function (event, direction, distance, duration, fingerCount, fingerData) {
+          //смена направления
+
+          const scrollDirection = direction === 'down'?
+          'up' :
+          'down';
+
+          scrollToSection(scrollDirection);
+      }
+  });
 }
