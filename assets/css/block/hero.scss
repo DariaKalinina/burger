@@ -62,8 +62,9 @@
 }
 
 .hero-content__right{
-  padding-top: rem(72px);
-  padding-left: rem(14px);
+  //убрала
+  // padding-top: rem(72px);
+  // padding-left: rem(14px);
   @include phone{
     padding-top: rem(36px);
     padding-bottom: rem(36px);

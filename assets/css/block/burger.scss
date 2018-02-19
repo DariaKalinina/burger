@@ -27,7 +27,8 @@
 
 .burger__content{
   display: flex;
-  height: 72%;
+  height: 90%;
+  //было 72
   align-items: center;
     @include tablet{
       flex-direction: column;
@@ -46,7 +47,7 @@
   align-items: center;
   justify-content: center;
     @include tablet{
-      width: 65%;
+      width: 80%;
       height: auto;
       flex-grow: 0;
       flex-basis: 39%;
@@ -159,10 +160,10 @@
 
 .title--three{
   padding-top: rem(8px);
-  padding-bottom: rem(44px);
+  padding-bottom: rem(47px);
   line-height: 0.9;
     @include tablet{
-      padding-top: rem(24px);
+      padding-top: rem(35px);
     }
     @include phone{
       line-height: 1.1;
@@ -181,7 +182,7 @@
   line-height: 1.75;
   @include fonts(ubuntu, light);
     @include tablet{
-      padding-bottom: rem(15px);
+      padding-bottom: 0;
     }
     @include phone540{
       padding-bottom: rem(5px);

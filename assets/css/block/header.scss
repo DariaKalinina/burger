@@ -17,6 +17,13 @@
   z-index: 1;
 }
 
+.header__right{
+  padding-right: rem(10px);
+  @include tablet{
+    padding-right: 0;
+  }
+}
+
 .nav{
   display: inline-block;
 }
@@ -56,7 +63,7 @@
   vertical-align: middle;
   font-size: rem(13px);
   color: $white;
-  padding: rem(11px) rem(18px);
+  padding: rem(11px) rem(16px);
   display: inline-block;
   text-transform: uppercase;
   text-decoration: none;
