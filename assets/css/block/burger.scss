@@ -196,6 +196,9 @@
   @include phone450{
     padding-bottom: 0;
   }
+  @include phoneH544{
+    padding-bottom: 20px;
+  }
 }
 
 .burger__price{
