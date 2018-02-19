@@ -188,10 +188,7 @@
 
 .burger__order{
   @include phone540{
-    padding-bottom: rem(30px);
-  }
-  @include phone450{
-    padding-bottom: rem(40px);;
+    padding-bottom: rem(50px);
   }
 }
 
