@@ -30,7 +30,7 @@ const dotItem = navPointItemEq => {
 
 // функция для смещения секции
 const transition = sectiomEq => {
-  const position = `${sectiomEq * -100}vh`;
+  const position = `${sectiomEq * -100}%`;
 
   if (inScroll) return;
 
