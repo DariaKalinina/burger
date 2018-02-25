@@ -2,7 +2,9 @@
 var batton = document.querySelector('.header__burger-menu');
 var block = document.querySelector('.header__burger-blocs');
 var menu = document.querySelector('.nav-vertical');
-// var cross = document.querySelector('.header__x');
+
+const mobileDetectforNav = new MobileDetect(window.navigator.userAgent);
+const isMobileNav = mobileDetect.mobile();
 
 batton.addEventListener('click', function (event) {
   event.preventDefault();
@@ -16,7 +18,14 @@ $('.header__x').on('click', e => {
   menu.style.display = 'none';
 });
 
-$('[data-scroll-number]').on('click', e => {
-  e.preventDefault();
-  menu.style.display = 'none';
-});
+
+if (isMobileNav == null){
+  $('[data-scroll-number]').on('click', e => {
+    e.preventDefault();
+    menu.style.display = 'none';
+  });
+} else if (isMobileNav){
+  $('.nav-vertical__link').on('click', e => {
+    menu.style.display = 'none';
+  });
+}

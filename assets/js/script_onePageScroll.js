@@ -109,5 +109,28 @@ if (isMobile) {
   console.log(viewportHeight);
   $('.section').css({ height: viewportHeight });
   $('.wrapper').css({ height: 'auto'});
+  // var wrapperHeight = $('.wrapper').height();
+  // var sectionsLenght = $('.section').length;
+  // console.log(wrapperHeight);
+  // console.log(sectionsLenght);
+  // var sectionHeight = wrapperHeight/sectionsLenght;
+  // console.log(sectionHeight);
+
+
+  // функция для смещения секции
+//   const transition = sectiomEq => {
+//     const position = `${sectiomEq * -sectionHeight}px`;
+// console.log(position);
+//     display.css({
+//       transform: `translate(0, ${position})`,
+//       "-webkit-transform": `translate(0, ${position})`
+//     });
+//   };
+  //
+  // $('[data-scroll-number]').on('click', e => {
+  //   e.preventDefault();
+  //   const target = parseInt($(e.currentTarget).attr('data-scroll-number'));
+  //   transition(target);
+  // });
 
 }
