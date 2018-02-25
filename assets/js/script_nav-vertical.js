@@ -18,10 +18,5 @@ $('.header__x').on('click', e => {
 
 $('[data-scroll-number]').on('click', e => {
   e.preventDefault();
-
-  const target = parseInt($(e.currentTarget).attr('data-scroll-number'));
-  console.log(typeof target);
-  transition(target);
   menu.style.display = 'none';
-
 });

@@ -8,16 +8,16 @@
   background-color: rgba($white, .9);
   padding: 6%;
   height: rem(332px);
-  z-index: 2;
+  z-index: 3;
 
     &--active{
       display: block;
     }
     @include tablet{
-      width: calc(100% - rem(150px));
+      width: calc(100% - 150px);
     }
     @include phone{
-      width: calc(100% - rem(90px));
+      width: calc(100% - 90px);
     }
 }
 

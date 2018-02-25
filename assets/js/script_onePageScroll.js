@@ -5,6 +5,9 @@ let inScroll = false;
 
 const mobileDetect = new MobileDetect(window.navigator.userAgent);
 const isMobile = mobileDetect.mobile();
+console.log(isMobile);
+
+if (isMobile == null){
 
 //делает точки для вертикального меню
 var generateDot = function () {
@@ -51,7 +54,7 @@ const transition = sectiomEq => {
       inScroll = false;
     }, 1300);
     // 1300 - 1 секунда анимация + 300 мс задержка для отмены инерции движения
-  };
+};
 
 
 //выбор направления и смещение
@@ -91,32 +94,32 @@ $(document).on('keydown', e => {
   }
 });
 
-
 //переход по data атрибуту
 $('[data-scroll-number]').on('click', e => {
   e.preventDefault();
-
   const target = parseInt($(e.currentTarget).attr('data-scroll-number'));
-
   transition(target);
-})
+});
 
 
-
-if (isMobile) {
-  //перерасчет высоты экрана
-  var viewportHeight = $('.section').outerHeight();
-  $('.section').css({ height: viewportHeight });
-
-  $(document).swipe({
-      swipe: function (event, direction, distance, duration, fingerCount, fingerData) {
-          //смена направления
-
-          const scrollDirection = direction === 'down'?
-          'up' :
-          'down';
-
-          scrollToSection(scrollDirection);
-      }
-  });
 }
+
+
+//
+// if (isMobile) {
+//   //перерасчет высоты экрана
+//   var viewportHeight = $('.section').outerHeight();
+//   $('.section').css({ height: viewportHeight });
+//
+//   $(document).swipe({
+//       swipe: function (event, direction, distance, duration, fingerCount, fingerData) {
+//           //смена направления
+//
+//           const scrollDirection = direction === 'down'?
+//           'up' :
+//           'down';
+//
+//           scrollToSection(scrollDirection);
+//       }
+//   });
+// }
